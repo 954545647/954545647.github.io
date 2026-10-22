@@ -1,0 +1,19 @@
+api/companions/status
+  s_6bc4aaaf5f5d34::t_f2744c1873aa27 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.51-trip",
+  "base_commit_sha": "c224d7753117c87130de587bfe6df5498f73f3f0",
+  "prompts": {},
+  "sessions": {
+    "s_6bc4aaaf5f5d34": {
+      "agent_id": {
+        "tool": "chengxiaobang",
+        "id": "s_renu3fiyhkj7",
+        "model": "DeepSeek-V4.1-Flash"
+      },
+      "human_author": "haojiaxu <haojiaxu@trip.com>"
+    }
+  }
+}
