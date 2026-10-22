@@ -1,0 +1,397 @@
+{
+  "title": "在宫阙之间读历史",
+  "subtitle": "朱墙金瓦 · 中轴礼序 · 宫廷园林",
+  "theme": "imperial",
+  "planTitle": "从午门到神武门",
+  "defaultBudget": 240,
+  "guideTitle": "沿中轴，读懂一座宫城",
+  "source": "https://www.dpm.org.cn/Visit.html",
+  "interests": [
+    [
+      "all",
+      "宫城精华"
+    ],
+    [
+      "culture",
+      "历史文化"
+    ],
+    [
+      "architecture",
+      "宫殿建筑"
+    ],
+    [
+      "photo",
+      "朱墙光影"
+    ]
+  ],
+  "routing": {
+    "endNode": "north-exit",
+    "exitLabel": "前往神武门出口",
+    "visitOrder": [
+      "wumen",
+      "taihemen",
+      "taihedian",
+      "zhonghedian",
+      "baohedian",
+      "cining",
+      "qianqinggong",
+      "jiaotaidian",
+      "kunninggong",
+      "ningshou",
+      "garden",
+      "shenwumen"
+    ]
+  },
+  "schemaVersion": 1,
+  "scenicId": "forbidden-city",
+  "checkedAt": "2026-10-17",
+  "spots": {
+    "wumen": {
+      "area": "城门与外朝",
+      "stay": 15,
+      "interest": "architecture",
+      "category": "宫城入口",
+      "audience": "首次到访、想理解整体布局的人。",
+      "highlights": "凹字形城台与两翼楼阁形成庄重的入口；先用远景看清建筑整体，再进入层层院落。",
+      "strategy": "由午门入院，向北接太和门与前三殿；入院核验和安检时间另留。",
+      "tips": "预约、证件和入院时段按官方要求准备；不要把地图自由漫步理解为现场可以逆向入院。",
+      "source": "https://www.dpm.org.cn/explore/building/236454.html",
+      "checkedAt": "2026-10-17"
+    },
+    "taihemen": {
+      "area": "城门与外朝",
+      "stay": 15,
+      "interest": "architecture",
+      "category": "门庭与金水桥",
+      "audience": "建筑爱好者、想读懂前朝秩序的游客。",
+      "highlights": "看看金水桥、门庭与广场如何组织人流和视线，再向太和殿展开的院落望去。",
+      "strategy": "在门前观察后，按现场开放的侧向通道继续；不要把穿过主门作为固定路线。",
+      "tips": "官方导览页仍列太和门施工公告，主通道可能封闭；到访时以最新公告与引导为准。",
+      "source": "https://www.dpm.org.cn/explore/building/236439.html",
+      "checkedAt": "2026-10-17"
+    },
+    "taihedian": {
+      "area": "外朝三大殿",
+      "stay": 25,
+      "interest": "culture",
+      "category": "国家典礼空间",
+      "audience": "历史文化、宏大建筑与广场构图爱好者。",
+      "highlights": "先站远一些看三层台基托起大殿，再观察屋檐与栏杆的尺度，理解典礼空间的庄严。",
+      "strategy": "接太和门后停留，再沿开放通道去中和殿；远景、台基和殿前观察各留一点时间。",
+      "tips": "只在允许区域观看，不默认可以进入殿内；台阶与栏杆附近避免边倒退边拍照。",
+      "source": "https://www.dpm.org.cn/explore/building/236465.html",
+      "checkedAt": "2026-10-17"
+    },
+    "zhonghedian": {
+      "area": "外朝三大殿",
+      "stay": 10,
+      "interest": "architecture",
+      "category": "攒尖殿顶",
+      "audience": "喜欢比较建筑形制、亲子观察屋顶的人。",
+      "highlights": "在两座大殿之间，看方形中和殿如何用较小体量形成节奏，辨认攒尖顶的轮廓。",
+      "strategy": "太和殿之后短暂停留，接着前往保和殿；可将三座殿放在一起对比。",
+      "tips": "殿前空间较紧凑，拍照后及时让出通道；室内陈列能否观看以当天开放为准。",
+      "source": "https://www.dpm.org.cn/explore/building/236464.html",
+      "checkedAt": "2026-10-17"
+    },
+    "baohedian": {
+      "area": "外朝三大殿",
+      "stay": 20,
+      "interest": "culture",
+      "category": "殿试与宫廷礼仪",
+      "audience": "对科举制度、宫廷典礼感兴趣的人。",
+      "highlights": "从外朝北端回望前三殿，想象典礼和殿试如何使用同一组空间；留意院落尺度的变化。",
+      "strategy": "中和殿之后看保和殿，再选择西路慈宁宫或继续向乾清宫；支线参观要增加预算。",
+      "tips": "石刻与栏杆属于文物，请勿触摸攀爬；展览及侧路开放情况随院方安排变化。",
+      "source": "https://www.dpm.org.cn/explore/building/236434.html",
+      "checkedAt": "2026-10-17"
+    },
+    "qianqinggong": {
+      "area": "内廷后三宫",
+      "stay": 25,
+      "interest": "culture",
+      "category": "宫寝与理政",
+      "audience": "喜欢宫廷生活故事、想区分前朝后寝的人。",
+      "highlights": "从大广场走进内廷，空间尺度开始收拢；观察乾清宫如何连接居住、理政与典礼的故事。",
+      "strategy": "保和殿之后继续向北，经开放通道进入后三宫，接着看交泰殿。",
+      "tips": "按现场参观线观看，不承诺殿内自由进入；导览资料与当天展陈可能不同。",
+      "source": "https://www.dpm.org.cn/explore/building/236472.html",
+      "checkedAt": "2026-10-17"
+    },
+    "jiaotaidian": {
+      "area": "内廷后三宫",
+      "stay": 10,
+      "interest": "culture",
+      "category": "宝玺与内廷礼仪",
+      "audience": "喜欢小空间细节、印玺与礼仪故事的人。",
+      "highlights": "在乾清宫与坤宁宫之间，看方殿的屋顶与前后建筑呼应，理解内廷的大小节奏。",
+      "strategy": "与前后两宫连看，短暂停留即可；想看更多陈列可给东路支线留时间。",
+      "tips": "宝玺相关历史不代表全部实物正在这里展出，具体展品请看当天展签。",
+      "source": "https://www.dpm.org.cn/explore/building/236467.html",
+      "checkedAt": "2026-10-17"
+    },
+    "kunninggong": {
+      "area": "内廷后三宫",
+      "stay": 15,
+      "interest": "culture",
+      "category": "宫廷生活空间",
+      "audience": "对明清宫廷生活和礼俗变化感兴趣的人。",
+      "highlights": "从建筑格局理解空间用途的变化，再回望后三宫的轴线关系。",
+      "strategy": "交泰殿之后参观，接御花园；若走宁寿宫区支线，先确认开放通道与时间。",
+      "tips": "历史用途与当代开放范围不同，按引导观看，不跨越围挡寻找室内视角。",
+      "source": "https://www.dpm.org.cn/explore/building/236487.html",
+      "checkedAt": "2026-10-17"
+    },
+    "garden": {
+      "area": "宫城园林",
+      "stay": 25,
+      "interest": "photo",
+      "category": "古树与亭阁",
+      "audience": "亲子观察植物、园林与光影摄影爱好者。",
+      "highlights": "宫城严整的中轴在这里遇见古树、山石和亭阁；可以寻找树影与屋檐相交的小景。",
+      "strategy": "安排在北行尾段，之后接神武门离院；不要等到接近闭馆才匆忙穿过。",
+      "tips": "道路较窄，停留避开人流；古树、叠石和铺地都需要保护，请勿攀爬。",
+      "source": "https://www.dpm.org.cn/explore/building/236519.html",
+      "checkedAt": "2026-10-17"
+    },
+    "shenwumen": {
+      "area": "北侧出院",
+      "stay": 10,
+      "interest": "architecture",
+      "category": "宫城出口",
+      "audience": "希望完整看过中轴、继续安排市区行程的人。",
+      "highlights": "在北门为宫城之旅收尾，回望层层屋顶与城墙，把宏大的宫城重新看成完整轮廓。",
+      "strategy": "作为本组路线出口。出院后再安排外部交通，不把返回午门计为院内必走路线。",
+      "tips": "出院和再次入院并非自由往返；提前确认同伴集合点与交通。",
+      "source": "https://www.dpm.org.cn/explore/building/236456.html",
+      "checkedAt": "2026-10-17"
+    },
+    "ningshou": {
+      "area": "东路宫区",
+      "stay": 45,
+      "interest": "culture",
+      "category": "宫区与专题陈列",
+      "audience": "时间较充裕、对宫廷艺术与珍宝感兴趣的人。",
+      "highlights": "这里提供区别于中轴大殿的宫区尺度，适合把建筑观察和专题陈列放在一起看。",
+      "strategy": "作为中轴之后的东路支线，再接御花园与神武门；至少单独留出一段参观时间。",
+      "tips": "相关专馆票务、展览及开放单独核对；本路线不代表已包含珍宝馆门票。",
+      "source": "https://www.dpm.org.cn/show/225714.html",
+      "checkedAt": "2026-10-17"
+    },
+    "cining": {
+      "area": "西路宫区",
+      "stay": 35,
+      "interest": "culture",
+      "category": "太后宫区",
+      "audience": "想了解中轴之外宫廷生活、愿意多走一段的人。",
+      "highlights": "在西路朱墙与院落中，看看太后宫区和外朝大殿的空间气质有什么不同。",
+      "strategy": "在前三殿之后分出西路探访，再接回内廷北行；通道以现场开放线为准。",
+      "tips": "宫区与展厅开放可能调整；不要将地图上可行走的连接视为全部对外开放。",
+      "source": "https://www.dpm.org.cn/explore/building/236504.html",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  "routes": [
+    {
+      "id": "axis",
+      "title": "中轴初见",
+      "description": "午门出发，前三殿、后三宫与御花园，神武门离院。",
+      "budget": 240,
+      "interest": "architecture",
+      "items": [
+        {
+          "id": "wumen",
+          "stay": 15
+        },
+        {
+          "id": "taihemen",
+          "stay": 15
+        },
+        {
+          "id": "taihedian",
+          "stay": 25
+        },
+        {
+          "id": "zhonghedian",
+          "stay": 10
+        },
+        {
+          "id": "baohedian",
+          "stay": 20
+        },
+        {
+          "id": "qianqinggong",
+          "stay": 25
+        },
+        {
+          "id": "jiaotaidian",
+          "stay": 10
+        },
+        {
+          "id": "kunninggong",
+          "stay": 15
+        },
+        {
+          "id": "garden",
+          "stay": 25
+        },
+        {
+          "id": "shenwumen",
+          "stay": 10
+        }
+      ]
+    },
+    {
+      "id": "east",
+      "title": "宫廷艺术线",
+      "description": "在中轴之外留一段时间给宁寿宫区与专题陈列。",
+      "budget": 360,
+      "interest": "culture",
+      "items": [
+        {
+          "id": "wumen",
+          "stay": 15
+        },
+        {
+          "id": "taihemen",
+          "stay": 15
+        },
+        {
+          "id": "taihedian",
+          "stay": 25
+        },
+        {
+          "id": "zhonghedian",
+          "stay": 10
+        },
+        {
+          "id": "baohedian",
+          "stay": 20
+        },
+        {
+          "id": "qianqinggong",
+          "stay": 25
+        },
+        {
+          "id": "jiaotaidian",
+          "stay": 10
+        },
+        {
+          "id": "kunninggong",
+          "stay": 15
+        },
+        {
+          "id": "ningshou",
+          "stay": 45
+        },
+        {
+          "id": "garden",
+          "stay": 25
+        },
+        {
+          "id": "shenwumen",
+          "stay": 10
+        }
+      ]
+    },
+    {
+      "id": "palace",
+      "title": "宫阙深读线",
+      "description": "加入东西两路，建筑与生活故事慢慢看，避免赶场。",
+      "budget": 480,
+      "interest": "culture",
+      "items": [
+        {
+          "id": "wumen",
+          "stay": 15
+        },
+        {
+          "id": "taihemen",
+          "stay": 15
+        },
+        {
+          "id": "taihedian",
+          "stay": 25
+        },
+        {
+          "id": "zhonghedian",
+          "stay": 10
+        },
+        {
+          "id": "baohedian",
+          "stay": 20
+        },
+        {
+          "id": "cining",
+          "stay": 35
+        },
+        {
+          "id": "qianqinggong",
+          "stay": 25
+        },
+        {
+          "id": "jiaotaidian",
+          "stay": 10
+        },
+        {
+          "id": "kunninggong",
+          "stay": 15
+        },
+        {
+          "id": "ningshou",
+          "stay": 45
+        },
+        {
+          "id": "garden",
+          "stay": 25
+        },
+        {
+          "id": "shenwumen",
+          "stay": 10
+        }
+      ]
+    }
+  ],
+  "services": [],
+  "products": [
+    {
+      "id": "visit-ticket",
+      "type": "ticket",
+      "name": "故宫参观预约清单",
+      "at": [
+        1,
+        24.3
+      ],
+      "description": "出行规划示例；不同项目请分别核实票务与开放，加入清单不会生成订单，也不包含已预约权益。",
+      "priceFrom": null
+    },
+    {
+      "id": "nearby-stay",
+      "type": "hotel",
+      "name": "宫城周边住宿",
+      "at": [
+        0,
+        24.3
+      ],
+      "description": "周边住宿联动示例，位置为服务入口示意，非具体酒店坐标；后续可按日期查询合作伙伴房型。",
+      "priceFrom": null
+    }
+  ],
+  "information": [
+    {
+      "title": "先预约，再入院",
+      "text": "请在官方渠道核对门票预约、证件要求、开放时间与当日公告；路线计划不等于预约成功。",
+      "url": "https://www.dpm.org.cn/Visit.html"
+    },
+    {
+      "title": "从南向北参观",
+      "text": "本组路线以午门进入、神武门离院编排，不计算返回午门；调整顺序后请留意逆行提醒和现场通行线。",
+      "url": "https://www.dpm.org.cn/Visit.html"
+    },
+    {
+      "title": "修缮与专题展览",
+      "text": "太和门施工与专馆开放会影响实际参观；珍宝馆等票务需单独核对。",
+      "url": "https://www.dpm.org.cn/Visit.html"
+    }
+  ]
+}

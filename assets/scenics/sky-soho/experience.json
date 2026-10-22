@@ -1,0 +1,216 @@
+{
+  "title": "沿银色曲线散个步",
+  "subtitle": "建筑漫游 · 城市庭院 · 一小时灵感",
+  "theme": "silver",
+  "planTitle": "我的建筑漫游一小时",
+  "defaultBudget": 90,
+  "guideTitle": "换一个角度，重新认识办公区",
+  "source": "https://www.thorntontomasetti.com/project/sky-soho",
+  "interests": [
+    [
+      "all",
+      "园区漫游"
+    ],
+    [
+      "architecture",
+      "建筑细读"
+    ],
+    [
+      "photo",
+      "曲线摄影"
+    ],
+    [
+      "leisure",
+      "午间散步"
+    ]
+  ],
+  "schemaVersion": 1,
+  "scenicId": "sky-soho",
+  "checkedAt": "2026-10-17",
+  "spots": {
+    "arrival": {
+      "area": "南侧入口",
+      "stay": 10,
+      "interest": "architecture",
+      "category": "城市与建筑",
+      "audience": "第一次到访、想看清园区总体轮廓的人。",
+      "highlights": "从街道观察修长楼体如何进入视野，先理解四组主要体量与曲线的整体关系。",
+      "strategy": "以金钟路侧作为地图起点，再去西侧端景或中央庭院；现场先确认可以通行的范围。",
+      "tips": "这是办公园区，参观以允许通行的室外区域为限；入口名为地图观察点，不是预约入楼通道。",
+      "source": "https://www.zha.com/projects/architecture/sky-soho",
+      "checkedAt": "2026-10-17"
+    },
+    "west-nose": {
+      "area": "西侧建筑",
+      "stay": 15,
+      "interest": "photo",
+      "category": "流线端部",
+      "audience": "喜欢建筑摄影、曲面与金属细节的人。",
+      "highlights": "从地面看车头般的端部轮廓，让连续金属带和玻璃的反光交代速度感。",
+      "strategy": "由入口转向西侧，先退远看完整轮廓，再沿外部步道比较近处立面。",
+      "tips": "不要退入车道寻找广角机位；立面反光随天气变化，图片不代表实时光照。",
+      "source": "https://www.zha.com/projects/architecture/sky-soho",
+      "checkedAt": "2026-10-17"
+    },
+    "skybridge": {
+      "area": "建筑连接",
+      "stay": 15,
+      "interest": "architecture",
+      "category": "空中连桥",
+      "audience": "对结构、空间连接与建筑设计感兴趣的人。",
+      "highlights": "从连桥下方观察建筑之间的跨度，看看曲线如何从一栋楼延伸到另一栋。",
+      "strategy": "与西侧端景连看，再进入允许通行的地面庭院，比较仰望和侧望的差别。",
+      "tips": "地图停靠点位于地面，不表示连桥对公众开放；不要进入办公门禁或尝试登上桥面。",
+      "source": "https://www.zha.com/projects/architecture/sky-soho",
+      "checkedAt": "2026-10-17"
+    },
+    "central-court": {
+      "area": "中央庭院",
+      "stay": 15,
+      "interest": "leisure",
+      "category": "庭院与公共空间",
+      "audience": "午间放松、同事同行和轻松拍照的人。",
+      "highlights": "把视线从楼顶放回人行尺度，看楼体如何围合出庭院，阳光和树影如何落在地面。",
+      "strategy": "可作为短线中点与休息段，再回入口或延伸至东侧。",
+      "tips": "保持安静与通道通畅，不打扰办公；座椅与商业设施以现场实际提供为准。",
+      "source": "https://www.zha.com/projects/architecture/sky-soho",
+      "checkedAt": "2026-10-17"
+    },
+    "east-ribbon": {
+      "area": "东侧建筑",
+      "stay": 15,
+      "interest": "architecture",
+      "category": "窗带与立面",
+      "audience": "喜欢材质、立面节奏和摄影构图的人。",
+      "highlights": "沿长向观察连续窗带，让玻璃与金属的层次进入同一画面，寻找曲线逐渐转折的位置。",
+      "strategy": "从庭院去东侧，再向北侧看完整轮廓；想做短线可直接返回入口。",
+      "tips": "只在开放的地面步道观察，不靠近设备或工作区域；拍摄避免记录办公室内部细节。",
+      "source": "https://www.zha.com/projects/architecture/sky-soho",
+      "checkedAt": "2026-10-17"
+    },
+    "north-garden": {
+      "area": "北侧空间",
+      "stay": 15,
+      "interest": "photo",
+      "category": "回望与建筑群",
+      "audience": "愿意绕行、想收集不同建筑轮廓的人。",
+      "highlights": "把建筑作为完整的群体回望，比较相邻楼体与天空之间不同的轮廓线。",
+      "strategy": "放在完整环游的尾段，再沿开放步道回到南侧入口；用时已包含地图回程。",
+      "tips": "园区通行可能随管理调整；遇封闭路段原路返回，以现场指示为准，不跨围挡。",
+      "source": "https://www.zha.com/projects/architecture/sky-soho",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  "routes": [
+    {
+      "id": "break",
+      "title": "午间松弛线",
+      "description": "从入口到庭院与曲线端景，短暂停留，再回到日常。",
+      "budget": 60,
+      "interest": "leisure",
+      "items": [
+        {
+          "id": "arrival",
+          "stay": 5
+        },
+        {
+          "id": "central-court",
+          "stay": 15
+        },
+        {
+          "id": "west-nose",
+          "stay": 15
+        }
+      ]
+    },
+    {
+      "id": "architecture",
+      "title": "读懂银色曲线",
+      "description": "端部、连桥、庭院与窗带，连成一堂室外建筑课。",
+      "budget": 120,
+      "interest": "architecture",
+      "items": [
+        {
+          "id": "arrival",
+          "stay": 10
+        },
+        {
+          "id": "west-nose",
+          "stay": 15
+        },
+        {
+          "id": "skybridge",
+          "stay": 15
+        },
+        {
+          "id": "central-court",
+          "stay": 15
+        },
+        {
+          "id": "east-ribbon",
+          "stay": 15
+        },
+        {
+          "id": "north-garden",
+          "stay": 15
+        }
+      ]
+    },
+    {
+      "id": "photo",
+      "title": "建筑光影线",
+      "description": "把整体、端部与回望收进相册，所有机位都从地面观察。",
+      "budget": 90,
+      "interest": "photo",
+      "items": [
+        {
+          "id": "arrival",
+          "stay": 10
+        },
+        {
+          "id": "west-nose",
+          "stay": 15
+        },
+        {
+          "id": "skybridge",
+          "stay": 15
+        },
+        {
+          "id": "north-garden",
+          "stay": 15
+        }
+      ]
+    }
+  ],
+  "services": [],
+  "products": [
+    {
+      "id": "nearby-stay",
+      "type": "hotel",
+      "name": "虹桥商务住宿",
+      "at": [
+        0,
+        14.8
+      ],
+      "description": "周边住宿联动示例，位置为服务入口示意，非具体酒店坐标；后续可按日期查询合作伙伴房型。",
+      "priceFrom": null
+    }
+  ],
+  "information": [
+    {
+      "title": "先确认园区通行",
+      "text": "这是办公区的室外建筑探索，不是可以自由进入办公楼、连桥或屋顶的旅游门票。",
+      "url": "https://www.thorntontomasetti.com/project/sky-soho"
+    },
+    {
+      "title": "把建筑当作一堂课",
+      "text": "先看四组体量，再比较金属带、玻璃和连桥。观察点与路线是编辑策划的艺术地图示意。",
+      "url": "https://www.thorntontomasetti.com/project/sky-soho"
+    },
+    {
+      "title": "尊重日常工作",
+      "text": "不堵塞门厅与车道，不拍摄办公内部或他人工作资料。商业与住宿可作为周边服务另行安排。",
+      "url": ""
+    }
+  ]
+}

@@ -1,0 +1,613 @@
+{
+  "schemaVersion": 1,
+  "scenicId": "shanghai-disneyland",
+  "title": "安排奇妙的一天",
+  "subtitle": "先探索，再把心动的地方排成一天",
+  "checkedAt": "2026-10-15",
+  "source": "https://www.shanghaidisneyresort.com/zh-cn/experience",
+  "spots": {
+    "mickey-avenue": {
+      "area": "米奇大街",
+      "stay": 12,
+      "interest": "family",
+      "category": "街区漫步",
+      "audience": "第一次来园、喜欢街景与角色氛围的游客",
+      "highlights": "从入口街景逐步走向城堡，留意不同店铺的门面、橱窗与屋顶轮廓。",
+      "tips": "入园先完成证件、寄存与同行人集合安排。购物可留到回程，避免一路携带。",
+      "strategy": "以街道中轴收进城堡远景；在人流较少的侧边停留拍照。",
+      "source": "https://www.shanghaidisneyresort.com/zh-cn/experience?group=attraction",
+      "checkedAt": "2026-10-15"
+    },
+    "castle": {
+      "area": "梦幻世界",
+      "stay": 35,
+      "interest": "photo",
+      "category": "建筑与故事",
+      "audience": "喜欢童话建筑、摄影和公主故事的游客",
+      "highlights": "多层宫殿与塔群共同组成奇幻童话城堡，可以从正面广场与侧向花园读出不同轮廓。",
+      "tips": "外观游览与城堡内的独立体验分别安排。夜间演出前后按现场分流走，不在通道停留。",
+      "strategy": "先拍广角全貌，再走近寻找拱门、金色顶饰和窗框的细节。",
+      "source": "https://www.shanghaidisneyresort.com/zh-cn/experience?group=attraction",
+      "checkedAt": "2026-10-15"
+    },
+    "gardens": {
+      "area": "奇想花园",
+      "stay": 25,
+      "interest": "family",
+      "category": "花园漫步",
+      "audience": "亲子家庭、想慢下来休息和拍照的游客",
+      "highlights": "奇想花园连接城堡前方与多个项目，是把游乐、观景与休息穿插起来的好位置。",
+      "tips": "跨区时可以在这里安排一次补水与休息，巡游和演出时注意临时通行安排。",
+      "strategy": "用花境作前景，把城堡留在画面深处。",
+      "source": "https://www.shanghaidisneyresort.com/zh-cn/experience?group=attraction",
+      "checkedAt": "2026-10-15"
+    },
+    "carousel": {
+      "area": "奇想花园",
+      "stay": 15,
+      "interest": "family",
+      "category": "旋转游乐",
+      "audience": "喜爱音乐、旋转木马与童话氛围的游客",
+      "highlights": "幻想曲旋转木马把音乐、装饰和转动的木马组合在一起，适合作为一天中轻快的小片段。",
+      "tips": "乘坐前看清现场要求；同伴可以选择在栏外拍照，注意避让上下客出口。",
+      "strategy": "傍晚灯饰亮起后很有浪漫感，白天则适合观察顶部装饰。",
+      "source": "https://www.shanghaidisneyresort.com/zh-cn/experience?group=attraction",
+      "checkedAt": "2026-10-15"
+    },
+    "dumbo": {
+      "area": "奇想花园",
+      "stay": 15,
+      "interest": "family",
+      "category": "旋转游乐",
+      "audience": "喜欢空中旋转、与家人共同体验的游客",
+      "highlights": "小飞象是奇想花园的旋转项目，角色造型让它在花园里很容易辨认。",
+      "tips": "旋转体验与个人适应程度有关；吃得过饱或不适时先休息，具体乘坐安排看现场。",
+      "strategy": "在外围看飞象与城堡同框，不把手机伸出乘坐区域。",
+      "source": "https://www.shanghaidisneyresort.com/zh-cn/experience?group=attraction",
+      "checkedAt": "2026-10-15"
+    },
+    "tron": {
+      "area": "明日世界",
+      "stay": 20,
+      "interest": "thrill",
+      "category": "高速游乐",
+      "audience": "喜欢速度感与未来建筑的游客",
+      "highlights": "创极速光轮把快速运动与数字世界视觉结合，起伏的白色穹顶也是明日世界的重要地标。",
+      "tips": "先核对身高、乘坐姿势与随身物品要求；建议把它与附近项目组成一组，减少跨园折返。",
+      "strategy": "日落后蓝色穹顶更显眼。拍照应在步行区域完成，设备按项目规定收好。",
+      "source": "https://www.shanghaidisneyresort.com/zh-cn/experience?group=attraction",
+      "checkedAt": "2026-10-15"
+    },
+    "jetpacks": {
+      "area": "明日世界",
+      "stay": 15,
+      "interest": "thrill",
+      "category": "旋转游乐",
+      "audience": "喜欢未来主题与空中视角的游客",
+      "highlights": "喷气背包飞行器以未来飞行装置为造型，与光轮穹顶形成同一区域的科技气氛。",
+      "tips": "提前核对身高与乘坐限制；若对旋转敏感，可选择在场外观景。",
+      "strategy": "观察飞行器展开时的放射状轮廓，顺路前往明日世界的室内互动体验。",
+      "source": "https://www.shanghaidisneyresort.com/zh-cn/experience?group=attraction",
+      "checkedAt": "2026-10-15"
+    },
+    "toys": {
+      "area": "玩具总动员",
+      "stay": 20,
+      "interest": "family",
+      "category": "旋转游乐",
+      "audience": "喜欢玩具故事、想体验甩动与旋转的游客",
+      "highlights": "胡迪牛仔嘉年华将西部牛仔元素放大成玩具庭院，让游客进入玩具视角的空间。",
+      "tips": "不要只凭可爱造型判断刺激程度；先了解旋转体验和现场要求，再决定是否乘坐。",
+      "strategy": "把彩色玩具元素、招牌和轨道放进同一画面，游玩后可接弹簧狗或拍照漫步。",
+      "source": "https://www.shanghaidisneyresort.com/zh-cn/experience?group=attraction",
+      "checkedAt": "2026-10-15"
+    },
+    "peter-pan": {
+      "area": "梦幻世界",
+      "stay": 20,
+      "interest": "family",
+      "category": "室内故事游乐",
+      "audience": "喜欢小飞侠故事与沉浸叙事的游客",
+      "highlights": "小飞侠天空奇遇通过室内场景带人进入飞行冒险的想象，重点在于沿途故事和空间变化。",
+      "tips": "先核对身高要求。若孩子怕黑，进场前说明这是室内故事体验，避免连续安排多个黑暗项目。",
+      "strategy": "可以与附近城堡故事体验或爱丽丝迷宫衔接，形成梦幻世界的一小圈。",
+      "source": "https://www.shanghaidisneyresort.com/zh-cn/experience?group=attraction",
+      "checkedAt": "2026-10-15"
+    },
+    "mine-train": {
+      "area": "梦幻世界",
+      "stay": 20,
+      "interest": "thrill",
+      "category": "过山车",
+      "audience": "喜欢轻快起伏与童话矿山造景的游客",
+      "highlights": "七个小矮人矿山车把矿山与童话场景结合，轨道外观也能在漫步时欣赏。",
+      "tips": "它属于有落差和速度的项目；先确认乘坐要求，勿用页面建议停留推断实际排队时间。",
+      "strategy": "从路边寻找列车经过山体的画面，再接梦幻世界其他项目。",
+      "source": "https://www.shanghaidisneyresort.com/zh-cn/experience?group=attraction",
+      "checkedAt": "2026-10-15"
+    },
+    "zootopia": {
+      "area": "疯狂动物城",
+      "stay": 25,
+      "interest": "family",
+      "category": "室内故事游乐",
+      "audience": "喜欢疯狂动物城、追踪故事和城市细节的游客",
+      "highlights": "疯狂动物城：热力追踪以动物城市为故事背景，区域街景与室内项目共同组成一次城市探索。",
+      "tips": "热门项目的排队随日期变化，先看官方 App。区域出入口可能分流，按现场路线进入。",
+      "strategy": "进入项目之前留时间观察街景的尺寸差异与橱窗，出来后继续看城市生活细节。",
+      "source": "https://www.shanghaidisneyresort.com/zh-cn/experience?group=attraction",
+      "checkedAt": "2026-10-15"
+    },
+    "pirates": {
+      "area": "宝藏湾",
+      "stay": 25,
+      "interest": "family",
+      "category": "室内乘船游乐",
+      "audience": "喜欢海盗叙事、沉浸场景的游客",
+      "highlights": "加勒比海盗——沉落宝藏之战是宝藏湾的主要故事项目，将海上探险放进室内乘船体验。",
+      "tips": "包含黑暗、声效与运动变化，先核对适用条件。若同行者对这些敏感，可改走室外海港。",
+      "strategy": "与探秘海妖复仇号和港湾步行串联，理解岸上与水下两种航海氛围。",
+      "source": "https://www.shanghaidisneyresort.com/zh-cn/experience?group=attraction",
+      "checkedAt": "2026-10-15"
+    },
+    "roaring": {
+      "area": "探险岛",
+      "stay": 25,
+      "interest": "thrill",
+      "category": "水上游乐",
+      "audience": "喜欢山谷、水流与探险氛围的游客",
+      "highlights": "雷鸣山漂流以山体、河道与探险故事为背景，水的运动是体验的主角。",
+      "tips": "预留衣物和物品防水安排；开放与乘坐限制看当天官方提示。玩完可先休息再安排下一项。",
+      "strategy": "从开放步道观察山体与瀑布层次，勿进入水岸或设备区拍照。",
+      "source": "https://www.shanghaidisneyresort.com/zh-cn/experience?group=attraction",
+      "checkedAt": "2026-10-15"
+    },
+    "soaring": {
+      "area": "探险岛",
+      "stay": 20,
+      "interest": "family",
+      "category": "室内飞行体验",
+      "audience": "喜欢世界风景与沉浸式影像的游客",
+      "highlights": "翱翔·飞越地平线将飞行感和景观影像结合，是探险岛的室内体验之一。",
+      "tips": "先核对身高和身体适应情况；对高处视角或运动影像敏感的游客可自行选择。",
+      "strategy": "可与雷鸣山或古迹探索营组合，但别把不同项目的建议停留当作排队承诺。",
+      "source": "https://www.shanghaidisneyresort.com/zh-cn/experience?group=attraction",
+      "checkedAt": "2026-10-15"
+    },
+    "rex": {
+      "area": "玩具总动员",
+      "stay": 15,
+      "interest": "thrill",
+      "category": "U 形轨道游乐",
+      "audience": "想体验明显速度与高低变化的游客",
+      "highlights": "抱抱龙冲天赛车以巨型玩具与 U 形轨道呈现，视觉上就能看到它的起伏尺度。",
+      "tips": "提前确认乘坐限制；不适应往返加速和高处体验时，可以只在场外观看。",
+      "strategy": "沿开放通道寻找轨道完整轮廓，再顺路去胡迪牛仔嘉年华。",
+      "source": "https://www.shanghaidisneyresort.com/zh-cn/experience?group=attraction",
+      "checkedAt": "2026-10-15"
+    },
+    "slinky": {
+      "area": "玩具总动员",
+      "stay": 15,
+      "interest": "family",
+      "category": "旋转游乐",
+      "audience": "喜欢玩具主题与绕圈体验的游客",
+      "highlights": "弹簧狗团团转以弹簧狗形象与循环路线营造玩具庭院的欢乐气氛。",
+      "tips": "旋转可能引起不适，按同行者情况选择；乘坐及陪同要求以现场为准。",
+      "strategy": "与巨型玩具和庭院装饰一起拍，适合串联同区项目。",
+      "source": "https://www.shanghaidisneyresort.com/zh-cn/experience?group=attraction",
+      "checkedAt": "2026-10-15"
+    },
+    "pooh": {
+      "area": "梦幻世界",
+      "stay": 15,
+      "interest": "family",
+      "category": "室内故事游乐",
+      "audience": "喜欢小熊维尼、愿意慢慢看故事场景的游客",
+      "highlights": "小熊维尼历险记围绕熟悉的百亩森林故事展开，是梦幻世界的室内叙事体验。",
+      "tips": "有黑暗场景，提前向小朋友解释体验形式；把休息与室外活动穿插进路线。",
+      "strategy": "可与旋转疯蜜罐组成小熊维尼主题段，步行探索后再决定下一站。",
+      "source": "https://www.shanghaidisneyresort.com/zh-cn/experience?group=attraction",
+      "checkedAt": "2026-10-15"
+    },
+    "honey-pots": {
+      "area": "梦幻世界",
+      "stay": 15,
+      "interest": "family",
+      "category": "旋转游乐",
+      "audience": "喜欢小熊维尼和互动旋转的游客",
+      "highlights": "旋转疯蜜罐将蜂蜜罐变成旋转乘坐装置，色彩与造型都围绕百亩森林主题。",
+      "tips": "怕晕的游客谨慎选择旋转幅度；遵循操作和陪同要求，餐后可先安排步行。",
+      "strategy": "在场外观察蜜罐的相对转动，和同区维尼体验一起安排。",
+      "source": "https://www.shanghaidisneyresort.com/zh-cn/experience?group=attraction",
+      "checkedAt": "2026-10-15"
+    },
+    "alice": {
+      "area": "梦幻世界",
+      "stay": 25,
+      "interest": "photo",
+      "category": "步行迷宫",
+      "audience": "摄影爱好者、喜欢边走边发现的家庭",
+      "highlights": "爱丽丝梦游仙境迷宫以童话元素组织曲折步行空间，看点藏在转角与装饰之间。",
+      "tips": "按现场出入口与单向提示前进，不翻越绿篱。走累时可缩短停留，不必赶着找完所有细节。",
+      "strategy": "低角度拍花境和装饰，给同行人留出在转角发现惊喜的时间。",
+      "source": "https://www.shanghaidisneyresort.com/zh-cn/experience?group=attraction",
+      "checkedAt": "2026-10-15"
+    },
+    "crystal": {
+      "area": "梦幻世界",
+      "stay": 25,
+      "interest": "family",
+      "category": "缓速乘船",
+      "audience": "喜欢水景、音乐和童话场景的游客",
+      "highlights": "晶彩奇航沿水上路线欣赏童话主题场景，将城堡周围的景观串在一起。",
+      "tips": "核对开放与上下船要求；缓速不等于没有乘坐注意事项，照顾好随身物品。",
+      "strategy": "适合与城堡外观和迷宫组合，给水边漫步留一些余量。",
+      "source": "https://www.shanghaidisneyresort.com/zh-cn/experience?group=attraction",
+      "checkedAt": "2026-10-15"
+    },
+    "buzz": {
+      "area": "明日世界",
+      "stay": 20,
+      "interest": "family",
+      "category": "室内互动游乐",
+      "audience": "喜欢互动、同伴轻松比拼的游客",
+      "highlights": "巴斯光年星际营救以太空任务为背景，互动是区别于纯观赏项目的主要乐趣。",
+      "tips": "先听现场操作说明，注意室内光线与声效；和同伴约定轻松体验，不影响安全要求。",
+      "strategy": "结束后可以比较体验感受，再接附近的未来主题展馆。",
+      "source": "https://www.shanghaidisneyresort.com/zh-cn/experience?group=attraction",
+      "checkedAt": "2026-10-15"
+    },
+    "stitch": {
+      "area": "明日世界",
+      "stay": 20,
+      "interest": "family",
+      "category": "室内互动",
+      "audience": "喜欢史迪奇与现场互动的游客",
+      "highlights": "太空对话史迪奇通过互动交流营造太空来访的趣味，适合把脚步放慢一会儿。",
+      "tips": "按当日安排入场；互动内容与参与机会视实际演出而定，不保证被点到。",
+      "strategy": "与明日世界其他室内项目衔接，天气炎热或下雨时更应先看官方开放提示。",
+      "source": "https://www.shanghaidisneyresort.com/zh-cn/experience?group=attraction",
+      "checkedAt": "2026-10-15"
+    },
+    "pixar": {
+      "area": "明日世界",
+      "stay": 25,
+      "interest": "family",
+      "category": "室内互动展览",
+      "audience": "喜欢皮克斯故事和主题展览的游客",
+      "highlights": "皮克斯奇旅是明日世界的室内互动体验，适合把注意力放在不同故事空间与装饰细节。",
+      "tips": "展览内容与互动安排以现场为准，预留自主停留时间，不把它当作固定时长游乐设施。",
+      "strategy": "慢慢看各场景，避免只在入口拍照就走，按兴趣选择重点。",
+      "source": "https://www.shanghaidisneyresort.com/zh-cn/experience?group=attraction",
+      "checkedAt": "2026-10-15"
+    },
+    "tron-realm": {
+      "area": "明日世界",
+      "stay": 15,
+      "interest": "family",
+      "category": "互动体验",
+      "audience": "喜欢汽车科技与数字互动的游客",
+      "highlights": "创界：雪佛兰数字挑战与明日世界的数字主题相呼应，提供不同于高速游乐的互动内容。",
+      "tips": "具体互动开放情况以现场为准，可以作为光轮附近的补充体验。",
+      "strategy": "先完成想玩的互动，再看建筑与设备造型，不必为它单独横跨整个园区。",
+      "source": "https://www.shanghaidisneyresort.com/zh-cn/experience?group=attraction",
+      "checkedAt": "2026-10-15"
+    },
+    "marvel": {
+      "area": "奇想花园",
+      "stay": 25,
+      "interest": "family",
+      "category": "室内互动",
+      "audience": "喜欢漫威故事与英雄主题的游客",
+      "highlights": "漫威英雄总部是奇想花园的英雄主题互动空间，适合围绕角色与展陈细节展开探索。",
+      "tips": "与角色见面或具体互动项目是否提供，以当天安排为准；不要承诺一定能遇到特定角色。",
+      "strategy": "同区的变身钢铁侠作为独立互动点查看，兴趣不同时可分组再约定集合。",
+      "source": "https://www.shanghaidisneyresort.com/zh-cn/experience?group=attraction",
+      "checkedAt": "2026-10-15"
+    },
+    "ironman": {
+      "area": "奇想花园",
+      "stay": 15,
+      "interest": "family",
+      "category": "室内互动",
+      "audience": "喜欢钢铁侠和数字互动的游客",
+      "highlights": "漫威英雄总部中的变身钢铁侠是以英雄主题为线索的互动体验。",
+      "tips": "先查看现场操作方式与开放情况；可与英雄总部一起安排，不需要当作一次跨区转场。",
+      "strategy": "把体验和周边展陈一起看，给同伴留出轮流参与的时间。",
+      "source": "https://www.shanghaidisneyresort.com/zh-cn/experience?group=attraction",
+      "checkedAt": "2026-10-15"
+    },
+    "siren": {
+      "area": "宝藏湾",
+      "stay": 20,
+      "interest": "photo",
+      "category": "船体探索",
+      "audience": "喜欢海盗船、甲板与航海装饰的游客",
+      "highlights": "探秘海妖复仇号是一处室外探索项目，船体和航海细节是观察的重点。",
+      "tips": "按甲板开放路线行走，台阶处注意脚下，不攀爬绳索和装饰。",
+      "strategy": "从船身、甲板到港湾远景分层拍，适合接加勒比海盗或海港漫步。",
+      "source": "https://www.shanghaidisneyresort.com/zh-cn/experience?group=attraction",
+      "checkedAt": "2026-10-15"
+    },
+    "splash": {
+      "area": "宝藏湾",
+      "stay": 25,
+      "interest": "family",
+      "category": "戏水探索",
+      "audience": "喜欢开放式探索、愿意在水边活动的家庭",
+      "highlights": "船奇戏水滩是宝藏湾的室外互动空间，让航海主题变成可探索的小天地。",
+      "tips": "是否戏水和水量视实际运营；带孩子时照看脚下，提前考虑换衣与物品保护。",
+      "strategy": "更适合留出自在玩耍的时间，而非把它排成一到即走的打卡点。",
+      "source": "https://www.shanghaidisneyresort.com/zh-cn/experience?group=attraction",
+      "checkedAt": "2026-10-15"
+    },
+    "canoe": {
+      "area": "宝藏湾",
+      "stay": 25,
+      "interest": "family",
+      "category": "水上互动",
+      "audience": "愿意参与划行、喜欢港湾视角的游客",
+      "highlights": "探险家独木舟从水上打开宝藏湾的另一种观察方式，参与和配合是体验的一部分。",
+      "tips": "该项目可能安排维护；先在官方页面确认当天开放，再决定是否加入路线。",
+      "strategy": "把岸上的海盗景观与水上视角对照着看；遵守现场划行与拍摄规则。",
+      "source": "https://www.shanghaidisneyresort.com/zh-cn/experience?group=attraction",
+      "checkedAt": "2026-10-15"
+    },
+    "ropes": {
+      "area": "探险岛",
+      "stay": 30,
+      "interest": "thrill",
+      "category": "户外挑战",
+      "audience": "喜欢运动、愿意挑战步行障碍的游客",
+      "highlights": "古迹探索营的绳索挑战道强调身体参与，在探险氛围中体验不同于乘坐项目的活动。",
+      "tips": "确认身高、装备与穿着要求；量力选择，现场规则优先，不能把建议时长当作通过保证。",
+      "strategy": "与同行人约好出口集合点，结束后安排补水与休息。",
+      "source": "https://www.shanghaidisneyresort.com/zh-cn/experience?group=attraction",
+      "checkedAt": "2026-10-15"
+    },
+    "camp-trails": {
+      "area": "探险岛",
+      "stay": 25,
+      "interest": "photo",
+      "category": "步行探索",
+      "audience": "喜欢山石造景、想自主控制节奏的游客",
+      "highlights": "古迹探索营的探索步行道让人以步行方式观察探险岛景观。",
+      "tips": "按开放步道前进，台阶、湿滑处放慢；不要把户外步行点误当作无条件无障碍路线。",
+      "strategy": "留意山体前后层次，适合与雷鸣山外观和附近休息点串联。",
+      "source": "https://www.shanghaidisneyresort.com/zh-cn/experience?group=attraction",
+      "checkedAt": "2026-10-15"
+    },
+    "junior-camp": {
+      "area": "探险岛",
+      "stay": 25,
+      "interest": "family",
+      "category": "户外探索",
+      "audience": "喜欢自主玩耍与探险主题的家庭",
+      "highlights": "小勇者营地是探险岛的户外活动点，可以与附近的探索体验组成轻松的一段。",
+      "tips": "看护儿童并遵循区域使用要求；具体开放与适用年龄看现场，预留休息时间。",
+      "strategy": "不用追求全部设施一次完成，优先让孩子按兴趣选择。",
+      "source": "https://www.shanghaidisneyresort.com/zh-cn/experience?group=attraction",
+      "checkedAt": "2026-10-15"
+    },
+    "once-upon": {
+      "area": "梦幻世界",
+      "stay": 25,
+      "interest": "family",
+      "category": "城堡内故事探索",
+      "audience": "喜欢公主故事、互动与建筑内部的游客",
+      "highlights": "漫游童话时光是城堡里的独立故事体验，与在广场看城堡外观不同。",
+      "tips": "确认当天入口和开放路线；室内动线与无障碍安排以现场指引为准。",
+      "strategy": "先看城堡外形，再进入故事空间，结束后回到广场观察对应的建筑细节。",
+      "source": "https://www.shanghaidisneyresort.com/zh-cn/experience?group=attraction",
+      "checkedAt": "2026-10-15"
+    },
+    "zoo-entry": {
+      "area": "疯狂动物城",
+      "stay": 5,
+      "interest": "photo",
+      "category": "区域入口",
+      "audience": "准备进入疯狂动物城的游客",
+      "highlights": "疯狂动物城入口是进入动物城市主题区域的通行点。",
+      "tips": "现场可能采用分流或调整通行方式；地图标记只表示区域入口，按当天引导前进。",
+      "strategy": "在不影响通行的位置拍下区域主题，进入后再慢慢观察街景。",
+      "source": "https://www.shanghaidisneyresort.com/zh-cn/experience?group=attraction",
+      "checkedAt": "2026-10-15"
+    },
+    "zoo-exit": {
+      "area": "疯狂动物城",
+      "stay": 5,
+      "interest": "photo",
+      "category": "区域出口",
+      "audience": "准备结束动物城探索、继续转场的游客",
+      "highlights": "疯狂动物城出口帮助游客从主题街区返回其他游园路线。",
+      "tips": "出口与入口不能默认互通；以当天现场方向标识为准，离开前与同伴确认集合点。",
+      "strategy": "离开后检查下一站方向和体力，适当安排休息，避免无谓往返。",
+      "source": "https://www.shanghaidisneyresort.com/zh-cn/experience?group=attraction",
+      "checkedAt": "2026-10-15"
+    },
+    "zodiac": {
+      "area": "奇想花园",
+      "stay": 20,
+      "interest": "photo",
+      "category": "花园与文化",
+      "audience": "喜欢生肖、花园与家庭合影的游客",
+      "highlights": "十二朋友园将中国生肖文化与迪士尼朋友形象结合，适合寻找属于自己的生肖故事。",
+      "tips": "主题装饰会随节庆变化；先看现场内容，再决定拍哪些细节。",
+      "strategy": "可以让每位同行者找到自己的生肖，用同一构图记录一组合影。",
+      "source": "https://www.shanghaidisneyresort.com/zh-cn/experience?group=attraction",
+      "checkedAt": "2026-10-15"
+    },
+    "storybook-show": {
+      "area": "米奇大街",
+      "stay": 40,
+      "interest": "family",
+      "category": "剧场演出",
+      "audience": "喜欢音乐、舞台与多个迪士尼故事的游客",
+      "highlights": "米奇妙游童话书通过舞台和音乐串联迪士尼故事，是米奇大街的重要剧场演出。",
+      "tips": "先查当天场次与入场规则，提前给全体同行人集合、排队和离场留时间。",
+      "strategy": "按现场摄影规定欣赏演出，结束后顺路漫步米奇大街。",
+      "source": "https://www.shanghaidisneyresort.com/zh-cn/experience?group=entertainment",
+      "checkedAt": "2026-10-15"
+    },
+    "frozen-show": {
+      "area": "梦幻世界",
+      "stay": 35,
+      "interest": "family",
+      "category": "剧场演出",
+      "audience": "喜欢冰雪奇缘歌曲与现场舞台的游客",
+      "highlights": "冰雪奇缘：欢唱盛会围绕冰雪奇缘的音乐与故事展开现场演绎。",
+      "tips": "根据当天场次倒推转场时间，剧场满座或临近开演时的入场规则以现场为准。",
+      "strategy": "适合把它作为梦幻世界路线中的休息段，但别忘记排队和候场也需要时间。",
+      "source": "https://www.shanghaidisneyresort.com/zh-cn/experience?group=entertainment",
+      "checkedAt": "2026-10-15"
+    },
+    "storm-show": {
+      "area": "宝藏湾",
+      "stay": 35,
+      "interest": "family",
+      "category": "剧场特技",
+      "audience": "喜欢海盗、动作与舞台特技的游客",
+      "highlights": "风暴来临：杰克船长之惊天特技大冒险把海盗故事搬上舞台，声效与动作是主要看点。",
+      "tips": "先确认当日场次，同行者对大音量或动作场面敏感时请自行选择。",
+      "strategy": "与加勒比海盗和海盗船形成故事连贯的宝藏湾半程。",
+      "source": "https://www.shanghaidisneyresort.com/zh-cn/experience?group=entertainment",
+      "checkedAt": "2026-10-15"
+    },
+    "castle-show": {
+      "area": "奇想花园",
+      "stay": 30,
+      "interest": "photo",
+      "category": "城堡舞台",
+      "audience": "喜欢公主故事、音乐与户外演出的游客",
+      "highlights": "“奇妙之心”城堡秀以城堡舞台为焦点，将歌舞与童话氛围放在同一画面里。",
+      "tips": "户外演出受天气与运营影响；提前查场次，观演按工作人员划定区域站立。",
+      "strategy": "给城堡留足画面空间，勿举物遮挡身后游客视线。",
+      "source": "https://www.shanghaidisneyresort.com/zh-cn/experience?group=attraction",
+      "checkedAt": "2026-10-15"
+    },
+    "night-show": {
+      "area": "奇想花园",
+      "stay": 30,
+      "interest": "photo",
+      "category": "夜间演出",
+      "audience": "想以城堡夜景结束一天的游客",
+      "highlights": "奇梦之光幻影秀是城堡前的夜间娱乐体验，光影让建筑呈现不同于白天的表情。",
+      "tips": "先确认当晚是否演出与场次；为候场、散场和离园交通留出余量，效果可能按运营调整。",
+      "strategy": "与同伴约好散场集合点；享受现场时刻，不必全程举着手机。",
+      "source": "https://www.shanghaidisneyresort.com/zh-cn/experience?group=entertainment",
+      "checkedAt": "2026-10-15"
+    },
+    "parade": {
+      "area": "奇想花园",
+      "stay": 25,
+      "interest": "family",
+      "category": "巡游",
+      "audience": "喜欢花车、角色与沿途音乐的游客",
+      "highlights": "米奇童话专列沿巡游路线行进，观看点分布在多个位置，而不是一个固定剧场。",
+      "tips": "先查看当日路线与场次；站在允许观演的区域，不越过临时围栏。地图图标只代表观演参考区。",
+      "strategy": "结合下一站选择顺路的观看区域，结束后跟随分流前进。",
+      "source": "https://www.shanghaidisneyresort.com/zh-cn/experience?group=entertainment",
+      "checkedAt": "2026-10-15"
+    },
+    "duffy-parade": {
+      "area": "奇想花园",
+      "stay": 25,
+      "interest": "family",
+      "category": "巡游",
+      "audience": "喜欢达菲和朋友们、想看户外表演的游客",
+      "highlights": "“友谊号”：达菲和朋友们的特别巡游是官方目录中的巡游内容。",
+      "tips": "是否呈现与具体场次以当天官方安排为准；此点为观演参考区，不是固定上车地点。",
+      "strategy": "把它和奇想花园的休息、拍照段组合，避免为候场反复跨园。",
+      "source": "https://www.shanghaidisneyresort.com/zh-cn/experience?group=entertainment",
+      "checkedAt": "2026-10-15"
+    },
+    "zoo-show": {
+      "area": "疯狂动物城",
+      "stay": 20,
+      "interest": "family",
+      "category": "街头演出",
+      "audience": "喜欢动物城街景与现场故事的游客",
+      "highlights": "迪士尼疯狂动物城生活秀将区域主题延伸到街头娱乐之中。",
+      "tips": "呈现时间、位置与内容以现场为准；路过时先看区域指引，不堵住通行路线。",
+      "strategy": "可与动物城建筑观察和热力追踪安排在同一段。",
+      "source": "https://www.shanghaidisneyresort.com/zh-cn/experience?group=entertainment",
+      "checkedAt": "2026-10-15"
+    }
+  },
+  "services": [
+    {
+      "id": "guest",
+      "name": "游客服务",
+      "at": [
+        -3,
+        24
+      ],
+      "description": "入园后请按官方导览查找游客服务和无障碍支持。"
+    },
+    {
+      "id": "exit",
+      "name": "入园与离园",
+      "at": [
+        0,
+        27
+      ],
+      "description": "出入园规则及所需证件以官方预订须知为准。"
+    }
+  ],
+  "products": [
+    {
+      "id": "ticket",
+      "type": "ticket",
+      "name": "上海迪士尼乐园门票",
+      "at": [
+        3,
+        25
+      ],
+      "description": "选择出游日期后查看票种、价格与预约规则。",
+      "url": "https://www.shanghaidisneyresort.com/zh-cn/",
+      "source": "上海迪士尼度假区官方渠道"
+    },
+    {
+      "id": "hotel-disney",
+      "type": "hotel",
+      "name": "上海迪士尼乐园酒店",
+      "at": [
+        24,
+        30
+      ],
+      "description": "度假区主题酒店；图标表示园外周边服务方向，非酒店实际位置。",
+      "url": "https://www.shanghaidisneyresort.com/zh-cn/experience?group=hotel",
+      "source": "上海迪士尼度假区官方酒店目录"
+    },
+    {
+      "id": "hotel-toy",
+      "type": "hotel",
+      "name": "玩具总动员酒店",
+      "at": [
+        -24,
+        28
+      ],
+      "description": "度假区主题酒店；点击查阅房型与入住日期，图标为园外服务示意。",
+      "url": "https://www.shanghaidisneyresort.com/zh-cn/experience?group=hotel",
+      "source": "上海迪士尼度假区官方酒店目录"
+    }
+  ],
+  "information": [
+    {
+      "title": "开闭园与演出",
+      "text": "按出游日期查询官方日历及当天演出安排。",
+      "url": "https://www.shanghaidisneyresort.com/zh-cn/experience"
+    },
+    {
+      "title": "游玩用时",
+      "text": "页面时长包含步行与建议停留；不包含实时排队、用餐和演出等待。",
+      "url": "https://www.shanghaidisneyresort.com/zh-cn/experience"
+    },
+    {
+      "title": "无障碍与家庭服务",
+      "text": "先核对项目乘坐要求，按同行人的体力与兴趣调整路线。",
+      "url": "https://www.shanghaidisneyresort.com/zh-cn/experience"
+    }
+  ]
+}

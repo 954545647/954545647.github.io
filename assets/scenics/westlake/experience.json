@@ -1,0 +1,231 @@
+{
+  "title": "把时间留给西湖",
+  "subtitle": "湖畔慢游 · 亭前听故事 · 泛舟看湖山",
+  "theme": "jade",
+  "planTitle": "一日湖山，半日闲",
+  "defaultBudget": 360,
+  "guideTitle": "六处风景，六种停留",
+  "source": "https://wbdl.hzwbzx.cn/house?id=121",
+  "interests": [
+    [
+      "all",
+      "湖山尽览"
+    ],
+    [
+      "photo",
+      "湖光摄影"
+    ],
+    [
+      "culture",
+      "诗意人文"
+    ],
+    [
+      "family",
+      "亲子慢游"
+    ]
+  ],
+  "schemaVersion": 1,
+  "scenicId": "westlake",
+  "checkedAt": "2026-10-17",
+  "spots": {
+    "duanqiao": {
+      "area": "白堤与孤山",
+      "stay": 20,
+      "interest": "photo",
+      "category": "湖岸与石桥",
+      "audience": "初访西湖、轻装摄影与亲子家庭。",
+      "highlights": "从桥侧看白堤伸向湖心，再走上桥看两边水色；不必等到下雪，断桥也有自己的光影。",
+      "strategy": "作为第一站，先辨认白堤方向，再沿堤去平湖秋月；拍照后把桥面留给通行的人。",
+      "tips": "桥面人多时在岸边停留；雨天与雪天留意湿滑，不倚靠栏杆探身拍摄。",
+      "source": "https://wbdl.hzwbzx.cn/house?id=121",
+      "checkedAt": "2026-10-17"
+    },
+    "pinghu": {
+      "area": "白堤与孤山",
+      "stay": 25,
+      "interest": "culture",
+      "category": "临湖园景",
+      "audience": "喜欢诗意园林、湖面构图与安静停留的人。",
+      "highlights": "水边的平台把远山、湖面和近处亭阁放在同一幅画里，适合慢慢比较水岸与建筑的比例。",
+      "strategy": "接断桥和白堤游览，再向曲院风荷一带走；想等月色可另留晚间时间，不挤在白天行程里。",
+      "tips": "月色、能见度与天气有关；夜间回程先确认步道照明和交通，园内开放以现场为准。",
+      "source": "https://wbdl.hzwbzx.cn/house?id=121",
+      "checkedAt": "2026-10-17"
+    },
+    "quyuan": {
+      "area": "西岸园林",
+      "stay": 35,
+      "interest": "family",
+      "category": "荷景与园林",
+      "audience": "亲子赏植物、夏季赏荷和园林摄影。",
+      "highlights": "曲桥、岸线和荷叶让湖景有了近处的层次；非花期也可以看水杉与桥的倒影。",
+      "strategy": "从平湖秋月接西岸园景，再决定沿堤向花港观鱼，或把余下时间留给园内慢游。",
+      "tips": "荷花不是全年盛开，地图花色为艺术表达；不要踩入种植区寻找机位。",
+      "source": "https://wbdl.hzwbzx.cn/house?id=121",
+      "checkedAt": "2026-10-17"
+    },
+    "huagang": {
+      "area": "西南园林",
+      "stay": 40,
+      "interest": "culture",
+      "category": "御碑亭与观鱼",
+      "audience": "想看园林细节、了解西湖故事及体验三维空间的人。",
+      "highlights": "先认御碑亭的石柱、碑石和灰瓦，再把视线放回临水园径；线上可走进已生成的御碑亭三维世界。",
+      "strategy": "建议放在西岸园景之后；现实游览留出园内走走的时间，线上先看实拍，再进入三维模型比较空间。",
+      "tips": "三维场景由实拍生成，未拍到的背面和屋顶包含推测；它帮助理解空间，不作为实测或保护测绘依据。",
+      "source": "https://wbdl.hzwbzx.cn/house?id=121",
+      "checkedAt": "2026-10-17"
+    },
+    "santan": {
+      "area": "湖中小瀛洲",
+      "stay": 45,
+      "interest": "photo",
+      "category": "湖岛与石塔",
+      "audience": "愿意乘船、想从水上看西湖的人。",
+      "highlights": "从岛岸寻找三座石塔与远山同框的角度，再观察岛内水面与外湖的关系。",
+      "strategy": "安排独立的乘船段，预留购票、候船和离岛时间；上船前确认下船码头与下一站是否顺路。",
+      "tips": "小瀛洲不能从湖岸直接步行到达；船班、码头与停航以当天运营信息为准，地图船线是示意。",
+      "source": "https://wbdl.hzwbzx.cn/house?id=121",
+      "checkedAt": "2026-10-17"
+    },
+    "leifeng": {
+      "area": "南岸塔影",
+      "stay": 40,
+      "interest": "photo",
+      "category": "塔景与远眺",
+      "audience": "喜欢城市远景、塔影摄影与传说故事的人。",
+      "highlights": "湖岸远眺塔影与进入塔区是两种体验；先在水边看塔、山与树的层次，再决定是否登临。",
+      "strategy": "可接花港观鱼作南岸收尾；若想看傍晚光线，应按当天日落与开放安排留白。",
+      "tips": "进入塔区的票务、登临与开放需单独核实；湖边远望不等于包含塔区参观。",
+      "source": "https://wbdl.hzwbzx.cn/house?id=121",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  "routes": [
+    {
+      "id": "poetic",
+      "title": "白堤诗意线",
+      "description": "从断桥到孤山，再看西岸园林；适合第一次慢慢认识西湖。",
+      "budget": 180,
+      "interest": "culture",
+      "items": [
+        {
+          "id": "duanqiao",
+          "stay": 20
+        },
+        {
+          "id": "pinghu",
+          "stay": 25
+        },
+        {
+          "id": "quyuan",
+          "stay": 35
+        }
+      ]
+    },
+    {
+      "id": "garden",
+      "title": "湖畔园林线",
+      "description": "串联桥、荷景与御碑亭，把花港的空间故事留作重点。",
+      "budget": 360,
+      "interest": "family",
+      "items": [
+        {
+          "id": "duanqiao",
+          "stay": 20
+        },
+        {
+          "id": "pinghu",
+          "stay": 25
+        },
+        {
+          "id": "quyuan",
+          "stay": 35
+        },
+        {
+          "id": "huagang",
+          "stay": 40
+        },
+        {
+          "id": "leifeng",
+          "stay": 40
+        }
+      ]
+    },
+    {
+      "id": "island",
+      "title": "湖山与三潭",
+      "description": "加入湖中小瀛洲；船线仅作示意，候船时间另留。",
+      "budget": 480,
+      "interest": "photo",
+      "items": [
+        {
+          "id": "duanqiao",
+          "stay": 20
+        },
+        {
+          "id": "pinghu",
+          "stay": 25
+        },
+        {
+          "id": "quyuan",
+          "stay": 35
+        },
+        {
+          "id": "huagang",
+          "stay": 40
+        },
+        {
+          "id": "santan",
+          "stay": 45
+        },
+        {
+          "id": "leifeng",
+          "stay": 40
+        }
+      ]
+    }
+  ],
+  "services": [],
+  "products": [
+    {
+      "id": "visit-ticket",
+      "type": "ticket",
+      "name": "游船与塔区出游清单",
+      "at": [
+        -4.2,
+        12.78
+      ],
+      "description": "出行规划示例；不同项目请分别核实票务与开放，加入清单不会生成订单，也不包含已预约权益。",
+      "priceFrom": null
+    },
+    {
+      "id": "nearby-stay",
+      "type": "hotel",
+      "name": "湖畔住宿灵感",
+      "at": [
+        -5.2,
+        12.78
+      ],
+      "description": "周边住宿联动示例，位置为服务入口示意，非具体酒店坐标；后续可按日期查询合作伙伴房型。",
+      "priceFrom": null
+    }
+  ],
+  "information": [
+    {
+      "title": "先选湖岸，还是上岛",
+      "text": "三潭印月需乘船。路线用时包含地图中的转场，不包含购票、候船、停航或码头绕行；请核对当天船班。",
+      "url": "https://www.hzwestlake.gov.cn/"
+    },
+    {
+      "title": "线上御碑亭",
+      "text": "已接入单张实拍生成和实拍加补图生成的两版 Marble 三维场景，可从花港观鱼攻略进入；补图区域并非现场测绘。",
+      "url": ""
+    },
+    {
+      "title": "留一点时间给季节",
+      "text": "荷、月、雪、夕照都有时节与天气条件。路线时长是编辑建议，不是当日客流或排队预测。",
+      "url": ""
+    }
+  ]
+}

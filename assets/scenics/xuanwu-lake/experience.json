@@ -1,0 +1,279 @@
+{
+  "title": "慢下来，看金陵湖光",
+  "subtitle": "五洲花木 · 城墙湖望 · 一路松弛",
+  "theme": "lake",
+  "planTitle": "在五洲之间慢慢走",
+  "defaultBudget": 360,
+  "guideTitle": "九站湖光，各有自己的季节",
+  "source": "https://www.xuanwuhu.net/",
+  "interests": [
+    [
+      "all",
+      "五洲风景"
+    ],
+    [
+      "family",
+      "亲子轻游"
+    ],
+    [
+      "photo",
+      "湖岸摄影"
+    ],
+    [
+      "culture",
+      "金陵旧事"
+    ]
+  ],
+  "schemaVersion": 1,
+  "scenicId": "xuanwu-lake",
+  "checkedAt": "2026-10-17",
+  "spots": {
+    "xuanwumen": {
+      "area": "西岸入湖",
+      "stay": 10,
+      "interest": "architecture",
+      "category": "城门与湖岸",
+      "audience": "初访南京、想从城墙走向湖边的人。",
+      "highlights": "穿城门看湖光，从城市街道转入湖园，是理解南京山水城林关系的起点。",
+      "strategy": "由这里进入环洲，再按体力选择樱洲短线或梁洲延伸线。",
+      "tips": "现实游览请先看入口公告；集合拍照避开门洞通行区域。",
+      "source": "https://www.xuanwuhu.net/lyzn/lyzn.aspx?mtt=53",
+      "checkedAt": "2026-10-17"
+    },
+    "huanzhou": {
+      "area": "环洲与樱洲",
+      "stay": 25,
+      "interest": "family",
+      "category": "柳岸与园石",
+      "audience": "亲子家庭、喜欢轻松走走与园景细节的人。",
+      "highlights": "沿着环抱樱洲的岸线走，看柳枝、园石和桥堤怎样把湖岛串起来。",
+      "strategy": "玄武门之后先游环洲，再到樱洲；短途行程可以在这一带放慢。",
+      "tips": "临水步道注意看护儿童；石景供观赏，不建议攀爬寻找高处机位。",
+      "source": "https://www.xuanwuhu.net/lyzn/lyzn.aspx?mtt=44",
+      "checkedAt": "2026-10-17"
+    },
+    "yingzhou": {
+      "area": "环洲与樱洲",
+      "stay": 30,
+      "interest": "photo",
+      "category": "花木与长廊",
+      "audience": "赏花摄影、亲子观察植物与浪漫同行。",
+      "highlights": "让长廊和花木成为近景，湖面留作背景；不在花期也可以看廊下光影和洲间层次。",
+      "strategy": "与环洲安排在同一段，想继续探访历史再向梁洲走。",
+      "tips": "花期随气候变化，地图花海并非实时花情；请走在游道上，不进入花坛。",
+      "source": "https://www.xuanwuhu.net/lyzn/lyzn.aspx?mtt=49",
+      "checkedAt": "2026-10-17"
+    },
+    "liangzhou": {
+      "area": "梁洲文史",
+      "stay": 35,
+      "interest": "culture",
+      "category": "湖洲历史",
+      "audience": "对金陵历史、园林与文史展陈感兴趣的人。",
+      "highlights": "从花木转向湖的历史，在梁洲寻找明后湖黄册库相关记忆，理解湖面背后的城市故事。",
+      "strategy": "樱洲之后转向梁洲，将历史文化展陈与北端览胜楼一起安排。",
+      "tips": "展馆开放与展陈以现场为准；建议时间不包含专题活动或排队。",
+      "source": "https://www.xuanwuhu.net/lyzn/lyzn.aspx?mtt=51",
+      "checkedAt": "2026-10-17"
+    },
+    "lanshenglou": {
+      "area": "梁洲文史",
+      "stay": 20,
+      "interest": "architecture",
+      "category": "楼阁与湖面",
+      "audience": "建筑摄影、愿意停下来观察檐口细节的人。",
+      "highlights": "看重檐、彩绘与湖面相映，先从外部读建筑比例，再换角度寻找楼与树的关系。",
+      "strategy": "和梁洲连游，作为北端停留点，再决定继续翠洲还是折返。",
+      "tips": "这里的路线是楼外观景示意，不保证可以登楼；开放范围请咨询现场。",
+      "source": "https://www.xuanwuhu.net/lyzn/lyzn.aspx?mtt=51",
+      "checkedAt": "2026-10-17"
+    },
+    "cuizhou": {
+      "area": "东侧湖洲",
+      "stay": 30,
+      "interest": "leisure",
+      "category": "林木与近代建筑",
+      "audience": "喜欢安静树荫、园林建筑与休闲漫步的人。",
+      "highlights": "林木让湖岸产生明暗变化，旧址建筑提供另一种观察城市近代空间的角度。",
+      "strategy": "梁洲之后再安排翠洲，留些时间看树影与水面，再向南部菱洲串联。",
+      "tips": "旧址建筑能否入内参观需现场确认；阴雨天气树荫下路面更湿滑。",
+      "source": "https://www.xuanwuhu.net/lyzn/lyzn.aspx?mtt=50",
+      "checkedAt": "2026-10-17"
+    },
+    "lingzhou": {
+      "area": "南侧湖洲",
+      "stay": 30,
+      "interest": "photo",
+      "category": "湖岸与山景",
+      "audience": "湖景摄影、想看开阔视野与远山的人。",
+      "highlights": "在南侧湖岸找水面与远山的层次，晴天和薄雾会呈现不同的山岚感。",
+      "strategy": "与翠洲或台城湖岸组合；若携儿童或老人，按体力缩短洲间行走。",
+      "tips": "远山可见度受天气影响；照片属于周边湖景参考，不保证每个落点都能看见同一构图。",
+      "source": "https://www.xuanwuhu.net/lyzn/lyzn.aspx?mtt=52",
+      "checkedAt": "2026-10-17"
+    },
+    "taicheng": {
+      "area": "南岸城墙",
+      "stay": 25,
+      "interest": "culture",
+      "category": "城墙与湖望",
+      "audience": "城市文化、城墙摄影和湖岸散步爱好者。",
+      "highlights": "一侧看明城墙的厚重，一侧看开阔湖光；岸边视角与登城视角是两种不同体验。",
+      "strategy": "可在南侧湖洲之后到湖岸停留；如要登城，另留票务和登临时间。",
+      "tips": "地图落点在城墙旁，未包含登城权限或费用；登城开放与购票请查运营信息。",
+      "source": "https://www.xuanwuhu.net/lyzn/lyzn.aspx?mtt=53",
+      "checkedAt": "2026-10-17"
+    },
+    "lovers": {
+      "area": "东岸花园",
+      "stay": 40,
+      "interest": "photo",
+      "category": "花园与水岸",
+      "audience": "浪漫同行、花木摄影和想延长湖畔时光的人。",
+      "highlights": "把花木作近景，把湖面留给远处，在东岸寻找节奏更舒缓的一段游园。",
+      "strategy": "距离西侧入口较远，建议作为充裕行程的延伸；不要把环湖长线塞进短时游。",
+      "tips": "花木与荷景随季节变化；回程距离已计入计划，拍照与休息可再留余量。",
+      "source": "https://www.xuanwuhu.net/lyzn/lyzn.aspx?mtt=54",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  "routes": [
+    {
+      "id": "gentle",
+      "title": "两洲轻游",
+      "description": "玄武门进入，环洲与樱洲慢慢看，轻松往返。",
+      "budget": 180,
+      "interest": "family",
+      "items": [
+        {
+          "id": "xuanwumen",
+          "stay": 10
+        },
+        {
+          "id": "huanzhou",
+          "stay": 25
+        },
+        {
+          "id": "yingzhou",
+          "stay": 30
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "梁洲访古",
+      "description": "从柳岸花木走到梁洲与览胜楼，让湖山有故事。",
+      "budget": 300,
+      "interest": "culture",
+      "items": [
+        {
+          "id": "xuanwumen",
+          "stay": 10
+        },
+        {
+          "id": "huanzhou",
+          "stay": 25
+        },
+        {
+          "id": "yingzhou",
+          "stay": 30
+        },
+        {
+          "id": "liangzhou",
+          "stay": 35
+        },
+        {
+          "id": "lanshenglou",
+          "stay": 20
+        }
+      ]
+    },
+    {
+      "id": "five",
+      "title": "五洲与城湖",
+      "description": "串联五洲、南岸城墙与东岸花园，给休息留出时间。",
+      "budget": 600,
+      "interest": "photo",
+      "items": [
+        {
+          "id": "xuanwumen",
+          "stay": 10
+        },
+        {
+          "id": "huanzhou",
+          "stay": 25
+        },
+        {
+          "id": "yingzhou",
+          "stay": 30
+        },
+        {
+          "id": "liangzhou",
+          "stay": 35
+        },
+        {
+          "id": "lanshenglou",
+          "stay": 20
+        },
+        {
+          "id": "cuizhou",
+          "stay": 30
+        },
+        {
+          "id": "lingzhou",
+          "stay": 30
+        },
+        {
+          "id": "taicheng",
+          "stay": 25
+        },
+        {
+          "id": "lovers",
+          "stay": 40
+        }
+      ]
+    }
+  ],
+  "services": [],
+  "products": [
+    {
+      "id": "visit-ticket",
+      "type": "ticket",
+      "name": "游船与登城出游清单",
+      "at": [
+        -14.2544,
+        0.8843
+      ],
+      "description": "出行规划示例；不同项目请分别核实票务与开放，加入清单不会生成订单，也不包含已预约权益。",
+      "priceFrom": null
+    },
+    {
+      "id": "nearby-stay",
+      "type": "hotel",
+      "name": "金陵湖景住宿",
+      "at": [
+        -15.2544,
+        0.8843
+      ],
+      "description": "周边住宿联动示例，位置为服务入口示意，非具体酒店坐标；后续可按日期查询合作伙伴房型。",
+      "priceFrom": null
+    }
+  ],
+  "information": [
+    {
+      "title": "五洲之间，按体力选线",
+      "text": "短线适合环洲与樱洲；加入翠洲、菱洲和东岸花园会明显增加行走距离。",
+      "url": "https://www.xuanwuhu.net/"
+    },
+    {
+      "title": "看湖与登城分开安排",
+      "text": "园内步道、登城、游船和展馆不是同一项服务，开放和费用请分别核实。",
+      "url": "https://www.xuanwuhu.net/"
+    },
+    {
+      "title": "花期与天气",
+      "text": "春花、秋叶与荷景是季节性体验，查看当天花情与天气，带上饮水并给休息留白。",
+      "url": "https://www.xuanwuhu.net/"
+    }
+  ]
+}
