@@ -2,10 +2,11 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import assets from '../../vendor/studio-20261023/qijiang-park-assets-v1.js';
-import { beginAssets, loadModel, assetsComplete, endAssets } from '../../vendor/studio-20261023/qijiang-park-downloads-v2.js';
+import { beginAssets, loadModel, assetsComplete, endAssets } from '../../vendor/studio-20261023/qijiang-park-downloads-v3.js';
 
 const root = new URL('../../', import.meta.url);
 const entries = Object.entries(assets);
+const assetPath = url => url.slice(url.indexOf('/assets/') + 1);
 const dom = () => {
   const elements = new Map();
   return { querySelector(selector) {
@@ -21,7 +22,7 @@ test('all scene downloads finish before any model parsing starts', async t => {
   const lastUrl = entries.at(-1)[1].url;
   t.mock.method(globalThis, 'fetch', async url => {
     if (url === lastUrl) { startedLast(); await holdLast; }
-    return new Response(await readFile(new URL(url.slice(1), root)));
+    return new Response(await readFile(new URL(assetPath(url), root)));
   });
   const view = dom(), session = beginAssets(view);
   t.after(() => endAssets(session));
@@ -44,7 +45,7 @@ test('all scene downloads finish before any model parsing starts', async t => {
 test('an incomplete scene never starts parsing or reports ready', async t => {
   const failedUrl = entries.at(-1)[1].url;
   t.mock.method(globalThis, 'fetch', async url => new Response(
-    url === failedUrl ? new Uint8Array([0]) : await readFile(new URL(url.slice(1), root))
+    url.endsWith(failedUrl) ? new Uint8Array([0]) : await readFile(new URL(assetPath(url), root))
   ));
   const session = beginAssets(dom());
   t.after(() => endAssets(session));
@@ -52,4 +53,20 @@ test('an incomplete scene never starts parsing or reports ready', async t => {
   await assert.rejects(loadModel({ setMeshoptDecoder() {}, parseAsync() { parses++; } }, entries[0][0]), /Incomplete asset/);
   assert.equal(parses, 0);
   assert.equal(assetsComplete(session), false);
+});
+
+test('retries a Pages failure through the immutable GitHub mirror', async t => {
+  const firstUrl = entries[0][1].url;
+  const mirrors = [];
+  t.mock.method(globalThis, 'fetch', async url => {
+    if (url === firstUrl) throw new TypeError('Pages connection stalled');
+    if (url.startsWith('https:')) mirrors.push(url);
+    return new Response(await readFile(new URL(assetPath(url), root)));
+  });
+  const session = beginAssets(dom());
+  t.after(() => endAssets(session));
+  await loadModel({ setMeshoptDecoder() {}, parseAsync() { return {}; } }, entries[0][0]);
+  assert.equal(mirrors.length, 1);
+  assert.match(mirrors[0], /^https:\/\/raw\.githubusercontent\.com\/954545647\/954545647\.github\.io\/[0-9a-f]{40}\/assets\//);
+  assert.equal(assetsComplete(session), true);
 });

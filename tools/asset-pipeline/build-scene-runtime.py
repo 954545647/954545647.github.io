@@ -1,10 +1,13 @@
-"""Build a separate reliable renderer for a new studio scene: python3 tools/asset-pipeline/build-scene-runtime.py SCENE_ID."""
+"""Build a separate renderer: build-scene-runtime.py SCENE_ID [vN] [publishedAssetCommit]."""
 from pathlib import Path
 import sys,re
 SID=sys.argv[1]
 assert re.fullmatch(r"[a-z0-9-]+", SID)
 VERSION=sys.argv[2] if len(sys.argv)>2 else 'v2'
 assert re.fullmatch(r"v[0-9]+", VERSION)
+FALLBACK_COMMIT=sys.argv[3] if len(sys.argv)>3 else None
+if FALLBACK_COMMIT:
+    assert re.fullmatch(r'[0-9a-f]{40}', FALLBACK_COMMIT)
 
 ROOT = Path(__file__).resolve().parents[2]
 VENDOR = ROOT / 'vendor/studio-20261023'
@@ -21,6 +24,13 @@ loader=replace_once(loader, '  current = session;', '''  // Finish network trans
   current = session;''')
 loader=replace_once(loader, '    loader.setMeshoptDecoder(MeshoptDecoder);', '    if (!await session.downloadsReady) throw session.downloadError;\n    loader.setMeshoptDecoder(MeshoptDecoder);')
 loader=replace_once(loader, '      const bytes = await session.queue.get(asset);', '      if (!await session.downloadsReady) throw session.downloadError;\n      const bytes = await session.queue.get(asset);')
+if FALLBACK_COMMIT:
+    fallback=f'https://raw.githubusercontent.com/954545647/954545647.github.io/{FALLBACK_COMMIT}'
+    loader=replace_once(loader, 'createAssetQueue({ onProgress: update,', '''createAssetQueue({ fetcher: (url, options) => {
+    // The immutable mirror contains the same public files; SHA-256 still applies.
+    const source = options.cache === 'reload' ? '''+repr(fallback)+''' + url : url;
+    return fetch(source, options);
+  }, onProgress: update,''')
 (VENDOR / f'{SID}-downloads-{VERSION}.js').write_text(loader)
 
 text = (VENDOR / 'chunk-CLUPJWV7.js').read_text()
