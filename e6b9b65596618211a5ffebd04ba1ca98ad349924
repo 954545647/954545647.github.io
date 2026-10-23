@@ -1,0 +1,21 @@
+scenes/sun-yat-sen/build_scene.py
+  s_6eff5b735640ab::t_48161e18d88f0a 1-82
+tools/add_scenic.py
+  s_6eff5b735640ab::t_48161e18d88f0a 73-74
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.51-trip",
+  "base_commit_sha": "e6b9b65596618211a5ffebd04ba1ca98ad349924",
+  "prompts": {},
+  "sessions": {
+    "s_6eff5b735640ab": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1675c-a8ee-77f3-ab12-60c88bd38369",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "haojiaxu <haojiaxu@trip.com>"
+    }
+  }
+}
