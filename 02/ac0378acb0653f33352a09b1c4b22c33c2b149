@@ -1,0 +1,19 @@
+scenes/summer-palace/README.md
+  s_a0216305110394::t_45d58f48845397 1-29
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.51-trip",
+  "base_commit_sha": "02ac0378acb0653f33352a09b1c4b22c33c2b149",
+  "prompts": {},
+  "sessions": {
+    "s_a0216305110394": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1674f-9160-7bb0-afb2-0e32c8d8d1b8",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "haojiaxu <haojiaxu@trip.com>"
+    }
+  }
+}
