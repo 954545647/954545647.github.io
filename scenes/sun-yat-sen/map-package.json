@@ -26,7 +26,7 @@
             -2.5124
           ]
         ],
-        "spotId": "sun-home"
+        "spotId": "sun-residence"
       },
       {
         "kind": "sight",
@@ -205,7 +205,7 @@
             -1.7463
           ]
         ],
-        "spotId": "memorial"
+        "spotId": "memorial-museum"
       },
       {
         "kind": "sight",
@@ -228,7 +228,7 @@
             1.5752
           ]
         ],
-        "spotId": "lecture-hall"
+        "spotId": "conference-hall"
       },
       {
         "kind": "sight",
@@ -274,7 +274,7 @@
             -4.9896
           ]
         ],
-        "spotId": "zhenyi"
+        "spotId": "zhenyi-hall"
       },
       {
         "kind": "sight",
@@ -320,7 +320,7 @@
             -7.28
           ]
         ],
-        "spotId": "feng-shrine"
+        "spotId": "feng-ancestral-hall"
       },
       {
         "kind": "sight",
@@ -343,7 +343,7 @@
             -2.735
           ]
         ],
-        "spotId": "village-houses"
+        "spotId": "folk-houses"
       },
       {
         "kind": "sight",
@@ -366,7 +366,7 @@
             -3.28
           ]
         ],
-        "spotId": "bell"
+        "spotId": "warning-bell"
       },
       {
         "kind": "square",
@@ -463,7 +463,7 @@
       "source": "amap:B02F802MX8 + © OpenStreetMap contributors, ODbL 1.0",
       "unitMeters": 19.907528780226475
     },
-    "id": "scenic-amap-b02f802mx8",
+    "id": "sun-yat-sen",
     "name": "孙中山故居纪念馆",
     "network": {
       "edges": [
@@ -2332,7 +2332,7 @@
     },
     "schemaVersion": 1,
     "spots": {
-      "bell": {
+      "warning-bell": {
         "label": [
           -3.57,
           -3.45
@@ -2341,7 +2341,7 @@
         "scene": "孙中山故居纪念馆 · 警世钟",
         "season": "spring"
       },
-      "feng-shrine": {
+      "feng-ancestral-hall": {
         "label": [
           1.22,
           -7.63
@@ -2350,7 +2350,7 @@
         "scene": "孙中山故居纪念馆 · 冯氏宗祠",
         "season": "spring"
       },
-      "lecture-hall": {
+      "conference-hall": {
         "label": [
           -2.99,
           0.99
@@ -2368,7 +2368,7 @@
         "scene": "孙中山故居纪念馆 · 陆皓东故居",
         "season": "spring"
       },
-      "memorial": {
+      "memorial-museum": {
         "label": [
           -6.13,
           -3.06
@@ -2377,7 +2377,7 @@
         "scene": "孙中山故居纪念馆 · 孙中山纪念馆",
         "season": "spring"
       },
-      "sun-home": {
+      "sun-residence": {
         "label": [
           -1.52,
           -2.09
@@ -2386,7 +2386,7 @@
         "scene": "孙中山故居纪念馆 · 孙中山故居",
         "season": "spring"
       },
-      "village-houses": {
+      "folk-houses": {
         "label": [
           -2.3,
           -3.36
@@ -2404,7 +2404,7 @@
         "scene": "孙中山故居纪念馆 · 杨殷故居",
         "season": "spring"
       },
-      "zhenyi": {
+      "zhenyi-hall": {
         "label": [
           3.14,
           -5.47
@@ -2663,8 +2663,8 @@
       "minPhi": 0.28
     },
     "defaultMood": "spring",
-    "id": "scenic-amap-b02f802mx8-interaction",
-    "mapId": "scenic-amap-b02f802mx8",
+    "id": "sun-yat-sen-interaction",
+    "mapId": "sun-yat-sen",
     "movement": {
       "boundsPadding": 0.6,
       "maxTerrainHeight": 3.8,
@@ -2696,7 +2696,7 @@
       "terrain": false,
       "vegetation": false
     },
-    "id": "scenic-amap-b02f802mx8",
+    "id": "sun-yat-sen",
     "labels": [
       {
         "at": [
@@ -2713,61 +2713,61 @@
         "asset": {
           "height": 0.5294479569420218,
           "source": "自制孙中山故居模型：14.6×11.6 m、高 8.55 m，两层赭红外墙白线、上下各 7 个连续券拱、平屋顶女儿墙与飞鹰光环、灰砖后翼",
-          "url": "/generated/b9cce5cac6cfb50065b7048dca38b635d42d2bc2b494c569/model.glb"
+          "url": "/assets/scenics/sun-yat-sen/models/b9cce5cac6cfb50065b7048dca38b635d42d2bc2b494c569/model.glb"
         },
         "at": [
           -1.52,
           -2.09
         ],
-        "id": "sun-home",
+        "id": "sun-residence",
         "lift": 0,
         "model": "asset",
         "parameters": {},
         "rotation": -0.47,
         "scale": 1,
-        "spotId": "sun-home"
+        "spotId": "sun-residence"
       },
       {
         "asset": {
           "height": 0.8634924055077136,
           "source": "孙中山纪念馆第二版：增加屋顶退台天窗体量、屋顶花园、后立面竖向壁柱与次入口，70×52 m、高约 17 m",
-          "url": "/generated/c46a1861b1bbc014c871422ea0f00da3e0a37dd68c4d63f2/model.glb"
+          "url": "/assets/scenics/sun-yat-sen/models/c46a1861b1bbc014c871422ea0f00da3e0a37dd68c4d63f2/model.glb"
         },
         "at": [
           -6.45,
           -3.3
         ],
-        "id": "memorial",
+        "id": "memorial-museum",
         "lift": 0,
         "model": "asset",
         "parameters": {},
         "rotation": 0.62,
         "scale": 1,
-        "spotId": "memorial"
+        "spotId": "memorial-museum"
       },
       {
         "asset": {
           "height": 0.429234579205513,
           "source": "自制：source/sight-village.mjs（主）+ sight-village-house.mjs（民居）+ sight-village-props.mjs（配景）+ sight-village-kit.mjs（构件），6 栋清末民初翠亨灰砖民居：青砖 #8d928d、白砖缝、乌瓦 #4b5150、木门 #6b4632、花岗岩 #b9b4a7，含 2.1 m 石板巷、院墙、巷口门楼、大榕树、石井与水缸。按真实米制建模后整体缩放为地图单位（1 单位 = 19.9075 m）。",
-          "url": "/generated/0a7c132158a2e5d6427e52b524aebcd13da3717ba3627fa0/model.glb"
+          "url": "/assets/scenics/sun-yat-sen/models/0a7c132158a2e5d6427e52b524aebcd13da3717ba3627fa0/model.glb"
         },
         "at": [
           -2.3,
           -3.36
         ],
-        "id": "village-houses",
+        "id": "folk-houses",
         "lift": 0,
         "model": "asset",
         "parameters": {},
         "rotation": 0,
         "scale": 1,
-        "spotId": "village-houses"
+        "spotId": "folk-houses"
       },
       {
         "asset": {
           "height": 0.3435885962098837,
           "source": "自建模型 sight-yangyin：清光绪十四年（1888）岭南“三间两廊”砖木民居，台基/三开间主屋/两廊廊房/院墙门楼/双坡瓦顶/天井庭院，全部按真实米数建模后统一缩放（1 单位 = 19.9075 m），尺寸 17.44×12.73×6.76 m，正面朝 +Z。脚本 source/sight-yangyin*.mjs。",
-          "url": "/generated/5e6c813940a7c86a7a49b2bb10317e0c83baf5c509314c25/model.glb"
+          "url": "/assets/scenics/sun-yat-sen/models/5e6c813940a7c86a7a49b2bb10317e0c83baf5c509314c25/model.glb"
         },
         "at": [
           -6.76,
@@ -2785,7 +2785,7 @@
         "asset": {
           "height": 0.33598590828478336,
           "source": "自建：陆皓东故居青砖小院民居（13.8×12 m，檐高约 5.6 m，脊高 6.2 m），程序化几何 + 顶点材质，无外部贴图。",
-          "url": "/generated/5ce20ea6564bc0dc9beeefb4304b6ef4b3455b420603c77b/model.glb"
+          "url": "/assets/scenics/sun-yat-sen/models/5ce20ea6564bc0dc9beeefb4304b6ef4b3455b420603c77b/model.glb"
         },
         "at": [
           -4.4,
@@ -2803,73 +2803,73 @@
         "asset": {
           "height": 0.4247388164512813,
           "source": "程序化建模：冯氏宗祠（中山市级文保，三开间两进宗祠）。台基/头门/天井/正堂/侧廊/院墙/花木由 source/sight-feng*.mjs 生成，尺寸按 1 单位=19.9075 m 缩放，约 19.96 × 14.24 × 8.46 m；青砖白缝、花岗岩勒脚石柱、木门石框、金底深色匾额、深灰瓦硬山顶抬升瓦脊与灰塑脊饰。references: source/brief.md（形制、色板）、公开资料（宗祠三开间两进形制）。",
-          "url": "/generated/b20d704ef4da3d31e30cdfa66f0526cacd1eaa4c1f6c958e/model.glb"
+          "url": "/assets/scenics/sun-yat-sen/models/b20d704ef4da3d31e30cdfa66f0526cacd1eaa4c1f6c958e/model.glb"
         },
         "at": [
           1.22,
           -7.63
         ],
-        "id": "feng-shrine",
+        "id": "feng-ancestral-hall",
         "lift": 0,
         "model": "asset",
         "parameters": {},
         "rotation": 0,
         "scale": 1,
-        "spotId": "feng-shrine"
+        "spotId": "feng-ancestral-hall"
       },
       {
         "asset": {
           "height": 0.4795170668512583,
           "source": "source/sight-zhenyi.mjs 及 sight-zhenyi-{kit,dims,house,wings,roofs,yard}.mjs 程序化建模：杨氏贞义堂，两进厅堂夹小天井、两侧廊房，青砖白缝、花岗岩台基石阶、木梁架、石框门窗与砖砌券门、深灰瓦硬山顶、灰塑脊饰翘角，按真实米数 20×16 m、总高 9 m 建模后整体缩放为地图单位（1 单位=19.9075 m）",
-          "url": "/generated/6f7d70dac5178273e65f6f90edd55a202175291b0dbb0d56/model.glb"
+          "url": "/assets/scenics/sun-yat-sen/models/6f7d70dac5178273e65f6f90edd55a202175291b0dbb0d56/model.glb"
         },
         "at": [
           3.14,
           -5.47
         ],
-        "id": "zhenyi",
+        "id": "zhenyi-hall",
         "lift": 0,
         "model": "asset",
         "parameters": {},
         "rotation": -0.5,
         "scale": 1,
-        "spotId": "zhenyi"
+        "spotId": "zhenyi-hall"
       },
       {
         "asset": {
           "height": 0.20896616810932755,
           "source": "警世钟第二版：去掉遮挡顶盖，改为露明花岗岩钟架，铸铜钟 1.2 m 径、2 m 高，金铭文与石栏清晰可见",
-          "url": "/generated/fb7e18d59260690cf9f4fc1ae9dd947f9a5ababa07904863/model.glb"
+          "url": "/assets/scenics/sun-yat-sen/models/fb7e18d59260690cf9f4fc1ae9dd947f9a5ababa07904863/model.glb"
         },
         "at": [
           -3.57,
           -3.45
         ],
-        "id": "bell",
+        "id": "warning-bell",
         "lift": 0,
         "model": "asset",
         "parameters": {},
         "rotation": 0,
         "scale": 1,
-        "spotId": "bell"
+        "spotId": "warning-bell"
       },
       {
         "asset": {
           "height": 0.5335418824106455,
           "source": "自制 Three.js 脚本建模：source/sight-lecture.mjs + sight-lecture-kit/base/planting/body/roof.mjs。孙中山演讲厅（翠亨孙中山故居纪念馆，OSM 轮廓约 23 × 15.5 m），按 1 单位 = 19.9075 m 同比例缩放；浅灰白墙面 #d7dad6 与灰塑线脚，五开间方柱门廊、竖向长窗、中央木门、浅坡深灰瓦四坡顶与灰塑正脊，前三级石阶与小广场、两侧绿化池。形制为纪念性讲堂设计，非史实复原。",
-          "url": "/generated/9ef963a999462d38a643d9f3cbdcce59302cd2df481a5bef/model.glb"
+          "url": "/assets/scenics/sun-yat-sen/models/9ef963a999462d38a643d9f3cbdcce59302cd2df481a5bef/model.glb"
         },
         "at": [
           -2.99,
           0.99
         ],
-        "id": "lecture-hall",
+        "id": "conference-hall",
         "lift": 0,
         "model": "asset",
         "parameters": {},
         "rotation": -0.31,
         "scale": 1,
-        "spotId": "lecture-hall"
+        "spotId": "conference-hall"
       }
     ],
     "lotus": {
@@ -2881,7 +2881,7 @@
       "maxPads": 1,
       "seed": 3
     },
-    "mapId": "scenic-amap-b02f802mx8",
+    "mapId": "sun-yat-sen",
     "quality": {
       "landTextureResolution": 384,
       "shadowMapSize": 4096,
@@ -2899,8 +2899,8 @@
         "rotation": 0,
         "scale": 1,
         "source": "翠亨村核心区地面网格（北段），0.05 单位步长，带 UV，贴图集",
-        "texture": "/generated/6508053af81acdefb7390ba0c580b82c574895c52afd4475/texture.png",
-        "url": "/generated/9077cce86181359ee56168dd30658274c97e1b280ab9db70/model.glb"
+        "texture": "/assets/scenics/sun-yat-sen/models/6508053af81acdefb7390ba0c580b82c574895c52afd4475/texture.png",
+        "url": "/assets/scenics/sun-yat-sen/models/9077cce86181359ee56168dd30658274c97e1b280ab9db70/model.glb"
       },
       {
         "at": [
@@ -2913,8 +2913,8 @@
         "rotation": 0,
         "scale": 1,
         "source": "翠亨村核心区地面网格（中段），0.05 单位步长，带 UV，贴图集",
-        "texture": "/generated/6508053af81acdefb7390ba0c580b82c574895c52afd4475/texture.png",
-        "url": "/generated/21177859b9b8346f86608af89583aeb66b2c8cb8ddbb94cd/model.glb"
+        "texture": "/assets/scenics/sun-yat-sen/models/6508053af81acdefb7390ba0c580b82c574895c52afd4475/texture.png",
+        "url": "/assets/scenics/sun-yat-sen/models/21177859b9b8346f86608af89583aeb66b2c8cb8ddbb94cd/model.glb"
       },
       {
         "at": [
@@ -2927,8 +2927,8 @@
         "rotation": 0,
         "scale": 1,
         "source": "翠亨村核心区地面网格（南段），0.05 单位步长，带 UV，贴图集",
-        "texture": "/generated/6508053af81acdefb7390ba0c580b82c574895c52afd4475/texture.png",
-        "url": "/generated/ef6a2e36b91c6b24fa941eb3ac17d06b8bb504714c98e090/model.glb"
+        "texture": "/assets/scenics/sun-yat-sen/models/6508053af81acdefb7390ba0c580b82c574895c52afd4475/texture.png",
+        "url": "/assets/scenics/sun-yat-sen/models/ef6a2e36b91c6b24fa941eb3ac17d06b8bb504714c98e090/model.glb"
       },
       {
         "at": [
@@ -2941,7 +2941,7 @@
         "rotation": 0,
         "scale": 1,
         "source": "沙盘木边框，随地面高程贴合",
-        "url": "/generated/abc748f793ece6c2bf848e78c0177dde3f04bd247afa7236/model.glb"
+        "url": "/assets/scenics/sun-yat-sen/models/abc748f793ece6c2bf848e78c0177dde3f04bd247afa7236/model.glb"
       },
       {
         "at": [
@@ -2954,7 +2954,7 @@
         "rotation": 0,
         "scale": 1,
         "source": "翠亨村核心区自制植被：大榕/香樟、少量杉、花树与灌木共 1500 株，按地类密度分布，避开水面、道路、建筑与景点占地",
-        "url": "/generated/3e3c2dd5d46c9ff3123c649ca5c4708c05324e647d3b4aaa/model.glb"
+        "url": "/assets/scenics/sun-yat-sen/models/3e3c2dd5d46c9ff3123c649ca5c4708c05324e647d3b4aaa/model.glb"
       },
       {
         "at": [
@@ -2967,7 +2967,7 @@
         "rotation": 0,
         "scale": 1,
         "source": "翠亨村副游客中心背景体块：青砖墙、花岗岩台基、四坡乌瓦顶，仅作环境建筑",
-        "url": "/generated/74fa2dd01672e5e7b519ada5db5a42e9cc53992d925a84a7/model.glb"
+        "url": "/assets/scenics/sun-yat-sen/models/74fa2dd01672e5e7b519ada5db5a42e9cc53992d925a84a7/model.glb"
       },
       {
         "at": [
@@ -2980,7 +2980,7 @@
         "rotation": 0,
         "scale": 1,
         "source": "核心区 21 株自制大榕树/香樟近景树：树干、板根、分枝与分层冠幅，单株高 10–16 m，按真实比例",
-        "url": "/generated/c9b78fff076070379832244ab3cd2120aad61cf02127d1c5/model.glb"
+        "url": "/assets/scenics/sun-yat-sen/models/c9b78fff076070379832244ab3cd2120aad61cf02127d1c5/model.glb"
       },
       {
         "at": [
@@ -2993,7 +2993,7 @@
         "rotation": 0.62,
         "scale": 1,
         "source": "孙中山纪念馆前置门廊细节：15 m 宽玻璃门厅、金属竖梃、出挑雨篷、两侧券龛、13 跨盲券浮雕与竖向壁柱",
-        "url": "/generated/e9d0811db56211df6f7dd7a667fd101ef81a20579c0045be/model.glb"
+        "url": "/assets/scenics/sun-yat-sen/models/e9d0811db56211df6f7dd7a667fd101ef81a20579c0045be/model.glb"
       }
     ],
     "schemaVersion": 1,
@@ -3008,10 +3008,10 @@
   "manifest": {
     "defaultStyle": "sandtable",
     "geography": "./geography.json",
-    "id": "scenic-amap-b02f802mx8",
+    "id": "sun-yat-sen",
     "interaction": "./interaction.json",
     "layout": "./layout.json",
-    "name": "孙中山故居纪念馆",
+    "name": "孙中山故居 · 翠亨寻迹",
     "schemaVersion": 1,
     "styles": [
       "sandtable",
