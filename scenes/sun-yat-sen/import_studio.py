@@ -4,6 +4,7 @@ Usage: python3 scenes/sun-yat-sen/import_studio.py /path/to/scene.json --base-ur
 The input is a single scene record, never a full account/workspace backup.
 """
 import argparse
+import hashlib
 import json
 import re
 import struct
@@ -52,6 +53,7 @@ def main():
     parser.add_argument('record', type=Path)
     parser.add_argument('--base-url', required=True)
     parser.add_argument('--asset-cache', type=Path)
+    parser.add_argument('--downloads', type=Path, help='Find completed files by SHA-256 prefix; never use .crdownload files')
     args = parser.parse_args()
     remote = json.loads(args.record.read_text())
     assert remote['id'] == STUDIO_ID
@@ -69,12 +71,20 @@ def main():
         assert spot.get('factSource') == expected['factSource'], spot['id']
     mapping = {**SPOT_IDS, STUDIO_ID: 'sun-yat-sen', STUDIO_ID + '-interaction': 'sun-yat-sen-interaction'}
     staged = []
+    completed = {}
+    if args.downloads:
+        for path in args.downloads.iterdir():
+            if path.is_file() and path.suffix.lower() in ('.glb', '.png'):
+                completed[hashlib.sha256(path.read_bytes()).hexdigest()[:48]] = path
     for url in sorted({u for u in strings(package) if u.startswith('/generated/')}):
         if not re.fullmatch(r'/generated/[0-9a-f]+/(model\.glb|texture\.png)', url):
             raise ValueError('Unexpected asset path: ' + url)
         rel = Path(url.removeprefix('/generated/'))
         cached = args.asset_cache / rel if args.asset_cache else None
-        data = cached.read_bytes() if cached and cached.is_file() else urllib.request.urlopen(args.base_url.rstrip('/') + url, timeout=60).read()
+        found = cached if cached and cached.is_file() else completed.get(rel.parts[0])
+        data = found.read_bytes() if found else urllib.request.urlopen(args.base_url.rstrip('/') + url, timeout=60).read()
+        if hashlib.sha256(data).hexdigest()[:48] != rel.parts[0]:
+            raise ValueError('Asset hash does not match published reference: ' + url)
         validate_asset(data, rel.name)
         target = SITE / 'assets/scenics/sun-yat-sen/models' / rel
         mapping[url] = '/' + target.relative_to(SITE).as_posix()
