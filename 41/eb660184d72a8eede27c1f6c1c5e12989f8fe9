@@ -1,0 +1,33 @@
+app.js
+  s_6bc4aaaf5f5d34::t_348a7bad1c0512 1
+scenes/summer-palace/build_scene.py
+  s_a0216305110394::t_7544495e527c40 81-82,164-165,171,195
+index.html
+  s_6bc4aaaf5f5d34::t_348a7bad1c0512 1
+scenes/summer-palace/editorial.json
+  s_a0216305110394::t_7544495e527c40 1-62
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.51-trip",
+  "base_commit_sha": "41eb660184d72a8eede27c1f6c1c5e12989f8fe9",
+  "prompts": {},
+  "sessions": {
+    "s_6bc4aaaf5f5d34": {
+      "agent_id": {
+        "tool": "chengxiaobang",
+        "id": "s_renu3fiyhkj7",
+        "model": "claude-kr-claude-opus-5.5[1M]"
+      },
+      "human_author": "haojiaxu <haojiaxu@trip.com>"
+    },
+    "s_a0216305110394": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1674f-9160-7bb0-afb2-0e32c8d8d1b8",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "haojiaxu <haojiaxu@trip.com>"
+    }
+  }
+}
