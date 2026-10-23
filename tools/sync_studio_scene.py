@@ -7,6 +7,7 @@ Usage: python3 tools/sync_studio_scene.py BACKUP scenes/summer-palace \
 """
 import argparse
 import copy
+import gzip
 import json
 import shutil
 import struct
@@ -83,7 +84,11 @@ def main():
     local['publishNumber']=remote['publishNumber'];local['publishedAt']=remote['publishedAt'];local['draft']=False
     local['published']['map'].update(name='颐和园 · 湖山园林绘卷',legend='依据 OpenStreetMap 与三维地图坐标绘制；园林插画示意，非测绘地图',custom=True)
     if not (scene/'map-illustrated.png').is_file():raise ValueError('Missing aligned 2D illustration')
-    for target,data in staged:target.parent.mkdir(parents=True,exist_ok=True);target.write_bytes(data)
+    for target,data in staged:
+        target.parent.mkdir(parents=True,exist_ok=True)
+        target.write_bytes(data)
+        if sid == 'summer-palace' and target.suffix == '.glb':
+            target.with_suffix('.glb.gz').write_bytes(gzip.compress(data, compresslevel=9, mtime=0))
     shutil.copyfile(scene/'map-illustrated.png',scene/'map.png')
     (scene/'studio-map-package.json').write_text(json.dumps(pkg,ensure_ascii=False,indent=2))
     (scene/'scenic.json').write_text(json.dumps(local,ensure_ascii=False,indent=1))
