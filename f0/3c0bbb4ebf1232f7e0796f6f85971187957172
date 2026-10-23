@@ -1,0 +1,23 @@
+tools/asset-pipeline/build-scene-runtime.py
+  s_6eff5b735640ab::t_4896f05e64ddfb 17-23
+  s_6eff5b735640ab::t_9578e09a3210d4 6-7,24,30,40,45-50
+tools/asset-pipeline/scene-loading.test.mjs
+  s_6eff5b735640ab::t_8253ac0a095181 1-4,6-55
+  s_6eff5b735640ab::t_9578e09a3210d4 5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.51-trip",
+  "base_commit_sha": "f03c0bbb4ebf1232f7e0796f6f85971187957172",
+  "prompts": {},
+  "sessions": {
+    "s_6eff5b735640ab": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1675c-a8ee-77f3-ab12-60c88bd38369",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "haojiaxu <haojiaxu@trip.com>"
+    }
+  }
+}
