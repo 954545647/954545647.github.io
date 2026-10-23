@@ -34,3 +34,20 @@ Commons “Ancestral Home” 文件实际展示现存故居主楼，不作为祖
 已完整同步 17 个 GLB 模型和 1 张 PNG 贴图，共 52.4 MB。所有文件按源端引用的 SHA-256 校验，GLB 无外部依赖。`map-package.json` 使用本仓库内的公开资源路径，游客端无需连接内网生成端。用 `import_studio.py` 导入单景区发布记录和模型资源后，再运行通用 `tools/add_scenic.py`。该脚本映射生成端与游客端的九个景点 ID，保留 2D 的独立坐标裁切、照片署名及官方出处，不导入账号或制作历史。
 
 游客端在启动时将这份新版沙盘地图注册到新版运行时，并共享到旧版路由索引，确保首页入口、3D 与 2D 切换使用同一份景点映射。
+
+## GitHub Pages 三维加载优化（2026-10-23）
+
+原始模型保留用于再导入和校验。游客端改读 `assets/scenics/sun-yat-sen/optimized/`：17 个模型加一张贴图的传输量由 52,392,712 字节降至 6,136,859 字节，减少 88.3%。模型使用 Meshopt、顶点去重和 gzip，未删减三角面；坐标量化为 16 位并校验解码后的包围盒误差。贴图采用无损 WebP，重建时逐像素校验。`.glb.bin` 是 gzip 传输文件，由运行时解压，避免静态托管的 Content-Encoding 差异。
+
+孙中山景区独立运行时限制最多同时下载 3 个资源，每个资源最多尝试 3 次，检查完整长度和 SHA-256。连续 30 秒无数据才触发空闲超时，每次尝试另设 180 秒上限；正常持续传输不会因单纯超过 30 秒而中断。加载界面显示进度和重试状态，失败后保留明确的重试按钮。所有模型、贴图下载并解析成功后才显示“三维资源 18/18 已就绪”，避免把缺模型的场景当作成功。离开景区会取消未完成下载。
+
+重建和验证：
+
+```sh
+npm ci --prefix tools/asset-pipeline
+npm run optimize:sun --prefix tools/asset-pipeline
+python3 tools/asset-pipeline/build-sun-runtime.py
+npm test --prefix tools/asset-pipeline
+```
+
+`optimization-report.json` 保存压缩前后大小、映射和完整校验值。`vendor/studio-20261023/meshopt-LICENSE.md` 保留解码器的 MIT 许可证。自动测试覆盖并发限制、共享资源去重、断流重试、完整性校验、空闲超时、慢速持续传输和页面退出取消。浏览器另验证完整渲染，以及注入连续三次 HTTP 503 后手动重试恢复。

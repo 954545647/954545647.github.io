@@ -1,0 +1,1 @@
+{"name":"jingjian-asset-pipeline","private":true,"type":"module","scripts":{"optimize:sun":"node optimize-sun.mjs","test":"node --test *.test.mjs"},"dependencies":{"@gltf-transform/core":"4.5.1","@gltf-transform/extensions":"4.5.1","@gltf-transform/functions":"4.5.1","meshoptimizer":"1.3.0","sharp":"0.35.5"}}
