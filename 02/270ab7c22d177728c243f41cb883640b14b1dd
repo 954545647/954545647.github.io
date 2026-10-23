@@ -1,0 +1,19 @@
+tools/asset-pipeline/build-scene-runtime.py
+  s_6eff5b735640ab::t_cdf68971a0b24d 47
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.51-trip",
+  "base_commit_sha": "02270ab7c22d177728c243f41cb883640b14b1dd",
+  "prompts": {},
+  "sessions": {
+    "s_6eff5b735640ab": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1675c-a8ee-77f3-ab12-60c88bd38369",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "haojiaxu <haojiaxu@trip.com>"
+    }
+  }
+}
