@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import assets from '../../vendor/studio-20261023/qijiang-park-assets-v1.js';
-import { beginAssets, loadModel, assetsComplete, endAssets } from '../../vendor/studio-20261023/qijiang-park-downloads-v3.js';
+import { beginAssets, loadModel, assetsComplete, endAssets } from '../../vendor/studio-20261023/qijiang-park-downloads-v4.js';
 
 const root = new URL('../../', import.meta.url);
 const entries = Object.entries(assets);

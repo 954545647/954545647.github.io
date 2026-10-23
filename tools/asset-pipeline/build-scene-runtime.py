@@ -44,6 +44,7 @@ text = 'import{beginAssets,assetsComplete,endAssets}from"./sun-downloads-v1.js";
 text = replace_once(text, '"./chunk-CLUPJWV7.js"', '"./chunk-CLUPJWV7-sun-v1.js"')
 text = replace_once(text, ',ne=Qt(le,{geo:F,layout:w,style:j}),Fe=!1;', ',assetSession=beginAssets(l),ne=Qt(le,{geo:F,layout:w,style:j}),Fe=!1;')
 text = replace_once(text, 'ne.assetsReady().then(()=>{Fe=!0})', 'ne.assetsReady().then(()=>{Fe=assetsComplete(assetSession)})')
+text = replace_once(text, '$e=requestAnimationFrame(va);let e=', '$e=requestAnimationFrame(va);if(!Fe)return;let e=')
 text = replace_once(text, 'return va(),()=>{Z=!1,', 'return va(),()=>{endAssets(assetSession);Z=!1,')
 text = replace_once(text, '</p></div>\n</main>`,d();let r=', '</p><button id="m3-load-retry" class="m3-chip" hidden>重新加载三维地图</button></div><span id="m3-assets-status" role="status" hidden style="position:absolute;left:20px;bottom:86px;z-index:4;padding:6px 12px;border-radius:20px;background:#ffffffe6;color:#315c4e;font-size:12px"></span>\n</main>`,d();let r=')
 text = text.replace('\\u6B63\\u5728\\u94FA\\u5F00\\u6E56\\u5C71\\u2026', '正在加载三维地图…')
