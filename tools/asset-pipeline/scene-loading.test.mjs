@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import assets from '../../vendor/studio-20261023/qijiang-park-assets-v1.js';
-import { beginAssets, loadModel, assetsComplete, endAssets } from '../../vendor/studio-20261023/qijiang-park-downloads-v4.js';
+import { beginAssets, loadModel, assetsComplete, endAssets } from '../../vendor/studio-20261023/qijiang-park-downloads-v5.js';
 
 const root = new URL('../../', import.meta.url);
 const entries = Object.entries(assets);
@@ -21,7 +21,7 @@ test('all scene downloads finish before any model parsing starts', async t => {
   const holdLast = new Promise(resolve => { releaseLast = resolve; });
   const lastUrl = entries.at(-1)[1].url;
   t.mock.method(globalThis, 'fetch', async url => {
-    if (url === lastUrl) { startedLast(); await holdLast; }
+    if (url.endsWith(lastUrl)) { startedLast(); await holdLast; }
     return new Response(await readFile(new URL(assetPath(url), root)));
   });
   const view = dom(), session = beginAssets(view);
@@ -55,18 +55,20 @@ test('an incomplete scene never starts parsing or reports ready', async t => {
   assert.equal(assetsComplete(session), false);
 });
 
-test('retries a Pages failure through the immutable GitHub mirror', async t => {
+test('uses the immutable GitHub mirror first and retries through Pages', async t => {
   const firstUrl = entries[0][1].url;
-  const mirrors = [];
+  const mirrors = [], pages = [];
   t.mock.method(globalThis, 'fetch', async url => {
-    if (url === firstUrl) throw new TypeError('Pages connection stalled');
     if (url.startsWith('https:')) mirrors.push(url);
+    else pages.push(url);
+    if (url.startsWith('https:') && url.endsWith(firstUrl)) throw new TypeError('Mirror connection stalled');
     return new Response(await readFile(new URL(assetPath(url), root)));
   });
   const session = beginAssets(dom());
   t.after(() => endAssets(session));
   await loadModel({ setMeshoptDecoder() {}, parseAsync() { return {}; } }, entries[0][0]);
-  assert.equal(mirrors.length, 1);
+  assert.equal(mirrors.length, 16);
+  assert.deepEqual(pages, [firstUrl]);
   assert.match(mirrors[0], /^https:\/\/raw\.githubusercontent\.com\/954545647\/954545647\.github\.io\/[0-9a-f]{40}\/assets\//);
   assert.equal(assetsComplete(session), true);
 });

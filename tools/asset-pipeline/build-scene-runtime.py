@@ -28,9 +28,11 @@ if FALLBACK_COMMIT:
     fallback=f'https://raw.githubusercontent.com/954545647/954545647.github.io/{FALLBACK_COMMIT}'
     loader=replace_once(loader, 'createAssetQueue({ onProgress: update,', '''createAssetQueue({ fetcher: (url, options) => {
     // The immutable mirror contains the same public files; SHA-256 still applies.
-    const source = options.cache === 'reload' ? '''+repr(fallback)+''' + url : url;
+    const source = options.cache === 'reload' ? url : '''+repr(fallback)+''' + url;
     return fetch(source, options);
   }, onProgress: update,''')
+    loader=loader.replace('./asset-queue-v1.mjs','./asset-queue-v2.mjs')
+    (VENDOR / 'asset-queue-v2.mjs').write_text((VENDOR / 'asset-queue-v1.mjs').read_text())
 (VENDOR / f'{SID}-downloads-{VERSION}.js').write_text(loader)
 
 text = (VENDOR / 'chunk-CLUPJWV7.js').read_text()

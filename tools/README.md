@@ -48,7 +48,9 @@ SVG 使用地图包的完整坐标范围，北向上；转换成同宽高比例�
 
 ```sh
 node tools/asset-pipeline/optimize-scene.mjs qijiang-park
-python3 tools/asset-pipeline/build-scene-runtime.py qijiang-park v4 f03c0bbb4ebf1232f7e0796f6f85971187957172
+python3 tools/asset-pipeline/build-scene-runtime.py qijiang-park v5 f03c0bbb4ebf1232f7e0796f6f85971187957172
 ```
 
 优化只做网格编码压缩与纹理无损转换，并检查三角形数量、边界和像素一致性。每个场景独立生成清单与入口，复用已验证的下载队列。
+
+当前游客入口使用 `boot-qijiang-v5.js` → `app-qijiang-v5.js`。后者是 `app.js` 的发布快照；后续修改入口时，应生成新的版本文件并同步更新 boot 与 index，避免 CDN 缓存旧脚本。
