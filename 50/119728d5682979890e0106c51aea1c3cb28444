@@ -1,0 +1,33 @@
+.gitignore
+  s_6eff5b735640ab::t_8dbb9c4a7aa1ad 5
+vendor/studio-20261023/asset-queue-v1.mjs
+  s_6eff5b735640ab::t_02a18e4d923fee 1-85
+vendor/studio-20261023/sun-downloads-v1.js
+  s_6eff5b735640ab::t_02a18e4d923fee 1-19,22-48,53-68
+  s_6eff5b735640ab::t_a3ad97804312e2 20-21,49-52
+tools/asset-pipeline/build-sun-runtime.py
+  s_6eff5b735640ab::t_329d679cda2e7a 1-35
+tools/asset-pipeline/downloads.test.mjs
+  s_6eff5b735640ab::t_4748a508fefc50 1-75
+boot-sun3d-v1.js
+  s_6eff5b735640ab::t_329d679cda2e7a 1-22
+tools/asset-pipeline/optimize-sun.mjs
+  s_6eff5b735640ab::t_a3ad97804312e2 5,40-44,54,58-59
+  s_6eff5b735640ab::t_8dbb9c4a7aa1ad 1-4,6-39,45-53,55-57,60-65
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.51-trip",
+  "base_commit_sha": "50119728d5682979890e0106c51aea1c3cb28444",
+  "prompts": {},
+  "sessions": {
+    "s_6eff5b735640ab": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1675c-a8ee-77f3-ab12-60c88bd38369",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "haojiaxu <haojiaxu@trip.com>"
+    }
+  }
+}
