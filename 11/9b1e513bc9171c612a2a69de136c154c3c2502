@@ -1,0 +1,20 @@
+tools/render_scenic_map.py
+  s_a0216305110394::t_cd88478c7dae8d 2,33-41,62,64,70-71
+  s_a0216305110394::t_306aebcd1cffef 61,63,65-66,68-69
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.51-trip",
+  "base_commit_sha": "119b1e513bc9171c612a2a69de136c154c3c2502",
+  "prompts": {},
+  "sessions": {
+    "s_a0216305110394": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1674f-9160-7bb0-afb2-0e32c8d8d1b8",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "haojiaxu <haojiaxu@trip.com>"
+    }
+  }
+}
