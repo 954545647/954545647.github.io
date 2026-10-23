@@ -1,11 +1,11 @@
 const prefix = '/assets/scenics/summer-palace/models/';
 const textures = new Map();
 const waiting = [];
-let active = 0, total = 0, finished = 0, failed = 0;
+let active = 0, total = 0, finished = 0, failed = 0, received = 0;
 
 function progress() {
   const text = document.querySelector('#m3-load-text');
-  if (text) text.textContent = `正在加载园林地图 · ${finished}/${total}`;
+  if (text) text.textContent = `正在加载园林地图 · ${finished}/${total} · 已接收 ${(received / 1e6).toFixed(1)} MB`;
   if (failed) {
     const status = document.querySelector('#m3-status');
     if (status) status.textContent = '部分地图资源下载失败，请刷新重试';
@@ -32,13 +32,37 @@ function schedule(work) {
 async function download(url) {
   let error;
   for (let attempt = 0; attempt < 3; attempt++) {
+    const controller = new AbortController();
+    let timer;
+    const resetIdleTimeout = () => {
+      clearTimeout(timer);
+      timer = setTimeout(() => controller.abort(), 60000);
+    };
     try {
-      const response = await fetch(url, {signal: AbortSignal.timeout(60000)});
+      resetIdleTimeout();
+      const response = await fetch(url, {signal: controller.signal});
       if (!response.ok) throw new Error(`HTTP ${response.status}: ${url}`);
-      return await response.arrayBuffer();
+      const reader = response.body.getReader();
+      const chunks = [];
+      let length = 0;
+      for (;;) {
+        const {done, value} = await reader.read();
+        resetIdleTimeout();
+        if (done) break;
+        chunks.push(value);
+        length += value.byteLength;
+        received += value.byteLength;
+        progress();
+      }
+      const bytes = new Uint8Array(length);
+      let offset = 0;
+      for (const chunk of chunks) { bytes.set(chunk, offset); offset += chunk.byteLength; }
+      return bytes.buffer;
     } catch (reason) {
       error = reason;
       if (attempt < 2) await new Promise(resolve => setTimeout(resolve, 1000 * (attempt + 1)));
+    } finally {
+      clearTimeout(timer);
     }
   }
   throw error;
