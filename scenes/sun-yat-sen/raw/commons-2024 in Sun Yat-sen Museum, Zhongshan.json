@@ -1,0 +1,22 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "categorymembers": [
+      {
+        "pageid": 151583905,
+        "ns": 6,
+        "title": "File:Conference Hall, Sun Yat-sen Memorial Museum, Zhongshan.jpg"
+      },
+      {
+        "pageid": 151583909,
+        "ns": 6,
+        "title": "File:Map of the Museum, Sun Yat-sen Memorial Museum, Zhongshan.jpg"
+      },
+      {
+        "pageid": 151583911,
+        "ns": 6,
+        "title": "File:Memorial Museum of Sun Yat-sen, Zhongshan.jpg"
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 2,
+  "id": "sun-yat-sen",
+  "name": "孙中山故居 · 翠亨寻迹",
+  "frame": {
+    "origin": [
+      113.52265,
+      22.44555
+    ],
+    "unitMeters": 10,
+    "bounds": {
+      "minX": -20.577,
+      "minZ": -16.581,
+      "maxX": 20.577,
+      "maxZ": 16.581
+    },
+    "axes": {
+      "x": "east",
+      "z": "south"
+    }
+  },
+  "boundsWgs84": [
+    113.52065,
+    22.44405,
+    113.52465,
+    22.44705
+  ],
+  "places": {
+    "sun-residence": [
+      3.876,
+      3.118
+    ],
+    "memorial-museum": [
+      -5.286,
+      1.199
+    ],
+    "folk-houses": [
+      2.33,
+      0.596
+    ],
+    "yang-yin": [
+      -6.556,
+      -8.337
+    ],
+    "lu-haodong": [
+      -1.864,
+      -10.584
+    ],
+    "feng-ancestral-hall": [
+      9.34,
+      -7.844
+    ],
+    "zhenyi-hall": [
+      13.148,
+      -3.569
+    ],
+    "warning-bell": [
+      -0.208,
+      0.432
+    ],
+    "conference-hall": [
+      0.951,
+      9.201
+    ]
+  },
+  "provenance": {
+    "attribution": "© OpenStreetMap contributors",
+    "license": "ODbL-1.0",
+    "source": "https://tiles.openfreemap.org/planet/20261018_080001_pt/14/13358/7143.pbf",
+    "retrieved": "2026-10-23",
+    "notes": [
+      "图幅为编辑选定的核心区，不表示景区法定边界。",
+      "未纳入影视城复制景点、农场、远处墓群与学校。",
+      "z14 矢量瓦片坐标存在数米量化误差。"
+    ]
+  }
+}

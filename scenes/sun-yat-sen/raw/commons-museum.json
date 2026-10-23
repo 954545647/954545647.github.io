@@ -1,0 +1,42 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "categorymembers": [
+      {
+        "pageid": 132703068,
+        "ns": 14,
+        "title": "Category:2023 in Sun Yat-sen Museum, Zhongshan"
+      },
+      {
+        "pageid": 165583518,
+        "ns": 14,
+        "title": "Category:2024 in Sun Yat-sen Museum, Zhongshan"
+      },
+      {
+        "pageid": 132703086,
+        "ns": 14,
+        "title": "Category:Sun Yat-sen Museum, Zhongshan - Exhibitions"
+      },
+      {
+        "pageid": 132703054,
+        "ns": 14,
+        "title": "Category:Sun Yat-sen Museum, Zhongshan - Interiors"
+      },
+      {
+        "pageid": 151583905,
+        "ns": 6,
+        "title": "File:Conference Hall, Sun Yat-sen Memorial Museum, Zhongshan.jpg"
+      },
+      {
+        "pageid": 151583909,
+        "ns": 6,
+        "title": "File:Map of the Museum, Sun Yat-sen Memorial Museum, Zhongshan.jpg"
+      },
+      {
+        "pageid": 151583911,
+        "ns": 6,
+        "title": "File:Memorial Museum of Sun Yat-sen, Zhongshan.jpg"
+      }
+    ]
+  }
+}

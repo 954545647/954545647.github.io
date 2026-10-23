@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-10-23",
+  "title": "孙中山故居 · 翠亨寻迹",
+  "intro": "从赭红色的故居走进岭南青砖巷陌，在纪念馆、老民居与旧村塾之间，认识孙中山的故乡。九处实景，串起翠亨的一段近代记忆。",
+  "notice": "文物建筑开放、展览调整与入馆安排以纪念馆当日公告为准；请爱护建筑与陈设，遵守现场拍摄要求。",
+  "serviceSource": "https://www.sunyat-sen.org/portal/list/index.html?id=149",
+  "spots": [
+    {"id":"sun-residence","name":"孙中山故居","osmName":"孙中山故居","zone":"故居庭院","description":"赭红拱廊与岭南居家格局相遇，是这趟翠亨之行的起点。","guide":"眼前这座两层楼房建于1892年，由孙眉汇款资助、孙中山设计并主持修建。它朝向西面，外观吸收西式建筑元素，内部保留本地住宅的格局。可以先观察拱廊和门窗，再看庭院与室内的关系。1912年5月，孙中山卸任临时大总统后曾回乡在这里小住。","factSource":"https://sunyat-sen.org/portal/article/index.html?cid=85&id=27746"},
+    {"id":"memorial-museum","name":"孙中山纪念馆","osmName":"孙中山纪念馆","zone":"纪念展示区","description":"在故居西北侧，沿展览认识孙中山的一生与家庭。","guide":"这座纪念馆与故居主楼是两处不同的建筑。纪念馆在1999年开放，2025年5月完成提升后重新迎接观众。馆内常设内容围绕孙中山的生平、亲属与后裔展开。看过故居的日常生活空间，再进入展厅阅读照片、文献和实物，能把个人经历与时代背景联系起来。","factSource":"https://sunyat-sen.org/portal/article/index.html?cid=85&id=27745"},
+    {"id":"folk-houses","name":"翠亨民居展示区","osmName":"翠亨民居展示区","zone":"民居巷陌","description":"沿青砖小巷，看翠亨不同家庭的生活陈设与民俗。","guide":"这里以村落民居为线索，展示翠亨的日常生活与地方习俗。官方陈列包括侨眷家庭、中等农家、木匠作坊、杂货店等内容。放慢脚步，看看巷道、门窗和厅堂的尺度，再比较不同家庭的家具与器物。这片生活背景，让故居里的人物故事多了一层乡土温度。","factSource":"https://sunyat-sen.org/portal/list/index.html?id=101"},
+    {"id":"yang-yin","name":"杨殷故居","osmName":"杨殷故居","zone":"翠亨古村","description":"青砖、木雕与百叶窗，保存着杨殷的家庭记忆。","guide":"杨殷故居又称杨翰香堂，大约建于1888年前后。它采用岭南常见的三间两廊格局，青砖外墙与木构空间中，也能看到百叶窗和带西式趣味的装饰。室内以复原陈列和纪念展览介绍杨殷的生活与经历。游览时可以留意檐下雕饰及窗头的岭南水果纹样。","factSource":"https://www.sunyat-sen.org/portal/article/index.html?cid=146&id=25949"},
+    {"id":"lu-haodong","name":"陆皓东故居","osmName":"陆皓东故居","zone":"翠亨古村","description":"一座带庭院的朴素民居，讲述陆皓东的青少年生活。","guide":"陆皓东青少年时期曾在这座房子里生活。故居建于清代晚期，朝东开门，以三间两廊组成日常起居空间，门前还有种植岭南花木的庭院。比起故居主楼的赭红拱廊，这里的建筑风格更朴素。馆内纪念展览介绍陆皓东的经历，可与孙中山故居和冯氏宗祠连起来参观。","factSource":"https://www.sunyat-sen.org/portal/article/index.html?cid=146&id=25950"},
+    {"id":"feng-ancestral-hall","name":"冯氏宗祠","osmName":"冯氏宗祠","zone":"翠亨古村","description":"由家族祠堂兼作村塾，是孙中山早年读书的地方。","guide":"这座小祠堂曾经承担过村塾的角色。根据纪念馆资料，孙中山在1875年至1878年间曾在这里启蒙读书，并与陆皓东等同学结交。建筑采用三间两廊格局，把祭祀、家族与乡村教育的历史联系在一起。来到这里，可以想一想一个岭南村落中的孩子如何开始认识更大的世界。","factSource":"https://www.sunyat-sen.org/portal/article/index.html?cid=147&id=25954"},
+    {"id":"zhenyi-hall","name":"杨贞义堂","osmName":"贞义堂","zone":"翠亨古村","description":"又称朝议第，灰塑、青砖与天井展现岭南大宅之美。","guide":"杨贞义堂也叫朝议第，建于清代中后期，是翠亨传统大宅的代表。它沿中轴组织多进院落，门框、青砖墙和檐下装饰各有细节。天井让光线进入屋内，木窗与庭院花木又为深宅增添生活气息。观看时可把它与周边较小的民居比较，感受不同家庭的空间安排。","factSource":"https://www.sunyat-sen.org/portal/article/index.html?cid=147&id=25952"},
+    {"id":"warning-bell","name":"警世钟","osmName":"警世钟","zone":"纪念展示区","description":"树荫下的一口大钟，以铭文寄托纪念与自省。","guide":"警世钟是一处可以停下来细读文字的纪念设施。钟身一面刻有孙中山手迹，另一面收录他在1924年勉励国民的演讲内容。它借钟声唤醒人的意象，表达对孙中山的纪念。欣赏时可以绕着钟身看看文字与结构；是否允许敲钟，请遵守现场管理提示。","factSource":"https://sunyat-sen.org/portal/article/index.html?cid=85&id=27740"},
+    {"id":"conference-hall","name":"孙中山演讲厅","osmName":"孙中山演讲厅","zone":"纪念展示区","description":"园区中的公共文化活动空间，外有供人停留的广场。","guide":"这里是园区的演讲厅与公共文化活动空间。纪念馆公开的活动记录中，演讲厅旁广场曾承接展览与节日活动。走到这里，可以看看建筑入口和周边绿荫，也为这趟参观稍作停留。这里并不表示孙中山本人曾在这座现有建筑里演讲；室内是否开放及活动安排，请以现场公告为准。","factSource":"https://www.sunyat-sen.org/portal/article/index.html?cid=7&id=66334"}
+  ]
+}
