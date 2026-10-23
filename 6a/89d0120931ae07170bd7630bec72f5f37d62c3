@@ -1,0 +1,21 @@
+tools/asset-pipeline/optimize-scene.mjs
+  s_6eff5b735640ab::t_6d6c666cf48560 1-78
+scenes/qijiang-park/import_studio.py
+  s_6eff5b735640ab::t_48e637217d3f38 1-102
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.51-trip",
+  "base_commit_sha": "6a89d0120931ae07170bd7630bec72f5f37d62c3",
+  "prompts": {},
+  "sessions": {
+    "s_6eff5b735640ab": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1675c-a8ee-77f3-ab12-60c88bd38369",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "haojiaxu <haojiaxu@trip.com>"
+    }
+  }
+}
