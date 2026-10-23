@@ -1,0 +1,21 @@
+vendor/studio-20261023/summer-palace-downloads.js
+  s_a0216305110394::t_b845bf5f7fa44b 4,8,35-40,42-43,45-60,64-65
+scenes/summer-palace/README.md
+  s_a0216305110394::t_ca4c6f094af6ff 35
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.51-trip",
+  "base_commit_sha": "c17c3d12441cb01437eacaaa6a7f4ffa96df979b",
+  "prompts": {},
+  "sessions": {
+    "s_a0216305110394": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1674f-9160-7bb0-afb2-0e32c8d8d1b8",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "haojiaxu <haojiaxu@trip.com>"
+    }
+  }
+}
