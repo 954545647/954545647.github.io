@@ -29,12 +29,74 @@
   {
    "what": "开放与票务信息",
    "source": "颐和园官网",
-   "url": "https://www.summerpalace-china.com/",
+   "url": "https://summerpalace.net.cn/home.html",
    "license": "仅作事实来源链接，不搬运文字"
   }
  ],
  "coordinateIssues": [
   "Wikidata 中 德和园(Q35136521)、东宫门(Q10870031)、玉澜堂(Q15911169) 的坐标落在园区边界外约 580 米，已改用 OSM。",
   "东宫门、仁寿殿、玉澜堂、乐寿堂在 OSM 瓦片里没有可用点位，未纳入本草稿。"
- ]
+ ],
+ "editorial": {
+  "verifiedAt": "2026-10-23",
+  "method": "历史与尺寸以颐和园现官网和北京市公园管理中心为准；游览提示为编辑建议，开放情况以现场为准。",
+  "spots": {
+   "beigongmen": {
+    "guide": "北宫门是颐和园北侧的入园入口，可由地铁4号线北宫门站前往。从这一侧入园，可以先游览后湖与苏州街，再按体力选择登山或沿湖路线。",
+    "factSource": "https://summerpalace.net.cn/visit.html"
+   },
+   "suzhou-street": {
+    "guide": "苏州街在乾隆年间模仿江南水乡建造，原来供帝后体验逛市。1860年遭焚毁，现有水街于1990年在遗址上复建。沿后湖两岸的铺面和小桥，可以感受江南街市的空间布局。",
+    "factSource": "https://summerpalace.net.cn/longevity/detailhouhu/373.html"
+   },
+   "xiequyuan": {
+    "guide": "谐趣园最初名为惠山园，1751年参照无锡寄畅园营建，1811年重修时改为今名。池塘周围的亭、榭、楼与游廊，组成一座可以慢慢欣赏的园中园。",
+    "factSource": "https://summerpalace.net.cn/longevity/detailhouhu/372.html"
+   },
+   "deheyuan": {
+    "guide": "德和园从1891年开始兴建，是慈禧太后在园内看戏的地方。园中以三层大戏楼最为醒目，还有颐乐殿和庆善堂，可以结合院落布局了解清宫观戏的场景。",
+    "factSource": "https://summerpalace.net.cn/court_life/detail/344.html"
+   },
+   "zhichunting": {
+    "guide": "知春亭在昆明湖东岸、玉澜堂前的小岛上。这里背山朝阳，春意来得较早，亭名由此而来。从亭边眺望，可以把万寿山、昆明湖与远处西山的借景联系起来欣赏。",
+    "factSource": "https://summerpalace.net.cn/court_life/detail/311.html"
+   },
+   "wenchangge": {
+    "guide": "文昌阁与园西的宿云檐遥相呼应，一东一西寄寓文治与武功。游览时可以留意城关式建筑的轮廓，再沿东堤欣赏湖景。",
+    "factSource": "https://gygl.beijing.gov.cn/whgy/whgy_wsgc/201912/t20191206_885696.html"
+   },
+   "long-corridor": {
+    "guide": "长廊连接邀月门与石丈亭，全长728米，分为273间。梁枋上的彩画超过一万四千幅，能看到人物故事、山水和花鸟。沿廊慢行，可以同时欣赏彩画与昆明湖景色。",
+    "factSource": "https://summerpalace.net.cn/gallery_detail/369.html"
+   },
+   "paiyundian": {
+    "guide": "排云殿在1886年建于原大报恩延寿寺大雄宝殿的遗址上，是为慈禧太后祝寿的场所。它位于万寿山前山中轴，是理解佛香阁与湖岸建筑关系的重要一站。",
+    "factSource": "https://summerpalace.net.cn/longevity/detailqianshan/381.html"
+   },
+   "foxiangge": {
+    "guide": "佛香阁立在20米高的石台上，阁身通高36.44米，采用八面、三层、四重檐的结构。它是颐和园的视觉中心，从湖岸远望，最容易看出楼阁与万寿山的层次。",
+    "factSource": "https://summerpalace.net.cn/longevity/detailqianshan/382.html"
+   },
+   "marble-boat": {
+    "guide": "清晏舫原称石舫，1755年建成，石质船身长36米。原来的中式舱楼毁于1860年，1893年重建时改用西式装饰，并以河清海晏之意命名。可以留意船身与上层建筑的材质差别。",
+    "factSource": "https://summerpalace.net.cn/laka_spot/detail/413.html"
+   },
+   "west-causeway": {
+    "guide": "西堤的布局借鉴杭州西湖苏堤，从北到南有界湖桥、豳风桥、玉带桥、镜桥、练桥和柳桥。一路行走，可以比较六桥的不同造型，欣赏桃柳与湖水相映的景色。",
+    "factSource": "https://summerpalace.net.cn/laka_spot/detail/364.html"
+   },
+   "jade-belt-bridge": {
+    "guide": "玉带桥是昆明湖西堤六桥之一，位于豳风桥与镜桥之间。游览时可以从桥侧观察高高拱起的桥身，再从岸边欣赏它与湖水、堤柳的组合。",
+    "factSource": "https://summerpalace.net.cn/laka_spot/detail/364.html"
+   },
+   "seventeen-arch-bridge": {
+    "guide": "十七孔桥建于1750年，连接东堤与南湖岛，全长150多米。桥名来自十七个桥洞，桥头和望柱上还有五百多只石狮。过桥时可以留意不同石狮的姿态。",
+    "factSource": "https://www.summerpalace.net.cn/laka_spot/detail/362.html"
+   },
+   "bronze-ox": {
+    "guide": "这尊铜牛铸于1755年，也称金牛，卧在雕花石座上。牛背的《金牛铭》由乾隆撰写，与传统的镇水寓意相联系。它与附近的十七孔桥可以一起游览。",
+    "factSource": "https://summerpalace.net.cn/laka_spot/detail/361.html"
+   }
+  }
+ }
 }

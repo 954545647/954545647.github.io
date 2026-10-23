@@ -64,12 +64,14 @@ def convert(pkg: Path):
     entry = {
         "schema": 7,
         "id": sid,
-        "publishNumber": 1,
-        "publishedAt": None,
+        "publishNumber": draft.get("publishNumber") or 1,
+        "publishedAt": draft.get("publishedAt"),
         "published": {"title": published["title"], "intro": published["intro"],
                       "map": {k: published["map"][k] for k in ("url", "name", "legend", "custom")},
                       "spots": spots},
     }
+    if published.get("mapPackage"):
+        entry["published"]["mapPackage"] = published["mapPackage"]
     return sid, entry, dest
 
 

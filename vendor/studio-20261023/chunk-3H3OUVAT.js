@@ -1,0 +1,1 @@
+var r=e=>String(e??"").replace(/[&<>"']/g,t=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[t]);function c(e){try{let t=new URL(e);return["https:","http:"].includes(t.protocol)?t.href:""}catch{return""}}export{r as a,c as b};
