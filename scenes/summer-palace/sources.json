@@ -1,0 +1,40 @@
+{
+ "scene": "summer-palace",
+ "retrieved": "2026-10-23",
+ "datasets": [
+  {
+   "what": "园区边界",
+   "source": "Wikimedia Maps geoshape, Wikidata Q4132",
+   "url": "https://maps.wikimedia.org/geoshape?getgeojson=1&ids=Q4132",
+   "license": "ODbL 1.0 (OSM)"
+  },
+  {
+   "what": "水面、步道、东西堤、景点 POI",
+   "source": "OpenFreeMap OSM 矢量瓦片 20261018, z14",
+   "url": "https://tiles.openfreemap.org/planet",
+   "license": "ODbL 1.0 (OSM)，需署名 © OpenStreetMap contributors"
+  },
+  {
+   "what": "景点清单与交叉校验坐标",
+   "source": "Wikidata SPARQL（P361 部分 / 1.8km 范围）",
+   "url": "https://query.wikidata.org/",
+   "license": "CC0"
+  },
+  {
+   "what": "实拍照片",
+   "source": "Wikimedia Commons（逐张许可见 scenic.json credit）",
+   "url": "https://commons.wikimedia.org/",
+   "license": "CC0 / CC BY / CC BY-SA / 公有领域"
+  },
+  {
+   "what": "开放与票务信息",
+   "source": "颐和园官网",
+   "url": "https://www.summerpalace-china.com/",
+   "license": "仅作事实来源链接，不搬运文字"
+  }
+ ],
+ "coordinateIssues": [
+  "Wikidata 中 德和园(Q35136521)、东宫门(Q10870031)、玉澜堂(Q15911169) 的坐标落在园区边界外约 580 米，已改用 OSM。",
+  "东宫门、仁寿殿、玉澜堂、乐寿堂在 OSM 瓦片里没有可用点位，未纳入本草稿。"
+ ]
+}

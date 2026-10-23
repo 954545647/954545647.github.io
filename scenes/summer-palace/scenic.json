@@ -1,0 +1,565 @@
+{
+ "schema": 7,
+ "id": "summer-palace",
+ "publishNumber": 0,
+ "publishedAt": null,
+ "draft": true,
+ "published": {
+  "title": "颐和园 · 湖山之间",
+  "intro": "万寿山与昆明湖相映，从长廊、佛香阁到十七孔桥，在皇家园林里慢慢走一圈。",
+  "map": {
+   "url": "/assets/scenics/summer-palace/map-preview.png",
+   "name": "颐和园 · OSM 数据预览底图",
+   "legend": "依据 OpenStreetMap 数据生成，仅供打点校对，正式版需替换为艺术绘卷",
+   "custom": false
+  },
+  "spots": [
+   {
+    "id": "beigongmen",
+    "name": "北宫门",
+    "description": "颐和园北侧入口，出地铁北宫门站即到，进门后先经苏州街，再上后山。",
+    "guide": "北宫门正对后山中轴。进门过桥便是苏州街，沿中轴台阶上行可到须弥灵境，再翻过山脊就能俯瞰昆明湖，适合先逛后山、再下到前山湖岸的路线。",
+    "notice": "开放时间、预约方式与园中园门票以颐和园官方当日信息为准。",
+    "x": 0.721,
+    "y": 0.0317,
+    "heading": 0,
+    "scene": "后山后湖",
+    "narration": {
+     "text": "北宫门正对后山中轴。进门过桥便是苏州街，沿中轴台阶上行可到须弥灵境，再翻过山脊就能俯瞰昆明湖，适合先逛后山、再下到前山湖岸的路线。"
+    },
+    "factSource": "https://www.summerpalace-china.com/",
+    "coordinateSource": "OSM 北宫门站（近似，取地铁站点位）",
+    "lnglat": [
+     116.2713683,
+     40.0011926
+    ],
+    "photos": {
+     "front": {
+      "url": "/assets/scenics/summer-palace/spots/beigongmen/photos/photo-01.jpg",
+      "name": "北宫门 · 实拍",
+      "kind": "real",
+      "accepted": false,
+      "credit": {
+       "title": "File:The South Side of Cifu Memorial Archway, North Palace Gate, Summer Palace, Haidian District, Beijing (202602230711).jpg",
+       "source": "https://commons.wikimedia.org/wiki/File:The_South_Side_of_Cifu_Memorial_Archway,_North_Palace_Gate,_Summer_Palace,_Haidian_District,_Beijing_(202602230711).jpg",
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/The_South_Side_of_Cifu_Memorial_Archway%2C_North_Palace_Gate%2C_Summer_Palace%2C_Haidian_District%2C_Beijing_%28202602230711%29.jpg/1280px-The_South_Side_of_Cifu_Memorial_Archway%2C_North_Palace_Gate%2C_Summer_Palace%2C_Haidian_District%2C_Beijing_%28202602230711%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "license": "CC BY-SA 4.0",
+       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+       "artist": "MiiCii",
+       "date": "2026-02-23 07:11:08",
+       "retrieved": "2026-10-23",
+       "localFile": "photos/beigongmen.jpg"
+      }
+     }
+    }
+   },
+   {
+    "id": "suzhou-street",
+    "name": "苏州街",
+    "description": "沿后湖两岸展开的仿江南水乡买卖街，小桥、铺面与河道相互穿插。",
+    "guide": "苏州街原是乾隆年间仿江南水乡修建的宫市，清末被毁，现貌为上世纪八十年代后期复建。店铺沿后湖两岸排开，以小桥相连，站在桥上最能看出水街的纵深。",
+    "notice": "开放时间、预约方式与园中园门票以颐和园官方当日信息为准。",
+    "x": 0.6076,
+    "y": 0.0544,
+    "heading": 0,
+    "scene": "后山后湖",
+    "narration": {
+     "text": "苏州街原是乾隆年间仿江南水乡修建的宫市，清末被毁，现貌为上世纪八十年代后期复建。店铺沿后湖两岸排开，以小桥相连，站在桥上最能看出水街的纵深。"
+    },
+    "factSource": "https://www.summerpalace-china.com/",
+    "coordinateSource": "OSM POI",
+    "lnglat": [
+     116.2685788,
+     40.0006584
+    ],
+    "photos": {
+     "front": {
+      "url": "/assets/scenics/summer-palace/spots/suzhou-street/photos/photo-01.jpg",
+      "name": "苏州街 · 实拍",
+      "kind": "real",
+      "accepted": false,
+      "credit": {
+       "title": "File:View along moon bridge over Suzhou Street, Summer Palace, Beijing.jpg",
+       "source": "https://commons.wikimedia.org/wiki/File:View_along_moon_bridge_over_Suzhou_Street,_Summer_Palace,_Beijing.jpg",
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/View_along_moon_bridge_over_Suzhou_Street%2C_Summer_Palace%2C_Beijing.jpg/1280px-View_along_moon_bridge_over_Suzhou_Street%2C_Summer_Palace%2C_Beijing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "license": "CC BY-SA 3.0",
+       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+       "artist": "Daniel Case",
+       "date": "2014-04-02",
+       "retrieved": "2026-10-23",
+       "localFile": "photos/suzhou-street.jpg"
+      }
+     }
+    }
+   },
+   {
+    "id": "xiequyuan",
+    "name": "谐趣园",
+    "description": "万寿山东麓的园中之园，仿无锡寄畅园布局，池水居中、廊亭环绕。",
+    "guide": "谐趣园始建于乾隆年间，原名惠山园，以无锡寄畅园为蓝本，嘉庆年间改为今名。小园围绕一池荷水展开，绕池一周能看到亭、榭、桥和曲廊的不同组合。",
+    "notice": "开放时间、预约方式与园中园门票以颐和园官方当日信息为准。",
+    "x": 0.9021,
+    "y": 0.1192,
+    "heading": 0,
+    "scene": "后山东麓",
+    "narration": {
+     "text": "谐趣园始建于乾隆年间，原名惠山园，以无锡寄畅园为蓝本，嘉庆年间改为今名。小园围绕一池荷水展开，绕池一周能看到亭、榭、桥和曲廊的不同组合。"
+    },
+    "factSource": "https://www.summerpalace-china.com/",
+    "coordinateSource": "OSM POI",
+    "lnglat": [
+     116.2758315,
+     39.9991338
+    ],
+    "photos": {
+     "front": {
+      "url": "/assets/scenics/summer-palace/spots/xiequyuan/photos/photo-01.jpg",
+      "name": "谐趣园 · 实拍",
+      "kind": "real",
+      "accepted": false,
+      "credit": {
+       "title": "File:Poem gate in Garden of Harmonious Interest (34769274).jpg",
+       "source": "https://commons.wikimedia.org/wiki/File:Poem_gate_in_Garden_of_Harmonious_Interest_(34769274).jpg",
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Poem_gate_in_Garden_of_Harmonious_Interest_%2834769274%29.jpg/1280px-Poem_gate_in_Garden_of_Harmonious_Interest_%2834769274%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "license": "CC BY-SA 2.0",
+       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+       "artist": "Jennifer",
+       "date": "2005-08-16 19:27",
+       "retrieved": "2026-10-23",
+       "localFile": "photos/xiequyuan.jpg"
+      }
+     }
+    }
+   },
+   {
+    "id": "deheyuan",
+    "name": "德和园",
+    "description": "园内的大戏楼院落，上下三层的戏台是清宫规模最大的戏台之一。",
+    "guide": "德和园大戏楼建于光绪年间，供慈禧太后看戏。戏台分上中下三层，可借助天井、地井做出升降布景；对面的颐乐殿是看戏的位置。",
+    "notice": "开放时间、预约方式与园中园门票以颐和园官方当日信息为准。",
+    "x": 0.82,
+    "y": 0.2088,
+    "heading": 0,
+    "scene": "东宫区",
+    "narration": {
+     "text": "德和园大戏楼建于光绪年间，供慈禧太后看戏。戏台分上中下三层，可借助天井、地井做出升降布景；对面的颐乐殿是看戏的位置。"
+    },
+    "factSource": "https://www.summerpalace-china.com/",
+    "coordinateSource": "OSM POI",
+    "lnglat": [
+     116.2738091,
+     39.9970297
+    ],
+    "photos": {
+     "front": {
+      "url": "/assets/scenics/summer-palace/spots/deheyuan/photos/photo-01.jpg",
+      "name": "德和园 · 实拍",
+      "kind": "real",
+      "accepted": false,
+      "credit": {
+       "title": "File:20090530 Beijing Summer Palace 8617.jpg",
+       "source": "https://commons.wikimedia.org/wiki/File:20090530_Beijing_Summer_Palace_8617.jpg",
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/20090530_Beijing_Summer_Palace_8617.jpg/1280px-20090530_Beijing_Summer_Palace_8617.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "license": "CC BY-SA 3.0",
+       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+       "artist": "Jakub Hałun",
+       "date": "2009-05-30 16:41:43",
+       "retrieved": "2026-10-23",
+       "localFile": "photos/deheyuan.jpg"
+      }
+     }
+    }
+   },
+   {
+    "id": "zhichunting",
+    "name": "知春亭",
+    "description": "昆明湖东岸的小岛亭，经石桥与岸相连，是眺望万寿山的经典机位。",
+    "guide": "知春亭建在东岸近处的小岛上，相传春天这一带的冰面最早消融，因而得名。站在亭边向西北望，佛香阁、万寿山与西山远景层层叠在一起。",
+    "notice": "开放时间、预约方式与园中园门票以颐和园官方当日信息为准。",
+    "x": 0.8021,
+    "y": 0.2779,
+    "heading": 0,
+    "scene": "东岸",
+    "narration": {
+     "text": "知春亭建在东岸近处的小岛上，相传春天这一带的冰面最早消融，因而得名。站在亭边向西北望，佛香阁、万寿山与西山远景层层叠在一起。"
+    },
+    "factSource": "https://www.summerpalace-china.com/",
+    "coordinateSource": "OSM POI",
+    "lnglat": [
+     116.2733692,
+     39.9954064
+    ],
+    "photos": {
+     "front": {
+      "url": "/assets/scenics/summer-palace/spots/zhichunting/photos/photo-01.jpg",
+      "name": "知春亭 · 实拍",
+      "kind": "real",
+      "accepted": false,
+      "credit": {
+       "title": "File:知春亭前的铁索桥更新换代了 - panoramio.jpg",
+       "source": "https://commons.wikimedia.org/wiki/File:%E7%9F%A5%E6%98%A5%E4%BA%AD%E5%89%8D%E7%9A%84%E9%93%81%E7%B4%A2%E6%A1%A5%E6%9B%B4%E6%96%B0%E6%8D%A2%E4%BB%A3%E4%BA%86_-_panoramio.jpg",
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/%E7%9F%A5%E6%98%A5%E4%BA%AD%E5%89%8D%E7%9A%84%E9%93%81%E7%B4%A2%E6%A1%A5%E6%9B%B4%E6%96%B0%E6%8D%A2%E4%BB%A3%E4%BA%86_-_panoramio.jpg/1280px-%E7%9F%A5%E6%98%A5%E4%BA%AD%E5%89%8D%E7%9A%84%E9%93%81%E7%B4%A2%E6%A1%A5%E6%9B%B4%E6%96%B0%E6%8D%A2%E4%BB%A3%E4%BA%86_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "license": "CC BY-SA 3.0",
+       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+       "artist": "fllee",
+       "date": "Taken on 21 April 2",
+       "retrieved": "2026-10-23",
+       "localFile": "photos/zhichunting.jpg"
+      }
+     }
+    }
+   },
+   {
+    "id": "wenchangge",
+    "name": "文昌阁",
+    "description": "东堤北端的城关式楼阁，下为城台、上为两层楼阁。",
+    "guide": "文昌阁是颐和园的城关建筑之一，与万寿山西侧的宿云檐一东一西相对，寓意文武。从这里沿东堤南行，可以一路走到铜牛和十七孔桥。",
+    "notice": "开放时间、预约方式与园中园门票以颐和园官方当日信息为准。",
+    "x": 0.8257,
+    "y": 0.2856,
+    "heading": 0,
+    "scene": "东岸",
+    "narration": {
+     "text": "文昌阁是颐和园的城关建筑之一，与万寿山西侧的宿云檐一东一西相对，寓意文武。从这里沿东堤南行，可以一路走到铜牛和十七孔桥。"
+    },
+    "factSource": "https://www.summerpalace-china.com/",
+    "coordinateSource": "OSM POI",
+    "lnglat": [
+     116.2739486,
+     39.9952215
+    ],
+    "photos": {
+     "front": {
+      "url": "/assets/scenics/summer-palace/spots/wenchangge/photos/photo-01.jpg",
+      "name": "文昌阁 · 实拍",
+      "kind": "real",
+      "accepted": false,
+      "credit": {
+       "title": "File:2014.08.27.142230 Wenchang Ge (Wenchang Tower) Summer Palace Beijing.jpg",
+       "source": "https://commons.wikimedia.org/wiki/File:2014.08.27.142230_Wenchang_Ge_(Wenchang_Tower)_Summer_Palace_Beijing.jpg",
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/2014.08.27.142230_Wenchang_Ge_%28Wenchang_Tower%29_Summer_Palace_Beijing.jpg/1280px-2014.08.27.142230_Wenchang_Ge_%28Wenchang_Tower%29_Summer_Palace_Beijing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "license": "CC0",
+       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+       "artist": "Hermann Luyken",
+       "date": "2014-08-27 14:22:30",
+       "retrieved": "2026-10-23",
+       "localFile": "photos/wenchangge.jpg"
+      }
+     }
+    }
+   },
+   {
+    "id": "long-corridor",
+    "name": "长廊",
+    "description": "沿昆明湖北岸延伸的彩画长廊，全长七百多米，串起前山各组建筑。",
+    "guide": "长廊东起邀月门、西至石丈亭，全长约 728 米，梁枋上绘有一万四千余幅彩画，题材多为山水、花鸟与历史故事。雨天或酷暑时边走边抬头看画最舒服。",
+    "notice": "开放时间、预约方式与园中园门票以颐和园官方当日信息为准。",
+    "x": 0.6674,
+    "y": 0.2092,
+    "heading": 0,
+    "scene": "前山",
+    "narration": {
+     "text": "长廊东起邀月门、西至石丈亭，全长约 728 米，梁枋上绘有一万四千余幅彩画，题材多为山水、花鸟与历史故事。雨天或酷暑时边走边抬头看画最舒服。"
+    },
+    "factSource": "https://www.summerpalace-china.com/",
+    "coordinateSource": "OSM 步道中点",
+    "lnglat": [
+     116.270051,
+     39.99702
+    ],
+    "photos": {
+     "front": {
+      "url": "/assets/scenics/summer-palace/spots/long-corridor/photos/photo-01.jpg",
+      "name": "长廊 · 实拍",
+      "kind": "real",
+      "accepted": false,
+      "credit": {
+       "title": "File:The Long Corridor, The Summer Palace (3640614137).jpg",
+       "source": "https://commons.wikimedia.org/wiki/File:The_Long_Corridor,_The_Summer_Palace_(3640614137).jpg",
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/The_Long_Corridor%2C_The_Summer_Palace_%283640614137%29.jpg/1280px-The_Long_Corridor%2C_The_Summer_Palace_%283640614137%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "license": "CC BY 2.0",
+       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+       "artist": "Robin Zebrowski",
+       "date": "2009-06-06 02:26",
+       "retrieved": "2026-10-23",
+       "localFile": "photos/long-corridor.jpg"
+      }
+     }
+    }
+   },
+   {
+    "id": "paiyundian",
+    "name": "排云殿",
+    "description": "前山中轴上的主体殿宇，自湖边牌楼起层层抬高，直通佛香阁。",
+    "guide": "排云殿建筑群是前山中轴的核心，光绪年间重建后用作慈禧太后庆寿的场所。从湖边的云辉玉宇牌楼开始，经排云门、二宫门到排云殿，地势逐级升高，最后接上佛香阁的石台。",
+    "notice": "开放时间、预约方式与园中园门票以颐和园官方当日信息为准。",
+    "x": 0.586,
+    "y": 0.2021,
+    "heading": 0,
+    "scene": "前山中轴",
+    "narration": {
+     "text": "排云殿建筑群是前山中轴的核心，光绪年间重建后用作慈禧太后庆寿的场所。从湖边的云辉玉宇牌楼开始，经排云门、二宫门到排云殿，地势逐级升高，最后接上佛香阁的石台。"
+    },
+    "factSource": "https://www.summerpalace-china.com/",
+    "coordinateSource": "OSM POI",
+    "lnglat": [
+     116.2680477,
+     39.9971859
+    ],
+    "photos": {
+     "front": {
+      "url": "/assets/scenics/summer-palace/spots/paiyundian/photos/photo-01.jpg",
+      "name": "排云殿 · 实拍",
+      "kind": "real",
+      "accepted": false,
+      "credit": {
+       "title": "File:Peking Sommerpalast Second Palace Gate, Hall of Dispelling Clouds-20071020-RM-095612.jpg",
+       "source": "https://commons.wikimedia.org/wiki/File:Peking_Sommerpalast_Second_Palace_Gate,_Hall_of_Dispelling_Clouds-20071020-RM-095612.jpg",
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Peking_Sommerpalast_Second_Palace_Gate%2C_Hall_of_Dispelling_Clouds-20071020-RM-095612.jpg/1280px-Peking_Sommerpalast_Second_Palace_Gate%2C_Hall_of_Dispelling_Clouds-20071020-RM-095612.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "license": "CC BY-SA 4.0",
+       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+       "artist": "Reinhold Möller Ermell",
+       "date": "2007-10-20",
+       "retrieved": "2026-10-23",
+       "localFile": "photos/paiyundian.jpg"
+      }
+     }
+    }
+   },
+   {
+    "id": "foxiangge",
+    "name": "佛香阁",
+    "description": "建在万寿山前山高台上的八角楼阁，是整座园林的视觉中心。",
+    "guide": "佛香阁高约 41 米，八面三层四重檐，立在约 20 米高的方形石台上。登上回廊可以俯瞰昆明湖、南湖岛和十七孔桥，是全园视野最开阔的地方。",
+    "notice": "开放时间、预约方式与园中园门票以颐和园官方当日信息为准。",
+    "x": 0.5814,
+    "y": 0.1652,
+    "heading": 0,
+    "scene": "前山中轴",
+    "narration": {
+     "text": "佛香阁高约 41 米，八面三层四重檐，立在约 20 米高的方形石台上。登上回廊可以俯瞰昆明湖、南湖岛和十七孔桥，是全园视野最开阔的地方。"
+    },
+    "factSource": "https://www.summerpalace-china.com/",
+    "coordinateSource": "OSM POI",
+    "lnglat": [
+     116.267935,
+     39.9980571
+    ],
+    "photos": {
+     "front": {
+      "url": "/assets/scenics/summer-palace/spots/foxiangge/photos/photo-01.jpg",
+      "name": "佛香阁 · 实拍",
+      "kind": "real",
+      "accepted": false,
+      "credit": {
+       "title": "File:Tower of Buddhist Incense Summer Palace Beijing.jpg",
+       "source": "https://commons.wikimedia.org/wiki/File:Tower_of_Buddhist_Incense_Summer_Palace_Beijing.jpg",
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Tower_of_Buddhist_Incense_Summer_Palace_Beijing.jpg/1280px-Tower_of_Buddhist_Incense_Summer_Palace_Beijing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "license": "CC BY 3.0 pl",
+       "licenseUrl": "https://creativecommons.org/licenses/by/3.0/pl/deed.en",
+       "artist": "Radosław Botev",
+       "date": "2009-07-16",
+       "retrieved": "2026-10-23",
+       "localFile": "photos/foxiangge.jpg"
+      }
+     }
+    }
+   },
+   {
+    "id": "marble-boat",
+    "name": "清晏舫",
+    "description": "长廊西端湖边的石舫，船身以巨石砌成，上部为两层船楼。",
+    "guide": "清晏舫俗称石舫，乾隆年间初建时上部是中式舱楼，英法联军焚园后被毁，光绪年间重建为带西式装饰的两层船楼。从长廊西端看，船身几乎与湖面齐平。",
+    "notice": "开放时间、预约方式与园中园门票以颐和园官方当日信息为准。",
+    "x": 0.4086,
+    "y": 0.2212,
+    "heading": 0,
+    "scene": "前山西端",
+    "narration": {
+     "text": "清晏舫俗称石舫，乾隆年间初建时上部是中式舱楼，英法联军焚园后被毁，光绪年间重建为带西式装饰的两层船楼。从长廊西端看，船身几乎与湖面齐平。"
+    },
+    "factSource": "https://www.summerpalace-china.com/",
+    "coordinateSource": "OSM POI",
+    "lnglat": [
+     116.2636811,
+     39.9967379
+    ],
+    "photos": {
+     "front": {
+      "url": "/assets/scenics/summer-palace/spots/marble-boat/photos/photo-01.jpg",
+      "name": "清晏舫 · 实拍",
+      "kind": "real",
+      "accepted": false,
+      "credit": {
+       "title": "File:Marbleboot.jpg",
+       "source": "https://commons.wikimedia.org/wiki/File:Marbleboot.jpg",
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Marbleboot.jpg/1280px-Marbleboot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "license": "CC BY-SA 3.0",
+       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+       "artist": "Rolf Müller (User:Rolfmueller)",
+       "date": "2005-04-17",
+       "retrieved": "2026-10-23",
+       "localFile": "photos/marble-boat.jpg"
+      }
+     }
+    }
+   },
+   {
+    "id": "west-causeway",
+    "name": "西堤",
+    "description": "纵贯昆明湖西部的长堤，仿杭州苏堤修建，沿途有六座桥。",
+    "guide": "西堤自北向南贯穿昆明湖西侧，格局模仿西湖苏堤，堤上依次分布界湖桥、豳风桥、玉带桥、镜桥、练桥、柳桥六座桥。堤上游人相对少，适合傍晚看西山落日。",
+    "notice": "开放时间、预约方式与园中园门票以颐和园官方当日信息为准。",
+    "x": 0.4471,
+    "y": 0.5533,
+    "heading": 0,
+    "scene": "湖西",
+    "narration": {
+     "text": "西堤自北向南贯穿昆明湖西侧，格局模仿西湖苏堤，堤上依次分布界湖桥、豳风桥、玉带桥、镜桥、练桥、柳桥六座桥。堤上游人相对少，适合傍晚看西山落日。"
+    },
+    "factSource": "https://www.summerpalace-china.com/",
+    "coordinateSource": "OSM 步道中点",
+    "lnglat": [
+     116.264626,
+     39.988927
+    ],
+    "photos": {
+     "front": {
+      "url": "/assets/scenics/summer-palace/spots/west-causeway/photos/photo-01.jpg",
+      "name": "西堤 · 实拍",
+      "kind": "real",
+      "accepted": false,
+      "credit": {
+       "title": "File:Sunset at West Causeway, Summer Palace (20201222163837).jpg",
+       "source": "https://commons.wikimedia.org/wiki/File:Sunset_at_West_Causeway,_Summer_Palace_(20201222163837).jpg",
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Sunset_at_West_Causeway%2C_Summer_Palace_%2820201222163837%29.jpg/1280px-Sunset_at_West_Causeway%2C_Summer_Palace_%2820201222163837%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "license": "CC BY-SA 4.0",
+       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+       "artist": "N509FZ",
+       "date": "2020-12-22 16:38:37",
+       "retrieved": "2026-10-23",
+       "localFile": "photos/west-causeway.jpg"
+      }
+     }
+    }
+   },
+   {
+    "id": "jade-belt-bridge",
+    "name": "玉带桥",
+    "description": "西堤上的高拱石桥，桥拱高耸，桥身洁白如带。",
+    "guide": "玉带桥是西堤六桥中唯一的高拱桥，桥洞高而尖，便于当年皇家船只从昆明湖驶入玉河。水面平静时，倒影与桥拱合成近乎完整的圆。",
+    "notice": "开放时间、预约方式与园中园门票以颐和园官方当日信息为准。",
+    "x": 0.3029,
+    "y": 0.4173,
+    "heading": 0,
+    "scene": "西堤",
+    "narration": {
+     "text": "玉带桥是西堤六桥中唯一的高拱桥，桥洞高而尖，便于当年皇家船只从昆明湖驶入玉河。水面平静时，倒影与桥拱合成近乎完整的圆。"
+    },
+    "factSource": "https://www.summerpalace-china.com/",
+    "coordinateSource": "OSM 步道中点",
+    "lnglat": [
+     116.261074,
+     39.992127
+    ],
+    "photos": {
+     "front": {
+      "url": "/assets/scenics/summer-palace/spots/jade-belt-bridge/photos/photo-01.jpg",
+      "name": "玉带桥 · 实拍",
+      "kind": "real",
+      "accepted": false,
+      "credit": {
+       "title": "File:Jade belt bridge - Summer Palace, Beijing.jpg",
+       "source": "https://commons.wikimedia.org/wiki/File:Jade_belt_bridge_-_Summer_Palace,_Beijing.jpg",
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Jade_belt_bridge_-_Summer_Palace%2C_Beijing.jpg/1280px-Jade_belt_bridge_-_Summer_Palace%2C_Beijing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "license": "CC BY 2.0",
+       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+       "artist": "Will Clayton from Blackburn, UK",
+       "date": "2009-08-13 14:02",
+       "retrieved": "2026-10-23",
+       "localFile": "photos/jade-belt-bridge.jpg"
+      }
+     }
+    }
+   },
+   {
+    "id": "seventeen-arch-bridge",
+    "name": "十七孔桥",
+    "description": "连接东堤与南湖岛的长桥，有十七个桥洞，是昆明湖上最大的石桥。",
+    "guide": "十七孔桥长约 150 米，桥栏望柱上雕有五百多只形态各异的石狮。冬至前后的傍晚，夕阳会照进全部桥洞，被称为「金光穿洞」，届时观众很多。",
+    "notice": "开放时间、预约方式与园中园门票以颐和园官方当日信息为准。",
+    "x": 0.7248,
+    "y": 0.5294,
+    "heading": 0,
+    "scene": "南湖岛",
+    "narration": {
+     "text": "十七孔桥长约 150 米，桥栏望柱上雕有五百多只形态各异的石狮。冬至前后的傍晚，夕阳会照进全部桥洞，被称为「金光穿洞」，届时观众很多。"
+    },
+    "factSource": "https://www.summerpalace-china.com/",
+    "coordinateSource": "OSM 步道中点",
+    "lnglat": [
+     116.271467,
+     39.98949
+    ],
+    "photos": {
+     "front": {
+      "url": "/assets/scenics/summer-palace/spots/seventeen-arch-bridge/photos/photo-01.jpg",
+      "name": "十七孔桥 · 实拍",
+      "kind": "real",
+      "accepted": false,
+      "credit": {
+       "title": "File:Seventeen Arch Bridge (20201221160537).jpg",
+       "source": "https://commons.wikimedia.org/wiki/File:Seventeen_Arch_Bridge_(20201221160537).jpg",
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Seventeen_Arch_Bridge_%2820201221160537%29.jpg/1280px-Seventeen_Arch_Bridge_%2820201221160537%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "license": "CC BY-SA 4.0",
+       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+       "artist": "N509FZ",
+       "date": "2020-12-21 16:05:37",
+       "retrieved": "2026-10-23",
+       "localFile": "photos/seventeen-arch-bridge.jpg"
+      }
+     }
+    }
+   },
+   {
+    "id": "bronze-ox",
+    "name": "铜牛",
+    "description": "东堤上卧在石座上的铜牛，面朝昆明湖，寓意镇水。",
+    "guide": "铜牛铸于乾隆二十年（1755 年），牛背上铸有乾隆所作的《金牛铭》，表达镇压水患的愿望。它就在十七孔桥东端附近，可以与桥一起安排。",
+    "notice": "开放时间、预约方式与园中园门票以颐和园官方当日信息为准。",
+    "x": 0.804,
+    "y": 0.5325,
+    "heading": 0,
+    "scene": "东堤",
+    "narration": {
+     "text": "铜牛铸于乾隆二十年（1755 年），牛背上铸有乾隆所作的《金牛铭》，表达镇压水患的愿望。它就在十七孔桥东端附近，可以与桥一起安排。"
+    },
+    "factSource": "https://www.summerpalace-china.com/",
+    "coordinateSource": "OSM POI",
+    "lnglat": [
+     116.2734175,
+     39.9894143
+    ],
+    "photos": {
+     "front": {
+      "url": "/assets/scenics/summer-palace/spots/bronze-ox/photos/photo-01.jpg",
+      "name": "铜牛 · 实拍",
+      "kind": "real",
+      "accepted": false,
+      "credit": {
+       "title": "File:Bronze Ox, Summer Palace, Beijing (24569731336).jpg",
+       "source": "https://commons.wikimedia.org/wiki/File:Bronze_Ox,_Summer_Palace,_Beijing_(24569731336).jpg",
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Bronze_Ox%2C_Summer_Palace%2C_Beijing_%2824569731336%29.jpg/1280px-Bronze_Ox%2C_Summer_Palace%2C_Beijing_%2824569731336%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "license": "CC BY 2.0",
+       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+       "artist": "Yun Huang Yong from Harbord, Australia",
+       "date": "2015-05-24 13:08",
+       "retrieved": "2026-10-23",
+       "localFile": "photos/bronze-ox.jpg"
+      }
+     }
+    }
+   }
+  ]
+ }
+}
