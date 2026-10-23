@@ -1,5 +1,5 @@
 """Draw a north-up vector visitor map from a studio map package, preserving its coordinate frame.
-Usage: python3 tools/render_scenic_map.py <scenic-or-map-package.json> <output.svg>
+Usage: python3 tools/render_scenic_map.py <scenic-or-map-package.json> <output.svg> [source-geography.json]
 """
 import html
 import json
@@ -30,6 +30,15 @@ def inside(p, ring):
     return odd
 
 outline=g['scenic']['outline']; waters=g['water']
+source_geo=json.loads(Path(sys.argv[3]).read_text()) if len(sys.argv)>3 else None
+def source_point(p):
+    f=source_geo['frame'];o=f['origin'];unit=f['unitMeters']
+    lon=o[0]+p[0]*unit/(111320*math.cos(math.radians(o[1])))
+    lat=o[1]-p[1]*unit/110540
+    frame=g['frame'];origin=frame['origin'];projection=frame['projection']
+    return [(lon-origin[0])*projection['lonUnits'],(origin[1]-lat)*projection['latUnits']]
+if source_geo:
+    waters=[[source_point(p) for p in ring] for water in source_geo['water'] for ring in [water['outer'],*water['holes']]]
 s=[f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">
 <defs><pattern id="paper" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#f4eddb"/><circle cx="2" cy="3" r=".55" fill="#d4c8ab" opacity=".18"/></pattern>
 <linearGradient id="water" x2=".7" y2="1"><stop stop-color="#a8cbd0"/><stop offset="1" stop-color="#78abae"/></linearGradient>
@@ -49,12 +58,17 @@ for _ in range(2300):
     x,y=xy(p);r=rng.uniform(2,6);color=rng.choice(['#709267','#8da272','#9ba979','#5c8263'])
     s.append(f'<ellipse cx="{x+1:.2f}" cy="{y+2:.2f}" rx="{r:.2f}" ry="{r*.65:.2f}" fill="#526b50" opacity=".13"/><circle cx="{x:.2f}" cy="{y:.2f}" r="{r:.2f}" fill="{color}" opacity=".64"/>')
 nodes=g['network']['nodes']
+roads=[]
+if source_geo:
+    # Use source geometry rather than AI routing edges, which may be shortcuts.
+    roads=[[source_point(p) for p in road['points']] for road in source_geo['paths']]
+else:
+    roads=[[nodes[e['a']],nodes[e['b']]] for e in g['network']['edges'] if e.get('mode')=='walk']
 for color,stroke in [('#a69d81',4),('#f0e5c7',2.3)]:
-    for e in g['network']['edges']:
-        if e.get('mode')!='walk':continue
-        a,c=nodes[e['a']],nodes[e['b']]
-        s.append(f'<polyline points="{points([a,c])}" fill="none" stroke="{color}" stroke-width="{stroke}" stroke-linecap="round"/>')
-for c in g.get('causeways',[]):
+    for road in roads:
+        s.append(f'<polyline points="{points(road)}" fill="none" stroke="{color}" stroke-width="{stroke}" stroke-linecap="round"/>')
+causeways=[{'points':[source_point(p) for p in c['points']]} for c in source_geo['causeways']] if source_geo else g.get('causeways',[])
+for c in causeways:
     s.append(f'<polyline points="{points(c["points"])}" fill="none" stroke="#d3bf99" stroke-width="6" stroke-linejoin="round"/><polyline points="{points(c["points"])}" fill="none" stroke="#f5e8cc" stroke-width="3"/>')
 # Small architectural symbols are illustration, not building footprints.
 for sid,spot in g['spots'].items():

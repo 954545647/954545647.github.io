@@ -26,7 +26,7 @@ python3 tools/add_scenic.py scenes/summer-palace
 
 ```sh
 python3 tools/render_scenic_map.py scenes/summer-palace/studio-map-package.json \
-  scenes/summer-palace/map-illustrated.svg
+  scenes/summer-palace/map-illustrated.svg scenes/summer-palace/geography.json
 ```
 
 SVG 使用地图包的完整坐标范围，北向上；转换成同宽高比例的 PNG 后上传生成端。不要添加外边距，否则点位会偏移。建筑符号是插画示意，水岸、园界和步道来自 OSM。PNG 命名为 `map-illustrated.png`，同步脚本会用它更新 `map.png`。
