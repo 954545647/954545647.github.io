@@ -1,0 +1,113 @@
+{
+  "checkedAt": "2026-10-23",
+  "title": "岐江公园 · 船厂记忆",
+  "intro": "沿岐江走进旧粤中船厂：看草地上的旧船、伸向远处的铁轨、透光的船坞构架，以及被玻璃包裹的水塔。七处风景，串起一段工业与江岸的新生活。",
+  "notice": "地图与三维模型用于游览示意，局部点位为观景位置；请以现场标识和开放安排为准。照片摄于2023年，植被、展览与设施外观可能变化。",
+  "serviceSource": "https://www.zs.gov.cn/xq/zjxq/lyjq/content/post_2430782.html",
+  "boundsWgs84": [
+    113.35590250002213,
+    22.516798799977,
+    113.36116840820272,
+    22.522216799977
+  ],
+  "spots": [
+    {
+      "id": "old-ship",
+      "name": "船厂旧船",
+      "zone": "船厂记忆",
+      "lnglat": [
+        113.35941195487976,
+        22.520337067896595
+      ],
+      "coordinateSource": "OSM/OpenFreeMap z14，石岐造船厂旧船，feature 15510500942",
+      "photoPageId": "130536141",
+      "description": "旧船停在草地上，留下船厂与岐江相依的记忆。",
+      "guide": "先看船身的轮廓，再留意甲板、舷窗与周围的树影。这里原是粤中造船厂，船厂创办于1953年，1999年停产，随后改建为公园。旧船成为认识这段生产历史的入口。它如今是一件供人观看的工业遗存；具体船名与建造年份尚未找到可靠资料，因此不作推断。",
+      "factSource": "https://www.turenscape.com/project/detail/4983.html"
+    },
+    {
+      "id": "railway-columns",
+      "name": "铁轨与白色柱阵",
+      "zone": "船厂记忆",
+      "lnglat": [
+        113.35902,
+        22.52077
+      ],
+      "coordinateSource": "OSM/OpenFreeMap 轨道 way 643237670 的中段；白柱阵按照片与轨道位置对应，导览示意",
+      "photoPageId": "130536404",
+      "description": "沿旧轨道看向白色钢柱，工业的直线变成林间风景。",
+      "guide": "两根铁轨把视线引向远处，两侧竖立的白色钢柱则把目光带向天空。轨道、碎石和野草保留了工业场地的质感，柱阵为这段路增添了新的节奏。可以从轨道一端看整体，再走到侧面观察柱子与树木的层次。这里适合慢慢观看，请走正常步道，不在轨道上攀爬或追逐。",
+      "factSource": "https://zsrbapp.zsnews.cn/mobile/news/viewNews/548077"
+    },
+    {
+      "id": "dock-frame",
+      "name": "船坞遗构",
+      "zone": "船厂记忆",
+      "lnglat": [
+        113.35803,
+        22.52066
+      ],
+      "coordinateSource": "OSM/OpenFreeMap 湖西北侧船厂建筑轮廓；与实拍及设计说明交叉定位，导览示意",
+      "photoPageId": "130772872",
+      "description": "裸露的屋架与新钢构相遇，让人看见建筑的骨架。",
+      "guide": "抬头看，一排排三角屋架把原有厂房的轮廓留在空中。设计资料记载，公园保留了旧造船车间的部分框架，再加入新的钢结构与公共空间。眼前白色构架、深色钢柱和树木交错，正好能观察新旧材料的区别。具体经营用途与可进入区域以现场为准。",
+      "factSource": "https://www.turenscape.com/paper/detail/124.html"
+    },
+    {
+      "id": "art-museum",
+      "name": "中山美术馆",
+      "zone": "艺术新生",
+      "lnglat": [
+        113.35817813873291,
+        22.519147779488307
+      ],
+      "coordinateSource": "OSM/OpenFreeMap z14，中山美术馆，feature 6432376712",
+      "photoPageId": "130459723",
+      "description": "柠檬黄墙面与铁青色屋架，为旧厂区添上明亮色彩。",
+      "guide": "这座美术馆于2002年11月6日开放，由俞孔坚设计改造。先从外面看建筑：黄色墙面、深色钢架和大幅玻璃并置，屋顶保留着工业建筑般鲜明的节奏。它把展览、收藏与公共教育带进公园。馆内展览会更换，是否开放及入馆要求请查看当日公告。",
+      "factSource": "https://www.zs.gov.cn/zswgxj/gkmlpt/content/2/2366/post_2366927.html"
+    },
+    {
+      "id": "amber-tower",
+      "name": "琥珀水塔",
+      "zone": "江岸新生",
+      "lnglat": [
+        113.3592563867569,
+        22.5192815749452
+      ],
+      "coordinateSource": "OSM/OpenFreeMap 岐江生态岛中心点，用于水塔所在区域导览，非水塔测绘坐标",
+      "photoPageId": "131619193",
+      "description": "玻璃与金属外罩包住旧水塔，像为时间留下一枚琥珀。",
+      "guide": "透过玻璃外罩，可以辨认内部旧水塔的轮廓。设计者把新外壳与旧混凝土结构放在一起，以“琥珀”比喻对时间的保存。观看时不妨比较两层结构的材料和尺度，再看看水面的倒影。这座保留旧塔本体的装置，与园内重新制作的骨骼水塔有所不同。",
+      "factSource": "https://www.turenscape.com/paper/detail/124.html"
+    },
+    {
+      "id": "waterfront-bridge",
+      "name": "水岸钢桥",
+      "zone": "江岸新生",
+      "lnglat": [
+        113.35774776496679,
+        22.518027764519147
+      ],
+      "coordinateSource": "OSM/OpenFreeMap 步道 feature 2453786800 上的导览观景位置，非实地测绘",
+      "photoPageId": "130459503",
+      "description": "从钢桥看水面、树冠与厂区构架，体会公园的工业线条。",
+      "guide": "桥把分开的水岸连在一起，也提供了一段观看公园的好视线。留意栏杆、支撑和桥面的直线，它们与厂房钢架、轨道共同构成这里的工业语言。设计团队把简洁直接的路径作为公园的一部分。过桥时可以放慢脚步看看两岸，拍照请给其他行人留出通道。",
+      "factSource": "https://www.turenscape.com/project/detail/4983.html"
+    },
+    {
+      "id": "waterside-walk",
+      "name": "滨水步道",
+      "zone": "江岸新生",
+      "lnglat": [
+        113.35834190185182,
+        22.518803784960998
+      ],
+      "coordinateSource": "OSM/OpenFreeMap 步道 feature 2453857800 上的导览观景位置，非实地测绘",
+      "photoPageId": "130459722",
+      "description": "在水面、草木与栏杆之间，看看船厂留下的另一种日常。",
+      "guide": "沿步道望去，水面把树木、旧设施与今天的城市放在同一幅画面里。公园改造重视原有植物和水岸环境，使工业遗存与日常散步空间相伴。这里不必急着寻找下一个地标，可以观察水边植物与岸线的层次。水边湿滑，通行请以现场围栏和标识为准。",
+      "factSource": "https://www.turenscape.com/project/detail/4983.html"
+    }
+  ]
+}

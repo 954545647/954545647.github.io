@@ -38,3 +38,17 @@ SVG 使用地图包的完整坐标范围，北向上；转换成同宽高比例�
 颐和园和孙中山故里使用 `vendor/studio-20261023/` 的生成端三维渲染模块，以支持新版地形与纹理字段。启动时 `studio-map-bridge-20261023.js` 通过新版校验器注册这两个地图包，并将同一个运行时对象提供给游客端路由；不能只注册到旧包集合，否则路由会退回 2D，或新渲染器无法找到地图。原有五个景区继续使用旧模块。修改打包 JS 后更新资源文件名或入口版本参数，避免浏览器使用缓存。
 
 颐和园单独使用 `map3d-summer-palace-packed.js`：同步脚本为每个 GLB 额外生成 `.glb.gz`，浏览器原生解压后交给同一个 GLTF 解析器。原始 GLB 保留作为兼容回退。下载器限制并发数，并对超时和临时网络错误重试；复用同一张地表贴图的下载。
+
+
+## 岐江公园 · 船厂记忆
+
+`scenes/qijiang-park/README.md` 记录七处导览的实拍、许可、资料来源和坐标边界。
+
+新场景可复用独立的三维资源压缩与恢复下载流程：
+
+```sh
+node tools/asset-pipeline/optimize-scene.mjs qijiang-park
+python3 tools/asset-pipeline/build-scene-runtime.py qijiang-park
+```
+
+优化只做网格编码压缩与纹理无损转换，并检查三角形数量、边界和像素一致性。每个场景独立生成清单与入口，复用已验证的下载队列。

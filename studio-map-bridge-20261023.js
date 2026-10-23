@@ -10,7 +10,7 @@ import {c as studioPackageFor} from './vendor/studio-20261023/chunk-IE6RBOGA.js'
 // package to the visitor router so its 3D links and scene detection agree.
 export function registerMapPackage(id, data) {
   const scenicId = id.replace(/^draft:/, '');
-  if (!['summer-palace', 'sun-yat-sen'].includes(scenicId)) {
+  if (!['summer-palace', 'sun-yat-sen', 'qijiang-park'].includes(scenicId)) {
     return registerLegacyPackage(id, data);
   }
   const errors = registerStudioPackage(id, data);

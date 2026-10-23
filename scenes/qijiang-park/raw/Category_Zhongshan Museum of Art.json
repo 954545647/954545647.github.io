@@ -1,0 +1,22 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "categorymembers": [
+      {
+        "pageid": 130535571,
+        "ns": 6,
+        "title": "File:Zhongshan Museum of Art 1.jpg"
+      },
+      {
+        "pageid": 130459720,
+        "ns": 6,
+        "title": "File:Zhongshan Museum of Art.jpg"
+      },
+      {
+        "pageid": 130459723,
+        "ns": 6,
+        "title": "File:中山美术馆.jpg"
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 2,
+  "id": "qijiang-park",
+  "name": "岐江公园 · 船厂记忆",
+  "frame": {
+    "origin": [
+      113.35853545411243,
+      22.519507799977
+    ],
+    "unitMeters": 10,
+    "bounds": {
+      "minX": -27.075,
+      "minZ": -29.945,
+      "maxX": 27.075,
+      "maxZ": 29.945
+    },
+    "axes": {
+      "x": "east",
+      "z": "south"
+    }
+  },
+  "boundsWgs84": [
+    113.35590250002213,
+    22.516798799977,
+    113.36116840820272,
+    22.522216799977
+  ],
+  "places": {
+    "old-ship": [
+      9.013,
+      -9.167
+    ],
+    "railway-columns": [
+      4.983,
+      -13.952
+    ],
+    "dock-frame": [
+      -5.198,
+      -12.736
+    ],
+    "art-museum": [
+      -3.674,
+      3.98
+    ],
+    "amber-tower": [
+      7.413,
+      2.501
+    ],
+    "waterfront-bridge": [
+      -8.1,
+      16.36
+    ],
+    "waterside-walk": [
+      -1.99,
+      7.782
+    ]
+  },
+  "provenance": {
+    "attribution": "© OpenStreetMap contributors",
+    "license": "ODbL-1.0",
+    "source": "https://tiles.openfreemap.org/planet/20261018_080001_pt/14/13351/7139.pbf",
+    "retrieved": "2026-10-23",
+    "notes": [
+      "图幅为编辑选定的核心区，不表示景区法定边界。",
+      "未纳入园区外的酒店、商场及其他城区景点。",
+      "z14 矢量瓦片坐标存在数米量化误差。"
+    ]
+  }
+}

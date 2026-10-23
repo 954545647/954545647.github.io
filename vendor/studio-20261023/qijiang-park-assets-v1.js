@@ -1,0 +1,114 @@
+export default {
+  "/assets/scenics/qijiang-park/models/193c37375629e44654387876d387680ec9f41cbd65ce027f/model.glb": {
+    "url": "/assets/scenics/qijiang-park/optimized/aa7575d322586aded25cf699.glb.bin",
+    "bytes": 10815,
+    "sha256": "aa7575d322586aded25cf699ece56edafdd811e3a48edc8c9b776b00731ce737",
+    "originalBytes": 232360,
+    "encoding": "gzip"
+  },
+  "/assets/scenics/qijiang-park/models/253cee927734e78b2c4d783eedb952b92f91ad4d2803a406/model.glb": {
+    "url": "/assets/scenics/qijiang-park/optimized/6fe4b447aa659beecf4b343b.glb.bin",
+    "bytes": 142545,
+    "sha256": "6fe4b447aa659beecf4b343b0622e67e0af59df3cb038b9b1668829469680c1b",
+    "originalBytes": 1285848,
+    "encoding": "gzip"
+  },
+  "/assets/scenics/qijiang-park/models/266b136ade740620efcea64ef6cf0411683220c8bdecffd0/model.glb": {
+    "url": "/assets/scenics/qijiang-park/optimized/168a6c91532c120ed075920c.glb.bin",
+    "bytes": 11622,
+    "sha256": "168a6c91532c120ed075920cfa775119b0fc0985b53fd0502c1be46ad96f99c6",
+    "originalBytes": 439644,
+    "encoding": "gzip"
+  },
+  "/assets/scenics/qijiang-park/models/36747904101c81baab74932e9dae9a228150121cdf4407ae/model.glb": {
+    "url": "/assets/scenics/qijiang-park/optimized/8ea26b707ca36dc1a1d0be38.glb.bin",
+    "bytes": 318638,
+    "sha256": "8ea26b707ca36dc1a1d0be3853c720d18e6d70ac2cdce874a1d2d7b398d3692e",
+    "originalBytes": 7274908,
+    "encoding": "gzip"
+  },
+  "/assets/scenics/qijiang-park/models/3736ea756b3deb12657b33625fc965a6fd0b0bed6d8c1457/model.glb": {
+    "url": "/assets/scenics/qijiang-park/optimized/24a358ef739af4985aa7a9d1.glb.bin",
+    "bytes": 11064,
+    "sha256": "24a358ef739af4985aa7a9d1fb0c67120e59c80594fc239cd67d5f9ee8e9c4f6",
+    "originalBytes": 164024,
+    "encoding": "gzip"
+  },
+  "/assets/scenics/qijiang-park/models/410d1ad33cb068e17728efc07a563b4fc6c405ec475ca3a2/model.glb": {
+    "url": "/assets/scenics/qijiang-park/optimized/34c67f63da9b012cf093517a.glb.bin",
+    "bytes": 2941,
+    "sha256": "34c67f63da9b012cf093517a59dba002be46561ed00cb8c4b79eaf96ce699b3a",
+    "originalBytes": 10820,
+    "encoding": "gzip"
+  },
+  "/assets/scenics/qijiang-park/models/53b0c3a24657a59bfcabf2c3cb0e35bd1919c564ac2e420e/texture.png": {
+    "url": "/assets/scenics/qijiang-park/optimized/465b90693340ccfaafa8a8c1.webp",
+    "bytes": 2059706,
+    "sha256": "465b90693340ccfaafa8a8c1a591633f7387143ca9c26a2d0741fca6d4b73927",
+    "originalBytes": 3750216,
+    "encoding": "identity"
+  },
+  "/assets/scenics/qijiang-park/models/5e69fe1e11e55795cbd9347fa30791db922305117ffa2c49/model.glb": {
+    "url": "/assets/scenics/qijiang-park/optimized/248cf9856acc35d87e459a15.glb.bin",
+    "bytes": 10479,
+    "sha256": "248cf9856acc35d87e459a159ad7232a8381926af5997d6c93b2c6bb296bdc8d",
+    "originalBytes": 121932,
+    "encoding": "gzip"
+  },
+  "/assets/scenics/qijiang-park/models/94c04f020d6fa940cf308ac08322ec8ec4ccb07abb51e4ff/model.glb": {
+    "url": "/assets/scenics/qijiang-park/optimized/7444b8cdbf1236bae454cac6.glb.bin",
+    "bytes": 23984,
+    "sha256": "7444b8cdbf1236bae454cac6aaec9813fc0b1079c62591faf55941531dfa5d3a",
+    "originalBytes": 216448,
+    "encoding": "gzip"
+  },
+  "/assets/scenics/qijiang-park/models/a792ea063a3a1adb71bf52d84d1b14e18dae4cd7f99fe968/model.glb": {
+    "url": "/assets/scenics/qijiang-park/optimized/dfe6153f9c78adbb0d25015a.glb.bin",
+    "bytes": 604525,
+    "sha256": "dfe6153f9c78adbb0d25015aa847bae7c549f1cc2c30e12031085f54bee89874",
+    "originalBytes": 2773960,
+    "encoding": "gzip"
+  },
+  "/assets/scenics/qijiang-park/models/aa93977f6fab31be4f095ee768a3470c853c46af1ffad0bd/model.glb": {
+    "url": "/assets/scenics/qijiang-park/optimized/9a7a17cd1f6e5c903eb12312.glb.bin",
+    "bytes": 213228,
+    "sha256": "9a7a17cd1f6e5c903eb123127bd36d5f2885664d50d9518bbbf2f468914f9433",
+    "originalBytes": 4373780,
+    "encoding": "gzip"
+  },
+  "/assets/scenics/qijiang-park/models/b07895e1f0a38f6e30cb4738387f44a28648c492d7b648a6/model.glb": {
+    "url": "/assets/scenics/qijiang-park/optimized/5a93e60ca61c733e0c614899.glb.bin",
+    "bytes": 388076,
+    "sha256": "5a93e60ca61c733e0c61489969fdf6f68bedd7897b49196fe46925add755d227",
+    "originalBytes": 7274924,
+    "encoding": "gzip"
+  },
+  "/assets/scenics/qijiang-park/models/d06245f0497beca59c4e5647169c3976d93832b46d6b559a/model.glb": {
+    "url": "/assets/scenics/qijiang-park/optimized/7989075c7e6e2a9c98ee4700.glb.bin",
+    "bytes": 9539,
+    "sha256": "7989075c7e6e2a9c98ee47005fc8283043c98fbcd693a41f4325bbec470f835d",
+    "originalBytes": 144672,
+    "encoding": "gzip"
+  },
+  "/assets/scenics/qijiang-park/models/d641215d85a52e026613a8fa13e0bafd1fcb9a234ea70ea0/model.glb": {
+    "url": "/assets/scenics/qijiang-park/optimized/756de10cfbc1a3a16d5dbc3c.glb.bin",
+    "bytes": 403682,
+    "sha256": "756de10cfbc1a3a16d5dbc3c07f2c952a0fcf9db8dc123362d26b3b476827fba",
+    "originalBytes": 7274928,
+    "encoding": "gzip"
+  },
+  "/assets/scenics/qijiang-park/models/ee5561e5394cb4057f47e395aba618ed6097927172bb3aca/model.glb": {
+    "url": "/assets/scenics/qijiang-park/optimized/30f8fbbf6b4ad4eb0501b1a6.glb.bin",
+    "bytes": 113820,
+    "sha256": "30f8fbbf6b4ad4eb0501b1a60e476e3bc7acaefc74c262c206f1c875db6b7fa3",
+    "originalBytes": 1026644,
+    "encoding": "gzip"
+  },
+  "/assets/scenics/qijiang-park/models/f3614e219e73f00459fabba466c42a2d59cfdb970f2a7468/model.glb": {
+    "url": "/assets/scenics/qijiang-park/optimized/d455db165df6fd06123ec532.glb.bin",
+    "bytes": 12824,
+    "sha256": "d455db165df6fd06123ec5325595f7a3b6b0db542f9560e28c829241a1f19817",
+    "originalBytes": 333220,
+    "encoding": "gzip"
+  }
+};
