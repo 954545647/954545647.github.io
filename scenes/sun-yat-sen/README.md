@@ -21,6 +21,14 @@ Commons “Ancestral Home” 文件实际展示现存故居主楼，不作为祖
 
 ## 重建
 
-使用带 Pillow 和 Shapely 的 Python 运行 `python scenes/sun-yat-sen/build_scene.py`，再运行 `python tools/add_scenic.py scenes/sun-yat-sen`。生成端三维地图包接入后，重建 2D 时应保留已验证的 `published.mapPackage` 与三维资源，避免被旧的通用合并脚本覆盖。
+使用带 Pillow 和 Shapely 的 Python 运行 `python scenes/sun-yat-sen/build_scene.py`，再运行 `python tools/add_scenic.py scenes/sun-yat-sen`。`build_scene.py` 会保留 `map-package.json`，通用合并脚本也会保留 `published.mapPackage`，因此后续重建 2D 不会覆盖已接入的三维地图。
 
 生成端源 ID：`scenic-amap-b02f802mx8`。2026-10-23 在生成端选定约717×590米范围，并提供九处点位及排除规则。源端不含公开仓库的凭据、SSO 信息或完整工作区导出。
+
+## 生成端三维制作
+
+生成端已发布 v1，九处地标均为 AI 制作的导览模型。不是摄影测量或历史建筑精确复原。建筑与地面尺寸细节是模型示意；纪念馆模型因包围盒冲突向西北调整约 6 米，仍在 OSM 建筑范围内。实景照片与官方讲解独立保留。
+
+制作端总览检查报告为 17 个模型加载成功、0 个加载错误；独立视觉评审为 62 分，主要待改进项为纪念馆屋面、地表材质、水岸与入口细节。关闭了近地面云层效果，没有开启无限自动打磨。
+
+`studio-map-package.pending.json` 保存已发布包的原始模型引用，用于核对和继续导出；游客端只使用已下载、通过验证的 `map-package.json`。用 `import_studio.py` 导入单景区发布记录和模型资源后，再运行通用 `tools/add_scenic.py`。该脚本映射生成端与游客端的九个景点 ID，保留 2D 的独立坐标裁切、照片署名及官方出处，不导入账号或制作历史。
