@@ -1,0 +1,23 @@
+tools/README.md
+  s_a0216305110394::t_791ff5e36efdb5 38
+scenes/summer-palace/README.md
+  s_a0216305110394::t_791ff5e36efdb5 3-4,15-17,21-22,24,27-31
+studio-map-bridge-20261023.js
+  s_a0216305110394::t_21de6c071e3ce0 1-22
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.51-trip",
+  "base_commit_sha": "63c567c06ff600e27f2c0d62c42a44948b2f9499",
+  "prompts": {},
+  "sessions": {
+    "s_a0216305110394": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1674f-9160-7bb0-afb2-0e32c8d8d1b8",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "haojiaxu <haojiaxu@trip.com>"
+    }
+  }
+}
