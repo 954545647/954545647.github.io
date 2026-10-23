@@ -1,0 +1,59 @@
+scenes/summer-palace/raw/osm_mountain_peak.geojson
+  s_6bc4aaaf5f5d34::t_a474e18d20d517 1
+scenes/summer-palace/sources.json
+  s_6bc4aaaf5f5d34::t_a474e18d20d517 1-40
+scenes/summer-palace/raw/osm_park.geojson
+  s_6bc4aaaf5f5d34::t_a474e18d20d517 1
+scenes/summer-palace/raw/osm_poi.geojson
+  s_6bc4aaaf5f5d34::t_a474e18d20d517 1
+scenes/summer-palace/raw/boundary.geojson
+  s_6bc4aaaf5f5d34::t_a474e18d20d517 1
+scenes/summer-palace/raw/osm_water_name.geojson
+  s_6bc4aaaf5f5d34::t_a474e18d20d517 1
+scenes/summer-palace/raw/osm_transportation_name.geojson
+  s_6bc4aaaf5f5d34::t_a474e18d20d517 1
+scenes/summer-palace/raw/tiles.json
+  s_6bc4aaaf5f5d34::t_a474e18d20d517 1
+scenes/summer-palace/scenic.json
+  s_6bc4aaaf5f5d34::t_a474e18d20d517 1-565
+scenes/summer-palace/raw/photo_candidates.json
+  s_6bc4aaaf5f5d34::t_a474e18d20d517 1-434
+scenes/summer-palace/build_scene.py
+  s_6bc4aaaf5f5d34::t_a474e18d20d517 1-256
+scenes/summer-palace/raw/photos_final.json
+  s_6bc4aaaf5f5d34::t_a474e18d20d517 1-304
+.github/workflows/pages.yml
+  s_6bc4aaaf5f5d34::t_a474e18d20d517 26
+tools/add_scenic.py
+  s_6bc4aaaf5f5d34::t_1e45c3e7c94d90 1-2,4-26,28-90
+  s_6bc4aaaf5f5d34::t_79db7ff6e989d7 27
+  s_6bc4aaaf5f5d34::t_a474e18d20d517 3
+scenes/summer-palace/raw/osm_landcover.geojson
+  s_6bc4aaaf5f5d34::t_a474e18d20d517 1
+scenes/summer-palace/raw/osm_transportation.geojson
+  s_6bc4aaaf5f5d34::t_a474e18d20d517 1
+api/scenics
+  s_6bc4aaaf5f5d34::t_37879dac1443f8 1
+scenes/summer-palace/raw/osm_water.geojson
+  s_6bc4aaaf5f5d34::t_a474e18d20d517 1
+scenes/summer-palace/geography.json
+  s_6bc4aaaf5f5d34::t_a474e18d20d517 1-7969
+scenes/summer-palace/raw/osm_building.geojson
+  s_6bc4aaaf5f5d34::t_a474e18d20d517 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.51-trip",
+  "base_commit_sha": "d69d1cc8955d020560ce85824f975eb522f8af2c",
+  "prompts": {},
+  "sessions": {
+    "s_6bc4aaaf5f5d34": {
+      "agent_id": {
+        "tool": "chengxiaobang",
+        "id": "s_renu3fiyhkj7",
+        "model": "claude-kr-claude-opus-5.5[1M]"
+      },
+      "human_author": "haojiaxu <haojiaxu@trip.com>"
+    }
+  }
+}
