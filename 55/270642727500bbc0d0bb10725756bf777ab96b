@@ -1,0 +1,32 @@
+tools/ayou-avatar.test.mjs
+  s_6eff5b735640ab::t_0a1e117a10b62a 63-64
+  s_6eff5b735640ab::t_1c117ee3adf1fe 62
+  s_6eff5b735640ab::t_d68e4b9e692f48 1-61,65-70
+tools/README.md
+  s_6eff5b735640ab::t_80082e63468566 56,60,67-79
+tools/build_ayou_avatar.py
+  s_6eff5b735640ab::t_0a1e117a10b62a 29-31
+  s_6eff5b735640ab::t_1c117ee3adf1fe 24
+  s_6eff5b735640ab::t_f9b5a9ff8e9269 1-23,25-28,32-46
+vendor/studio-20261023/ayou-avatar-v1.js
+  s_6eff5b735640ab::t_f9b5a9ff8e9269 1-4,6-148
+  s_6eff5b735640ab::t_1c117ee3adf1fe 5
+tools/ayou-preview.html
+  s_6eff5b735640ab::t_d68e4b9e692f48 1-2,4-8,10,12-13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.52-trip",
+  "base_commit_sha": "55270642727500bbc0d0bb10725756bf777ab96b",
+  "prompts": {},
+  "sessions": {
+    "s_6eff5b735640ab": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1675c-a8ee-77f3-ab12-60c88bd38369",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "haojiaxu <haojiaxu@trip.com>"
+    }
+  }
+}
