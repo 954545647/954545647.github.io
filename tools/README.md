@@ -53,14 +53,27 @@ python3 tools/asset-pipeline/build-scene-runtime.py qijiang-park v5 f03c0bbb4ebf
 
 优化只做网格编码压缩与纹理无损转换，并检查三角形数量、边界和像素一致性。每个场景独立生成清单与入口，复用已验证的下载队列。
 
-当前游客入口使用 `boot-qijiang-v5.js` → `app-qijiang-v5.js`。后者是 `app.js` 的发布快照；后续修改入口时，应生成新的版本文件并同步更新 boot 与 index，避免 CDN 缓存旧脚本。
+当前游客入口使用 `boot-ayou-avatar-v1.js` → `app-ayou-avatar-v1.js`。后者是 `app.js` 的发布快照；后续修改入口时，应生成新的版本文件并同步更新 boot 与 index，避免 CDN 缓存旧脚本。
 
 ## 阿游文化导览
 
-`ayou-guide-v1.js` 与 `ayou-guide-v1.css` 为独立组件，由 `index.html` 加载，不改动已有打包代码。首页和场景列表提供中山选景入口；孙中山故居、岐江公园的地图与点位页提供文化讲解、照片署名和地图定位。阿游读取已发布内容，不调用 AI 服务，也不使用生成端额度。
+`ayou-guide-v1.js` 与 `ayou-guide-v2.css` 为独立组件，由 `index.html` 加载。首页和场景列表提供中山选景入口；孙中山故居、岐江公园的地图与点位页提供文化讲解、照片署名和地图定位。阿游读取已发布内容，不调用 AI 服务，也不使用生成端额度。v2 样式在原生旅伴面板打开时隐藏浮动导览，避免遮挡。
 
 讲解更新后运行 `python3 tools/build_ayou_content.py`，从 `api/scenics` 重新生成小型公开数据文件 `assets/ayou/content-v1.json`。数据含现有 16 处点位的讲解、照片与来源；不复制工作区其他数据。后续发布调整资源版本以避免旧缓存。
 
 地图定位复用原生 `.m3-tag[data-spot]` 或二维 `[data-marker]` 控件；原生三维景点详情打开时，阿游隐藏让位。没有就绪的原生控件时，进入该点位的二维地图。关闭详情后阿游恢复；支持 Escape 收起、焦点回到入口、手机滚动与减少动效偏好。
 
 形象来自香山漫游设计稿，使用内置 image_gen 提取透明底单角色，再编码为约 140 KB WebP，保留透明度。提示词见 `tools/ayou-image-prompt.json`。
+
+## 阿游三维旅伴
+
+`vendor/studio-20261023/ayou-avatar-v1.js` 用本地几何体实现纸船帽、砖红围巾、挎包和折叠地图。保留原生移动、转身、挥手、乘筏与角色切换接口，不新增模型下载请求，也不使用生成端额度。主体约 1.6 万个三角形、21 次绘制；静态部件按材质合并，四肢保留独立动作轴。
+
+孙中山故居与岐江公园分别使用 `map3d-sun-ayou-v1.js`、`map3d-qijiang-ayou-v1.js`。首次升级时，每个中山场景将默认旅伴设为阿游；此后的手动角色选择保留。自定义昵称和其他景区选择不会覆盖。纯静态部署关闭这两个场景的同游连接，保留本地旅伴与动作操作；`api/companions/status` 也声明服务未启用。
+
+```sh
+python3 tools/build_ayou_avatar.py
+node --test tools/ayou-avatar.test.mjs
+```
+
+构建脚本只在冻结版本上应用经过计数校验的挂钩，并重建版本化入口。测试验证模型范围、克隆所需的动作节点、默认角色迁移，以及除上述挂钩外的下载和移动代码不变。`tools/ayou-preview.html` 可在本地预览模型与动作，不随 Pages 发布。

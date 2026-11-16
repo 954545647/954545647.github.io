@@ -1,0 +1,13 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>阿游 · 3D 角色预览</title>
+<style>body{margin:0;background:#f5f0e6;color:#20382f;font-family:system-ui}header{position:absolute;top:24px;left:32px;z-index:1}h1{font-size:28px;font-weight:500;margin:0}p{font-size:14px;color:#677264}canvas{display:block}nav{position:absolute;bottom:24px;left:32px;display:flex;gap:10px}button{background:#21594a;color:#fff;border:0;border-radius:12px;padding:12px 22px;font:inherit;cursor:pointer}</style>
+<header><h1>阿游 · 立体角色</h1><p>纸船帽 / 砖红围巾 / 随身地图</p></header><nav><button id="rotate">开始旋转</button><button id="wave">挥手</button><button id="walk">走路</button></nav>
+<script type="module">
+import{createAyouAvatar}from'../vendor/studio-20261023/ayou-avatar-v1.js';
+import{Gb as Renderer,wa as Scene,ra as Camera,qb as HemisphereLight,ub as DirectionalLight,k as ACES}from'../vendor/studio-20261023/chunk-XDO2H4SD.js';
+const renderer=new Renderer({antialias:true,alpha:true});renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.setSize(innerWidth,innerHeight);renderer.toneMapping=ACES;renderer.toneMappingExposure=1.2;document.body.append(renderer.domElement);
+const scene=new Scene(),camera=new Camera(28,innerWidth/innerHeight,.01,20);camera.position.set(0,.63,2.1);camera.lookAt(0,.43,0);scene.add(new HemisphereLight('#fff7e9','#9dada0',2.7));const light=new DirectionalLight('#fff5de',3.1);light.position.set(-2,3,4);scene.add(light);const fill=new DirectionalLight('#d5e7df',1.2);fill.position.set(3,1,-2);scene.add(fill);
+const avatar=createAyouAvatar();scene.add(avatar);let rotate=false,walking=false,waveUntil=0;
+document.querySelector('#rotate').onclick=event=>{rotate=!rotate;event.target.textContent=rotate?'暂停旋转':'继续旋转';};document.querySelector('#wave').onclick=()=>waveUntil=performance.now()+3000;document.querySelector('#walk').onclick=event=>{walking=!walking;event.target.textContent=walking?'停止走路':'走路';};
+renderer.setAnimationLoop(time=>{const t=time/1000;if(rotate)avatar.rotation.y=t*.35;avatar.parts.body.position.y=walking?Math.abs(Math.sin(t*11))*.018:Math.sin(t*2)*.004;avatar.parts.limbs.forEach((limb,i)=>{limb.rotation.x=walking?Math.sin(t*11+i%2*Math.PI)*.43:0;limb.rotation.z=i===3&&time<waveUntil?2.25+Math.sin(t*15)*.24:0;});renderer.render(scene,camera);});
+addEventListener('resize',()=>{camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();renderer.setSize(innerWidth,innerHeight);});
+</script></html>
