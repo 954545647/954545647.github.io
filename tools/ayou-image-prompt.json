@@ -1,0 +1,8 @@
+{
+  "mode": "built-in image_gen",
+  "date": "2026-11-16",
+  "reference": "香山漫游 V3 / assets/ip-ayou.png",
+  "prompt": "Use case: background-extraction\nAsset type: transparent PNG mascot asset for a live cultural guide website.\nInput image: edit target, the supplied three-pose A-you mascot design sheet.\nPrimary request: isolate ONLY the large leftmost welcoming full-body mascot, centered on a truly transparent background with a small comfortable clear margin. Remove the other two poses and remove all ivory background. Preserve the original left mascot's exact identity, face, proportions, green folded paper boat hat, brick-red scarf, brass pin, cream body, map, satchel, raised welcoming hand, matte material and lighting. Keep the entire hat, hands and feet visible. No new poses, no additions, no pedestal, no cast ground shadow, no text or watermark. A single character only, full body. Clean alpha edges, actual transparency.",
+  "output": "assets/ayou/ayou-welcome-v1.webp",
+  "processing": "WebP encoding with original dimensions and alpha preserved."
+}

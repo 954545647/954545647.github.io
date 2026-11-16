@@ -1,0 +1,59 @@
+/* Independent of the mirrored application styles. */
+#ayou-guide { --ayou-green:#21594a; --ayou-ink:#20382f; --ayou-paper:#f8f4eb; position:fixed; right:24px; bottom:max(28px,env(safe-area-inset-bottom)); z-index:70; color:var(--ayou-ink); font:14px/1.65 -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif; }
+#ayou-guide, #ayou-guide * { box-sizing:border-box; }
+#ayou-guide [hidden] { display:none !important; }
+#ayou-guide button, #ayou-guide a { font:inherit; -webkit-tap-highlight-color:transparent; }
+#ayou-guide button { cursor:pointer; }
+#ayou-guide :is(a,button):focus-visible { outline:3px solid #bc784c; outline-offset:3px; }
+#ayou-guide a { color:inherit; text-decoration:none; }
+#ayou-guide .ayou-launch { display:flex; flex-direction:column; align-items:center; gap:0; width:126px; padding:0; border:0; background:none; color:var(--ayou-ink); }
+#ayou-guide .ayou-launch img { display:block; width:108px; height:136px; object-fit:contain; filter:drop-shadow(0 5px 5px #142d2726); transform-origin:50% 90%; transition:transform .25s; }
+#ayou-guide .ayou-launch:hover img { transform:rotate(-4deg) translateY(-3px); }
+#ayou-guide .ayou-label { padding:7px 14px; border:1px solid #d2dccf; border-radius:24px; background:#fffdf7f5; box-shadow:0 4px 20px #19372c15; font-size:13px; font-weight:600; white-space:nowrap; }
+#ayou-guide .ayou-panel { position:absolute; right:0; bottom:0; width:370px; max-height:calc(100dvh - 104px); display:flex; flex-direction:column; overflow:hidden; border:1px solid #d0d9cb; border-radius:24px; background:var(--ayou-paper); box-shadow:0 16px 60px #0e271e36; }
+#ayou-guide .ayou-header { display:flex; align-items:center; flex-shrink:0; gap:16px; padding:20px 24px 16px; border-bottom:1px solid #dce2d3; background:linear-gradient(145deg,#edf1e4,#f8f4eb); }
+#ayou-guide .ayou-header img { width:69px; height:88px; object-fit:contain; }
+#ayou-guide .ayou-kicker { margin:0 0 5px; color:#637568; font-size:11px; letter-spacing:.16em; }
+#ayou-guide h2 { margin:0; font:600 23px/1.5 "Songti SC",SimSun,serif; }
+#ayou-guide .ayou-subtitle { margin:3px 0 0; font-size:12px; color:#647064; }
+#ayou-guide .ayou-close { position:absolute; right:9px; top:8px; width:40px; height:40px; border:0; border-radius:50%; background:transparent; color:#4d6255; font-size:25px; line-height:1; }
+#ayou-guide .ayou-close:hover { background:#21594a10; }
+#ayou-guide .ayou-content { padding:20px 24px 24px; overflow-y:auto; overscroll-behavior:contain; min-height:0; scrollbar-width:thin; }
+#ayou-guide .ayou-content>p { margin:0 0 16px; }
+#ayou-guide .ayou-eyebrow { color:#a64e36; font-size:12px; letter-spacing:.08em; margin:0 0 6px; }
+#ayou-guide h3 { margin:0 0 10px; font:600 21px/1.5 "Songti SC",SimSun,serif; }
+#ayou-guide .ayou-muted { color:#667469; font-size:13px; }
+#ayou-guide .ayou-scene { display:block; padding:15px 17px; margin:10px 0; background:#fffdf8; border:1px solid #d9dece; border-radius:13px; transition:background .2s; }
+#ayou-guide .ayou-scene:hover { background:#e8eedf; }
+#ayou-guide .ayou-scene strong { display:block; font-size:16px; font-weight:600; }
+#ayou-guide .ayou-scene small { display:block; margin-top:4px; color:#657465; font-size:12px; }
+#ayou-guide .ayou-spot { display:flex; gap:12px; align-items:center; width:100%; min-height:52px; padding:9px 0; text-align:left; border:0; border-bottom:1px solid #dce2d3; background:none; color:var(--ayou-ink); }
+#ayou-guide .ayou-spot:hover { color:var(--ayou-green); background:#21594a08; }
+#ayou-guide .ayou-num { color:#a64e36; font-size:12px; width:23px; font-variant-numeric:tabular-nums; }
+#ayou-guide .ayou-arrow { margin-left:auto; }
+#ayou-guide .ayou-back { min-height:44px; padding:0; margin:-9px 0 12px; border:0; background:none; color:var(--ayou-green); font-size:13px; }
+#ayou-guide .ayou-photo { margin:0 0 18px; }
+#ayou-guide .ayou-photo img { width:100%; height:160px; object-fit:cover; display:block; border-radius:12px; }
+#ayou-guide .ayou-credit { margin-top:7px; font-size:10px; line-height:1.6; color:#657165; }
+#ayou-guide .ayou-credit a { text-decoration:underline; text-underline-offset:2px; }
+#ayou-guide .ayou-story { font-size:14px; line-height:1.9; white-space:pre-line; }
+#ayou-guide .ayou-actions { display:flex; gap:9px; margin:18px 0 4px; }
+#ayou-guide .ayou-primary, #ayou-guide .ayou-secondary { display:flex; align-items:center; justify-content:center; min-height:44px; padding:10px 14px; border:1px solid var(--ayou-green); border-radius:10px; text-align:center; }
+#ayou-guide .ayou-primary { flex:1; background:var(--ayou-green); color:#fffdf7; }
+#ayou-guide .ayou-secondary { background:transparent; color:var(--ayou-green); }
+#ayou-guide .ayou-footer { display:flex; justify-content:space-between; gap:12px; margin-top:19px; padding-top:12px; border-top:1px solid #dce2d3; font-size:12px; color:var(--ayou-green); }
+#ayou-guide .ayou-footer a { display:flex; align-items:center; min-height:36px; }
+/* Native details and overlays have priority over the helper. */
+body:has(.m3-card:not([hidden]), dialog[open], .companion-panel) #ayou-guide { visibility:hidden; }
+@media(max-width:640px) {
+  #ayou-guide { right:12px; bottom:max(86px,calc(env(safe-area-inset-bottom) + 72px)); }
+  #ayou-guide .ayou-launch { width:91px; }
+  #ayou-guide .ayou-launch img { width:74px; height:91px; }
+  #ayou-guide .ayou-label { font-size:11px; padding:5px 10px; }
+  #ayou-guide .ayou-panel { width:min(370px,calc(100vw - 24px)); max-height:calc(100dvh - 170px); border-radius:20px; }
+  #ayou-guide .ayou-header { padding:14px 19px; }
+  #ayou-guide .ayou-header img { width:54px; height:70px; }
+  #ayou-guide .ayou-content { padding:18px 20px 20px; }
+}
+@media(prefers-reduced-motion:reduce) { #ayou-guide * { transition:none !important; } }
+@media print { #ayou-guide { display:none; } }
