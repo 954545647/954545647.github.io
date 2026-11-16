@@ -1,0 +1,30 @@
+ayou-guide-v1.js
+  s_6eff5b735640ab::t_3f273e4a3edaf7 1-140,145-147
+  s_6eff5b735640ab::t_069bcaa057b7cc 141-144
+ayou-guide-v1.css
+  s_6eff5b735640ab::t_3f273e4a3edaf7 1-59
+index.html
+  s_6eff5b735640ab::t_3bd7ed42874f67 1
+tools/ayou-image-prompt.json
+  s_6eff5b735640ab::t_dcbdaa4c6ae3ae 1-8
+tools/build_ayou_content.py
+  s_6eff5b735640ab::t_3f273e4a3edaf7 1-34
+tools/README.md
+  s_6eff5b735640ab::t_069bcaa057b7cc 57-66
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.52-trip",
+  "base_commit_sha": "ab6211c6e01b041f687e50b329ce80d5d2967c88",
+  "prompts": {},
+  "sessions": {
+    "s_6eff5b735640ab": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1675c-a8ee-77f3-ab12-60c88bd38369",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "haojiaxu <haojiaxu@trip.com>"
+    }
+  }
+}
